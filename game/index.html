@@ -1,0 +1,100 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Resume Phonkrit</title>
+<meta name="viewport" content="width=device-width, user-scalable=0,  initial-scale=1.0, maximum-scale=1.0"/>
+<link rel="shortcut icon" href="./favicon.ico">
+<!-- 1024x748 for iPad in Landscape mode. -->
+<link rel="apple-touch-startup-image" media="(max-device-width: 1024px) and (orientation: landscape)" href="./startup-image.png" />
+
+
+<script src='lib/jquery-1.11.0.min.js'></script>
+<script src='lib/stats.js'></script>
+<script src='lib/quintus.js'></script>
+<script src='lib/quintus_sprites.js'></script>
+<script src='lib/quintus_input.js'></script>
+<script src='lib/quintus_scenes.js'></script>
+<script src='lib/quintus_touch.js'></script>
+<script src='lib/quintus_anim.js'></script>
+<script src='lib/quintus_2d.js'></script>
+<script src='lib/quintus_ui.js'></script>
+<script src='lib/quintus_dom.js'></script>
+<script src='lib/quintus_physics.js'></script>
+
+
+<script src='lib/Box2dWeb-2.1.a.3.js'></script>
+<script src='webAudioApiForDesigners.js'></script>
+<script src='lib/quintus_audio.js'></script>
+
+<script src='gamenote.js'></script>
+<script src='presentation.js'></script>
+<style>
+body { margin:0 auto; }
+ canvas {
+   z-index:0;
+ }
+
+#attribution { 
+  position:absolute; bottom:0px;
+  right:0px;
+  font-family:proxima-nova;
+  opacity:0.5;
+  color:#666;
+}
+
+#attribution a {
+  color:#666;
+  text-decoration:none;
+}
+
+
+#loading {
+  font-weight:bold;
+  margin:50px auto;
+  max-width:1024px;
+  position:fixed;
+  width:100%;
+  height:100%;
+  text-align:center;
+  font-family:proxima-nova;
+}
+
+#loading_container {
+  position:relative;
+  margin:0 auto;
+  width:50%;
+  height:20px;
+  border:1px solid black;
+  text-align:center;
+  padding-top:10px;
+}
+
+#loading_progress {
+  width:0%;
+  background-color:red;
+  position:absolute;
+  height:30px;
+  top:0px;
+  opacity:0.4;
+
+}
+
+</style>
+</head>
+<body>
+<div style='max-width:1024px;margin:0 auto;position:relative;'>
+
+<div id='loading'>
+  <div id='loading_container'>
+    Loading...
+    <div id='loading_progress'></div>
+  </div>
+</div>
+
+</div>
+<!-- AddThis Button END -->
+
+
+</body>
+</html>

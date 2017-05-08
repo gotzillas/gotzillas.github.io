@@ -1,0 +1,1307 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js" ng-app="application">
+<!--<![endif]-->
+<head>
+    <meta charset="utf-8">
+    <title>Phonkrit Resume</title>
+    <meta name="description" content="Stain">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/royal_preloader.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/line-icons.css">
+    <link rel="stylesheet" href="css/iconics-font.css">
+    <link rel="stylesheet" href="css/cubeportfolio.css">
+    <link rel="stylesheet" href="css/arthref.css">
+    <link rel="stylesheet" href="css/nav.css">
+    <link rel="stylesheet" href="css/slicknav.css">
+    <link rel="stylesheet" href="css/owl.carousel.css">
+    <link rel="stylesheet" href="css/owl.theme.css">
+    <link rel="stylesheet" href="css/justifiedgallery.css">
+    <link rel="stylesheet" href="css/hover.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link id="theme-color" rel="stylesheet" href="css/theme-colors.css">
+    
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.2/angular.min.js" ></script>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.2/angular-sanitize.js"></script>
+    
+    <!--<link href='http://fonts.googleapis.com/css?family=Roboto:400,400italic,500,500italic,700,900' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Roboto+Slab:400,700,300' rel='stylesheet' type='text/css'> -->
+
+</head>
+<body class="royal_preloader" ng-controller="MainController">
+<div id="royal_preloader"></div>
+<!--[if lt IE 7]>
+<p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://www.google.com/">upgrade your browser</a> to improve your experience.</p>
+<![endif]-->
+
+<div class="page-wrapper">
+<div class="nav-wrapper sticky-nav">
+    <div class="top-logo">
+        <a href="#"><img src="images/stain-logo.png" alt="phonkrit resume" title="phonkrit resume"></a>
+    </div>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="nav-container">
+                    <nav class="main-nav">
+                        <ul class="sf-menu one-page-nav">
+                            <li><a href="#home">
+{{ message.show_menu_header.Home }}
+                            </a>
+                            </li>
+                            <li>
+                                <a href="#about">{{ message.show_menu_header.About }}</a>
+                                <ul>
+                                    <li><a href="#skill">{{ message.show_menu_header.Skill }}</a></li>
+                                    <li><a href="#experience">{{ message.show_menu_header.Experience }}</a></li>
+                                    <li><a href="#education">{{ message.show_menu_header.Education }}</a></li>
+                                </ul>
+                            </li>
+                          
+                            <li><a href="#portfolio">{{ message.show_menu_header.Portfolio }}</a></li>                       
+                            <li><a href="#contact">{{ message.show_menu_header.Contact }}</a></li>
+                        </ul>
+
+                        <div class="lang pull-right">
+                        <a href="javascript:void(0)" ng-click="change_lang('thai')"><img src="images/thai-icon.png" width="25px"></a>
+                        <a href="javascript:void(0)"  ng-click="change_lang('eng')"><img src="images/icon_en_o.jpg" width="25px"> </a>
+                        </div>
+
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div id="mobile-menu">
+</div>
+<div class="hero-section" data-src="images/banner-pic.jpg" id="home">
+    <div class="section-overlay">
+    </div>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="introduction herosection-full-height">
+                    <div class="introduction-text">
+                        <div class="inner-element-container">
+                            <div class="profile-card">
+                                <div class="image-block trim hero-profile-img" data-src="images/profile-img.jpg">
+                                    <a href="#" class="profileSelector">
+										<span class="profile-img-overlay">
+										<span class="social-profile">
+										<span class="social-profile-label wow fadeInDown" data-wow-duration=".5s">{{ message.home_data.connect }}</span>
+										<span class="social-profile-icon wow fadeInUp" data-wow-duration=".5s"><i class="fa fa-plug"></i></span>
+										</span>
+										</span>
+                                    </a>
+                                </div>
+                                <h2 class="profile-title">{{ message.home_data.header }}</h2>
+                                <span class="profile-designation">{{ message.home_data.under_header }}</span>
+									<span class="profile-card-divider">
+									</span>
+                                <div class="profile-card-info">
+                                    <div class="rw-wrapper">
+                                        <div class="rw-sentence">
+                                            <span>{{ message.home_data.slideTitle }}</span>
+                                            <div class="rw-words rw-words-r">
+                                                <span>{{ message.home_data.slide_1 }}</span>
+                                                <span>{{ message.home_data.slide_2 }}</span>
+                                                <span>{{ message.home_data.slide_3 }}</span>
+                                                <span>{{ message.home_data.slide_4 }}</span>
+                                                <span>{{ message.home_data.slide_5 }}</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <p>
+                                       {{ message.home_data.details }}
+                                    </p>
+                                    <a href="#about" class="btn-view-profile goto">{{ message.home_data.btn_title }}</a>
+                                    <a href="resume.php" class="cbp-singlePage btn-view-profile">{{ message.home_data.btn_title_resume }}</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="section-wrapper informative-row light-section">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-3">
+                <div class="info-text-component horizontal-comp sub-h">
+                    <div class="info-component-wrap clearfix">
+                        <div class="info-component-icon">
+								<span>
+								<i class="ico-certificate"></i>
+								</span>
+                        </div>
+                        <div class="info-component-content">
+                            <h3 class="component-main-h">{{ message.promote_data.tab_one_title }} </h3>
+                            <h4 class="component-sub-h">{{ message.promote_data.tab_one_name }}</h4>
+                        </div>
+                    </div>
+                    <div class="info-component-description">
+                        <p>
+                            {{ message.promote_data.tab_one_details }}
+                        </p>
+                    </div>
+
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="info-text-component horizontal-comp sub-h">
+                    <div class="info-component-wrap clearfix">
+                        <div class="info-component-icon">
+								<span>
+								<i class="ico-lab"></i>
+								</span>
+                        </div>
+                        <div class="info-component-content">
+                            <h3 class="component-main-h">{{ message.promote_data.tab_two_title }}</h3>
+                            <h4 class="component-sub-h">{{ message.promote_data.tab_two_name }}</h4>
+                        </div>
+                    </div>
+                    <div class="info-component-description">
+                        <p>
+                           {{ message.promote_data.tab_two_details }}
+                        </p>
+                    </div>
+
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="info-text-component horizontal-comp sub-h">
+                    <div class="info-component-wrap clearfix">
+                        <div class="info-component-icon">
+								<span>
+								<i class="ico-archive2"></i>
+								</span>
+                        </div>
+                        <div class="info-component-content">
+                            <h3 class="component-main-h">{{ message.promote_data.tab_three_title }} </h3>
+                            <h4 class="component-sub-h">{{ message.promote_data.tab_three_name }}</h4>
+                        </div>
+                    </div>
+                    <div class="info-component-description">
+                        <p>
+                           {{ message.promote_data.tab_three_details }}
+                        </p>
+                    </div>
+
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="info-text-component horizontal-comp sub-h non-boxed-icon">
+                    <div class="info-component-wrap clearfix">
+                        <div class="info-component-icon">
+								<span>
+								<i class="ico-users2"></i>
+								</span>
+                        </div>
+                        <div class="info-component-content">
+                            <h3 class="component-main-h">{{ message.promote_data.tab_four_title }} </h3>
+                            <h4 class="component-sub-h">{{ message.promote_data.tab_four_name }}</h4>
+                        </div>
+                    </div>
+                    <div class="info-component-description">
+                        <p>
+                            {{ message.promote_data.tab_four_details }}
+                        </p>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="section-wrapper dbl-col" id="about">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-6 section-full-height" data-backcolor="#343642">
+                <div class="vertical-center-content">
+                    <div class="inner-element-container">
+                        <div class="header-wrap">
+                            <div class="section-header">
+                                <h2>{{ message.about_data.title }}</h2>
+                                <span class="header-icon" data-backcolor="#3e91a1" data-color="#fff"><i class="fa fa-file-text"></i></span>
+                            </div>
+                        </div>
+
+                        <div class="col-md-6">
+
+                        <p ng-bind-html="message.about_data.details_one">
+                          
+                        </p>
+                   
+                        </div>
+                        <div class="col-md-6  text-center">
+<img src="images/profiles.png" class="img-responsive img-thumbnail" />
+
+                        </div>
+
+
+                        <div class="col-md-12 text-center">
+                        <p>
+                        <br/>
+                           <span class="fa fa-star"> </span> {{ message.about_data.details_two }} <span class="fa fa-star"> </span>
+                        </p>
+
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 section-full-height" data-backcolor="#3e91a1">
+                <div class="vertical-center-content">
+                    <div class="inner-element-container">
+                        <ul class="feature-item">
+                            <li>
+                                <a href="#about" class="outline-outward goto">
+                                    <i class="line-ico-alert-badge"></i>
+                                </a>
+                                <span class="feature-item-label"> {{ message.about_data.tab_one }}  </span>
+                            </li>
+                            <li>
+                                <a href="#skill" class="outline-outward goto">
+                                    <i class="line-ico-brain"></i>
+                                </a>
+                                <span class="feature-item-label">{{ message.about_data.tab_three }} </span>
+                            </li>
+                            <li>
+                                <a href="#education" class="outline-outward goto">
+                                    <i class="line-ico-education"></i>
+                                </a>
+                                <span class="feature-item-label"> {{ message.about_data.tab_two }} </span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="numeric-stats">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-6 col-sm-6 border-right">
+                <div class="numeric-stats-wrap ">
+                    <div class="icon-box image-icon">
+							<span class="circle">
+							<i class="ico-stats-up">
+                            </i>
+							<!--<img src="images/img-icon.png" alt="icon">-->
+							</span>
+                    </div>
+                    <span class="numeric-value number-rotate" data-value="3" data-animation-duration="600">0</span>
+                    <span class="numeric-stats-title"> {{ message.show_content.experience }}</span>
+                </div>
+            </div>
+            <div class="col-md-6 col-sm-6 border-right">
+                <div class="numeric-stats-wrap ">
+                    <div class="icon-box image-icon">
+							<span class="circle">
+							<i class="fa fa-briefcase">
+                            </i>
+							<!--<img src="images/img-icon.png" alt="icon">-->
+							</span>
+                    </div>
+                    <span class="numeric-value number-rotate" data-value="8" data-animation-duration="600">0</span>
+                    <span class="numeric-stats-title"> {{ message.show_content.portfolio }} </span>
+                </div>
+            </div>
+     
+        </div>
+    </div>
+</div>
+<div class="section-wrapper dbl-col" id="skill">
+    <div class="container-fluid">
+        <div class="row">
+
+            <div class="col-md-6 section-full-height" data-backcolor="#464E59">
+                <div class="vertical-center-content">
+                    <div class="inner-element-container">
+                        <div class="header-wrap">
+                            <div class="section-header">
+                                <h2>{{ message.skill_data.title }}</h2>
+                                <span class="header-icon" data-backcolor="#333" data-color="#fff"><i class="fa fa-star-o"></i></span>
+                            </div>
+                        </div>
+                        <p>
+                            {{ message.skill_data.details }}
+                        </p>
+
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 section-full-height light-section" data-backcolor="#DADFE1">
+                <div class="vertical-center-content">
+                    <div class="inner-element-container">
+
+
+                            <div class="row">
+                                <div class="col-md-12 text-center">
+      <div class="animate-skill-title">
+                                <h4 >{{ message.skill_data.title_skill }}</h4>
+                                </div>
+
+<hr style="color:#c0c3c4">
+                                </div>
+                                
+                            </div>
+                  
+
+                        <div class="animated-skill">
+                            <div class="row">
+                                <div class="col-md-4">
+                                    <div class="animate-skill-title">
+                                        PHP
+                                    </div>
+                                </div>
+                                <div class="col-md-8">
+                                    <div class="animated-bar" data-percent="70" data-bar-color="#4A5B71" data-progress-color="#cccccc">
+                                        <div class="number-pb">
+                                            <div class="number-pb-shown">
+                                            </div>
+                                            <div class="number-pb-num">
+                                                0%
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="animated-skill">
+                            <div class="row">
+                                <div class="col-md-4">
+                                    <div class="animate-skill-title">
+                                        .NET C#
+                                    </div>
+                                </div>
+                                <div class="col-md-8">
+                                    <div class="animated-bar" data-percent="65" data-bar-color="#4A5B71" data-progress-color="#cccccc">
+                                        <div class="number-pb">
+                                            <div class="number-pb-shown">
+                                            </div>
+                                            <div class="number-pb-num">
+                                                0%
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div
+
+                           <div class="animated-skill">
+                            <div class="row">
+                                <div class="col-md-4">
+                                    <div class="animate-skill-title">
+                                        SQL
+                                    </div>
+                                </div>
+                                <div class="col-md-8">
+                                    <div class="animated-bar" data-percent="85" data-bar-color="#4A5B71" data-progress-color="#cccccc">
+                                        <div class="number-pb">
+                                            <div class="number-pb-shown">
+                                            </div>
+                                            <div class="number-pb-num">
+                                                0%
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="animated-skill">
+                            <div class="row">
+                                <div class="col-md-4">
+                                    <div class="animate-skill-title">
+                                        Css
+                                    </div>
+                                </div>
+                                <div class="col-md-8">
+                                    <div class="animated-bar" data-percent="85" data-bar-color="#4A5B71" data-progress-color="#cccccc">
+                                        <div class="number-pb">
+                                            <div class="number-pb-shown">
+                                            </div>
+                                            <div class="number-pb-num">
+                                                0%
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="animated-skill">
+                            <div class="row">
+                                <div class="col-md-4">
+                                    <div class="animate-skill-title">
+                                        Html
+                                    </div>
+                                </div>
+                                <div class="col-md-8">
+                                    <div class="animated-bar" data-percent="90" data-bar-color="#4A5B71" data-progress-color="#cccccc">
+                                        <div class="number-pb">
+                                            <div class="number-pb-shown">
+                                            </div>
+                                            <div class="number-pb-num">
+                                                0%
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="animated-skill">
+                            <div class="row">
+                                <div class="col-md-4">
+                                    <div class="animate-skill-title">
+                                        jQuery - Javascript
+                                    </div>
+                                </div>
+                                <div class="col-md-8">
+                                    <div class="animated-bar" data-percent="70" data-bar-color="#4A5B71" data-progress-color="#cccccc">
+                                        <div class="number-pb">
+                                            <div class="number-pb-shown">
+                                            </div>
+                                            <div class="number-pb-num">
+                                                0%
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+      
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="services-grid light-section">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-3 grid-box border-right">
+                <div class="iconic-text-component">
+                    <div class="iconic-text-wrap vertical-comp">
+                        <div class="icon-block image-icon valing-top">
+								<span class="circle">
+								<img src="images/img-icon2.png" alt="icon">
+								</span>
+                        </div>
+                        <div class="text-component-content">
+                            <h3 class="component-main-h">{{ message.skill_content.skill_title_1 }}</h3>
+                            <h4 class="component-sub-h">{{ message.skill_content.skill_des_1 }}</h4>
+                            <p class="text-justify ">
+                                {{ message.skill_content.skill_details_1 }}
+                            </p>
+                         
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 grid-box border-right">
+                <div class="iconic-text-component">
+                    <div class="iconic-text-wrap vertical-comp">
+                        <div class="icon-block image-icon valing-top">
+								<span class=" circle">
+								<img src="images/img-icon12.png" alt="icon">
+								</span>
+                        </div>
+                        <div class="text-component-content">
+                            <h3 class="component-main-h ">{{ message.skill_content.skill_title_2 }}</h3>
+                            <h4 class="component-sub-h">{{ message.skill_content.skill_des_2 }}</h4>
+                            <p class="text-justify ">
+                                {{ message.skill_content.skill_details_2 }}
+                            </p>
+                         
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 grid-box border-right">
+                <div class="iconic-text-component">
+                    <div class="iconic-text-wrap vertical-comp">
+                        <div class="icon-block image-icon valing-top">
+								<span class="circle">
+								<img src="images/facebook_developer.png" alt="icon">
+								</span>
+                        </div>
+                        <div class="text-component-content">
+                            <h3 class="component-main-h ">{{ message.skill_content.skill_title_3 }}</h3>
+                            <h4 class="component-sub-h">{{ message.skill_content.skill_des_3 }}</h4>
+                            <p class="text-justify ">
+                                {{ message.skill_content.skill_details_3 }}
+                            </p>
+                      
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+  <div class="col-md-3 grid-box">
+                <div class="iconic-text-component">
+                    <div class="iconic-text-wrap vertical-comp">
+                        <div class="icon-block image-icon valing-top">
+                                <span class="circle">
+                                <img src="images/img-icon11.png" alt="icon">
+                                </span>
+                        </div>
+                        <div class="text-component-content">
+                            <h3 class="component-main-h ">{{ message.skill_content.skill_title_4 }}</h3>
+                            <h4 class="component-sub-h">{{ message.skill_content.skill_des_4 }}</h4>
+                            <p class="text-justify ">
+                                {{ message.skill_content.skill_details_4 }}
+                            </p>
+                      
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+<div class="section-wrapper hidden-xs" id="experience">
+    <div class="full-width-section">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="full-container">
+                        <div class="header-wrap">
+                            <div class="section-header">
+                                <h2>{{ message.exs_data.title }}</h2>
+                                <span class="header-icon" data-backcolor="#3e91a1" data-color="#fff"><i class="fa fa-trophy"></i></span>
+                            </div>
+                        </div>
+                        <div class="experience-wrapper">
+                            <div class="experience-container">
+                                <div class="ex-hightlight">
+                                    <ul class=" clearfix">
+                                        <li class="yrs-ex outline-outward">
+											<span class="numbers-rotate animated-number" data-value="3" data-animate-duration="400">
+											0 </span>
+                                        </li>
+                                        <li class="ex-inro">
+                                            <div class="ex-details">
+                                                <h2>{{ message.exs_data.des }}</h2>
+                                                <p>
+                                                    {{ message.exs_data.details }}
+                                                </p>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="job-list">
+                                    <div class="job-list-item">
+                                        <ul class="clearfix">
+                                            <li>
+                                                <div class="job-date">
+                                                    <span class="job-from-date">{{ message.exs_data.date_one }}</span>
+                                                    <span class="job-to-date">{{ message.exs_data.date_one_des }}</span>
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <div class="job-description">
+                                                    <div class="job-description-container">
+                                                        <div class="job-brand">
+                                                            <div class="job-brand-container">
+                                                                <img src="images/brand-logo.png" alt="brand-logo">
+                                                            </div>
+                                                        </div>
+                                                        <div class="job-details">
+                                                            <div class="job-ribbon">
+                                                                <span><i class="fa fa-thumb-tack"></i> {{ message.exs_data.current }}</span>
+                                                            </div>
+                                                            <div class="job-details-container">
+                                                                <h3 class="job-identy-title">{{ message.exs_data.des_title_1 }} <span>{{ message.exs_data.des_des_1 }}</span></h3>
+                                                                <p>
+                                                                    {{ message.exs_data.des_details_1 }}
+                                                                </p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="job-list-item">
+                                        <ul class="clearfix">
+                                            <li>
+                                                <div class="job-date">
+                                                    <span class="job-from-date">{{ message.exs_data.date_two }}</span>
+                                                    <span class="job-to-date">{{ message.exs_data.date_two_des }}</span>
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <div class="job-description">
+                                                    <div class="job-description-container">
+                                                        <div class="job-brand">
+                                                            <div class="job-brand-container">
+                                                                <img src="images/brand-logo.png" alt="brand-logo">
+                                                            </div>
+                                                        </div>
+                                                        <div class="job-details">
+                                                            <div class="job-details-container">
+                                                                <h3 class="job-identy-title">{{ message.exs_data.des_title_2 }}<span>{{ message.exs_data.des_des_2 }}</span></h3>
+                                                                <p>
+                                                                   {{ message.exs_data.des_details_2 }}
+                                                                </p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="job-list-item">
+                                        <ul class="clearfix">
+                                            <li>
+                                                <div class="job-date">
+                                                    <span class="job-from-date">{{ message.exs_data.date_three }}</span>
+                                                    <span class="job-to-date">{{ message.exs_data.date_three_des }}</span>
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <div class="job-description">
+                                                    <div class="job-description-container">
+                                                        <div class="job-brand">
+                                                            <div class="job-brand-container">
+                                                                <img src="images/brand-logo.png" alt="brand-logo">
+                                                            </div>
+                                                        </div>
+                                                        <div class="job-details">
+                                                            <div class="job-details-container">
+                                                                <h3 class="job-identy-title">{{ message.exs_data.des_title_3 }} <span>{{ message.exs_data.des_des_3 }}</span></h3>
+                                                                <p>
+                                                                    {{ message.exs_data.des_details_3 }}
+
+
+                                                                </p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+									<span class="timeline-stroke">
+									<span class="storke-finish">
+									</span>
+									</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<section id="exp" class="section-wrapper dbl-col visible-xs" >
+ <div class="container-fluid">
+        <div class="row">
+        <div class="col-md-12">
+
+<div class="job-list-item">
+                                        <ul class="clearfix">
+                                            <li>
+                                                <div class="job-date">
+                                                    <span class="job-from-date">{{ message.exs_data.date_three }}</span>
+                                                    <span class="job-to-date">{{ message.exs_data.date_three_des }}</span>
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <div class="job-description">
+                                                    <div class="job-description-container">
+                                                        <div class="job-brand">
+                                                            <div class="job-brand-container">
+                                                                <img src="images/brand-logo.png" alt="brand-logo">
+                                                            </div>
+                                                        </div>
+                                                        <div class="job-details">
+                                                            <div class="job-details-container">
+                                                                <h3 class="job-identy-title" style="color: #000 !important;">{{ message.exs_data.des_title_3 }} <span>{{ message.exs_data.des_des_3 }}</span></h3>
+                                                                <p>
+                                                                    {{ message.exs_data.des_details_3 }}
+
+
+                                                                </p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </li>
+                                        </ul>
+                                    </div>
+
+        </div>
+
+
+    <div class="col-md-12">
+
+<div class="job-list-item">
+                                        <ul class="clearfix">
+                                            <li>
+                                                <div class="job-date">
+                                                    <span class="job-from-date">{{ message.exs_data.date_two }}</span>
+                                                    <span class="job-to-date">{{ message.exs_data.date_two_des }}</span>
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <div class="job-description">
+                                                    <div class="job-description-container">
+                                                        <div class="job-brand">
+                                                            <div class="job-brand-container">
+                                                                <img src="images/brand-logo.png" alt="brand-logo">
+                                                            </div>
+                                                        </div>
+                                                        <div class="job-details">
+                                                            <div class="job-details-container">
+                                                                <h3 class="job-identy-title" style="color: #000 !important;">{{ message.exs_data.des_title_2 }} <span>{{ message.exs_data.des_des_2 }}</span></h3>
+                                                                <p>
+                                                                    {{ message.exs_data.des_details_2 }}
+
+
+                                                                </p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </li>
+                                        </ul>
+                                    </div>
+
+        </div>
+
+
+            <div class="col-md-12">
+
+<div class="job-list-item">
+                                        <ul class="clearfix">
+                                            <li>
+                                                <div class="job-date">
+                                                    <span class="job-from-date">{{ message.exs_data.date_one }}</span>
+                                                    <span class="job-to-date">{{ message.exs_data.date_one_des }}</span>
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <div class="job-description">
+                                                    <div class="job-description-container">
+                                                        <div class="job-brand">
+                                                            <div class="job-brand-container">
+                                                                <img src="images/brand-logo.png" alt="brand-logo">
+                                                            </div>
+                                                        </div>
+                                                        <div class="job-details">
+                                                            <div class="job-details-container">
+                                                                <h3 class="job-identy-title" style="color: #000 !important;">{{ message.exs_data.des_title_1 }} <span>{{ message.exs_data.des_des_1 }}</span></h3>
+                                                                <p>
+                                                                    {{ message.exs_data.des_details_1 }}
+
+
+                                                                </p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </li>
+                                        </ul>
+                                    </div>
+
+        </div>
+
+        </div>
+    </div>
+</section>
+
+
+<div class="section-wrapper dbl-col" id="education">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-6 section-full-height" data-backcolor="#2c8393">
+                <div class="vertical-center-content">
+                    <div class="inner-element-container">
+                        <div class="header-wrap">
+                            <div class="section-header">
+                                <h2>{{ message.edu_data.title }}</h2>
+                                <span class="header-icon" data-backcolor="#363636" data-color="#fff"><i class="fa fa-mortar-board"></i></span>
+                            </div>
+                        </div>
+                        <ul class="edu-institute s-tabs">
+                            <li class="edu-uni current">
+                                <a href="#edu-uni" class="outline-outward">
+                                    <i class="line-ico-alert-badge"></i>
+                                    <span class="edu-institute-label">{{ message.edu_data.univer }}</span>
+                                </a>
+                            </li>
+                            <li class="edu-college">
+                                <a href="#edu-college" class="outline-outward">
+                                    <i class="line-ico-alert-badge"></i>
+                                    <span class="edu-institute-label">{{ message.edu_data.coleg }}</span>
+                                </a>
+                            </li>
+                            <li class="edu-school">
+                                <a href="#edu-school" class="outline-outward">
+                                    <i class="line-ico-alert-badge"></i>
+                                    <span class="edu-institute-label">{{ message.edu_data.school }}</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 section-full-height" data-backcolor="#363636">
+                <div class="vertical-center-content">
+                    <div class="inner-element-container">
+                        <div class="s-tab-container">
+                            <div id="edu-uni" class="s-tab-content">
+                                <h3 class="inistitute-name">{{ message.edu_univer.title }}</h3>
+                                <div class="certifcate-title">
+                                    {{ message.edu_univer.des }}
+                                </div>
+                                <div class="studied-date">
+                                   {{ message.edu_univer.date }}
+                                </div>
+                                <p>
+                                   {{ message.edu_univer.details }}
+                                </p>
+                            </div>
+                            <div id="edu-college" class="s-tab-content">
+                                <h3 class="inistitute-name">{{ message.edu_coleg.title }}</h3>
+                                   <div class="certifcate-title">
+                                    {{ message.edu_coleg.des }}
+                                </div>
+                                <div class="studied-date">
+                                    {{ message.edu_coleg.date }}
+                                </div>
+                                <p>
+                                    {{ message.edu_coleg.details }}
+                                </p>
+                            </div>
+                            <div id="edu-school" class="s-tab-content">
+                                <h3 class="inistitute-name">{{ message.edu_school.title }}</h3>
+                                   <div class="certifcate-title">
+                                    {{ message.edu_school.des }}
+                                </div>
+                                <div class="studied-date">
+                                    {{ message.edu_school.date }}
+                                </div>
+                                <p>
+                                    {{ message.edu_school.details }}
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="section-wrapper" id="portfolio">
+<div class="full-width-section">
+<div class="container-fluid">
+<div class="row">
+<div class="col-md-12">
+<div class="full-container">
+<div class="header-wrap">
+    <div class="section-header">
+        <h2>{{ message.portfolio_data.title }}</h2>
+        <span class="header-icon" data-backcolor="#666" data-color="#fff"><i class="fa fa-briefcase"></i></span>
+    </div>
+</div>
+<div class="portfolio-wrapper">
+<div id="filters-container" class="cbp-l-filters-button portfolio-filter">
+    <div data-filter="*" class="cbp-filter-item-active cbp-filter-item">
+        {{ message.portfolio_data.tab_1 }}
+        <div class="cbp-filter-counter">
+        </div>
+    </div>
+    <div data-filter=".web-site" class="cbp-filter-item">
+        {{ message.portfolio_data.tab_2 }}
+        <div class="cbp-filter-counter">
+        </div>
+    </div>
+    <div data-filter=".winapps" class="cbp-filter-item">
+         {{ message.portfolio_data.tab_3 }}
+        <div class="cbp-filter-counter">
+        </div>
+    </div>
+    <div data-filter=".mobile" class="cbp-filter-item">
+        {{ message.portfolio_data.tab_4 }}
+        <div class="cbp-filter-counter">
+        </div>
+    </div>
+   
+</div>
+<div id="grid-container" class="cbp-l-grid-projects">
+    <ul>
+
+    <!-- ผลงาน -->
+        <li class="cbp-item web-site">
+            <div class="cbp-caption">
+                <div class="cbp-caption-defaultWrap">
+                    <img src="images/5.jpg" alt="">
+                </div>
+                <div class="cbp-caption-activeWrap">
+                    <div class="cbp-l-caption-alignCenter">
+                        <div class="cbp-l-caption-body">
+                            <a href="potfolio/shoueshop.html" class="cbp-singlePage cbp-l-caption-buttonLeft">{{ message.doc.more }}</a>
+                            <a href="images/5big.jpg" class="cbp-lightbox cbp-l-caption-buttonRight" data-title="{{ message.web_doc_1.title }}<br>by Phonkrit Saenjai">{{ message.doc.view }}</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="cbp-l-grid-projects-title">
+                <a href="potfolio/shoueshop.html" class="cbp-singlePage"> {{ message.web_doc_1.title }} </a>
+            </div>
+            <div class="cbp-l-grid-projects-desc">
+                {{ message.web_doc_1.des }}
+            </div>
+        </li>
+
+
+        <li class="cbp-item web-site">
+            <div class="cbp-caption">
+                <div class="cbp-caption-defaultWrap">
+                    <img src="images/1.jpg" alt="">
+                </div>
+                <div class="cbp-caption-activeWrap">
+                    <div class="cbp-l-caption-alignCenter">
+                        <div class="cbp-l-caption-body">
+                            <a href="potfolio/hashtags.html" class="cbp-singlePage cbp-l-caption-buttonLeft">{{ message.doc.more }}</a>
+                            <a href="images/1big.jpg" class="cbp-lightbox cbp-l-caption-buttonRight" data-title=" {{ message.web_doc_2.title }} <br>by Phonkrit Saenjai">{{ message.doc.view }}</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="cbp-l-grid-projects-title">
+                <a href="potfolio/hashtags.html" class="cbp-singlePage"> {{ message.web_doc_2.title }} </a>
+            </div>
+            <div class="cbp-l-grid-projects-desc">
+                {{ message.web_doc_2.des }}
+            </div>
+        </li>
+
+
+         <li class="cbp-item web-site">
+            <div class="cbp-caption">
+                <div class="cbp-caption-defaultWrap">
+                    <img src="images/2.jpg" alt="">
+                </div>
+                <div class="cbp-caption-activeWrap">
+                    <div class="cbp-l-caption-alignCenter">
+                        <div class="cbp-l-caption-body">
+                            <a href="potfolio/sankapan.html" class="cbp-singlePage cbp-l-caption-buttonLeft">{{ message.doc.more }}</a>
+                            <a href="images/2big.jpg" class="cbp-lightbox cbp-l-caption-buttonRight" data-title=" {{ message.web_doc_3.title }} <br>by Phonkrit Saenjai">{{ message.doc.view }}</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="cbp-l-grid-projects-title">
+                <a href="potfolio/sankapan.html" class="cbp-singlePage"> {{ message.web_doc_3.title }} </a>
+            </div>
+            <div class="cbp-l-grid-projects-desc">
+                {{ message.web_doc_3.des }}
+            </div>
+        </li>
+
+         <li class="cbp-item web-site">
+            <div class="cbp-caption">
+                <div class="cbp-caption-defaultWrap">
+                    <img src="images/3.jpg" alt="">
+                </div>
+                <div class="cbp-caption-activeWrap">
+                    <div class="cbp-l-caption-alignCenter">
+                        <div class="cbp-l-caption-body">
+                            <a href="potfolio/ar.html" class="cbp-singlePage cbp-l-caption-buttonLeft">{{ message.doc.more }}</a>
+                            <a href="images/3big.jpg" class="cbp-lightbox cbp-l-caption-buttonRight" data-title="{{ message.web_doc_4.title }}<br>by Phonkrit Saenjai">{{ message.doc.view }}</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="cbp-l-grid-projects-title">
+                <a href="potfolio/ar.html" class="cbp-singlePage"> {{ message.web_doc_4.title }} </a>
+            </div>
+            <div class="cbp-l-grid-projects-desc">
+                {{ message.web_doc_4.des }}
+            </div>
+        </li>
+
+
+<li class="cbp-item web-site">
+            <div class="cbp-caption">
+                <div class="cbp-caption-defaultWrap">
+                    <img src="images/4.jpg" alt="">
+                </div>
+                <div class="cbp-caption-activeWrap">
+                    <div class="cbp-l-caption-alignCenter">
+                        <div class="cbp-l-caption-body">
+                            <a href="potfolio/hotel.html" class="cbp-singlePage cbp-l-caption-buttonLeft">{{ message.doc.more }}</a>
+                            <a href="images/4big.jpg" class="cbp-lightbox cbp-l-caption-buttonRight" data-title="{{ message.web_doc_5.title }}<br>by Phonkrit Saenjai">{{ message.doc.view }}</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="cbp-l-grid-projects-title">
+                <a href="potfolio/hotel.html" class="cbp-singlePage"> {{ message.web_doc_5.title }} </a>
+            </div>
+            <div class="cbp-l-grid-projects-desc">
+                {{ message.web_doc_5.des }}
+            </div>
+        </li>
+
+
+
+
+        <li class="cbp-item winapps">
+            <div class="cbp-caption">
+                <div class="cbp-caption-defaultWrap">
+                    <img src="images/6.jpg" alt="">
+                </div>
+                <div class="cbp-caption-activeWrap">
+                    <div class="cbp-l-caption-alignCenter">
+                        <div class="cbp-l-caption-body">
+                            <a href="potfolio/minimart.html" class="cbp-singlePage cbp-l-caption-buttonLeft">{{ message.doc.more }}</a>
+                            <a href="images/6big.jpg" class="cbp-lightbox cbp-l-caption-buttonRight" data-title="{{ message.web_doc_6.title }}<br>by Phonkrit Saenjai">{{ message.doc.view }}</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="cbp-l-grid-projects-title">
+                <a href="potfolio/minimart.html" class="cbp-singlePage"> {{ message.web_doc_6.title }} </a>
+            </div>
+            <div class="cbp-l-grid-projects-desc">
+                {{ message.web_doc_6.des }}
+            </div>
+        </li>
+
+
+
+         <li class="cbp-item winapps">
+            <div class="cbp-caption">
+                <div class="cbp-caption-defaultWrap">
+                    <img src="images/7.jpg" alt="">
+                </div>
+                <div class="cbp-caption-activeWrap">
+                    <div class="cbp-l-caption-alignCenter">
+                        <div class="cbp-l-caption-body">
+                            <a href="potfolio/computershop.html" class="cbp-singlePage cbp-l-caption-buttonLeft">{{ message.doc.more }}</a>
+                            <a href="images/7big.jpg" class="cbp-lightbox cbp-l-caption-buttonRight" data-title="{{ message.web_doc_7.title }}<br>by Phonkrit Saenjai">{{ message.doc.view }}</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="cbp-l-grid-projects-title">
+                <a href="potfolio/computershop.html" class="cbp-singlePage"> {{ message.web_doc_7.title }} </a>
+            </div>
+            <div class="cbp-l-grid-projects-desc">
+                {{ message.web_doc_7.des }}
+            </div>
+        </li>
+
+
+         <li class="cbp-item winapps">
+            <div class="cbp-caption">
+                <div class="cbp-caption-defaultWrap">
+                    <img src="images/8.jpg" alt="">
+                </div>
+                <div class="cbp-caption-activeWrap">
+                    <div class="cbp-l-caption-alignCenter">
+                        <div class="cbp-l-caption-body">
+                            <a href="potfolio/motel.html" class="cbp-singlePage cbp-l-caption-buttonLeft">{{ message.doc.more }}</a>
+                            <a href="images/8big.jpg" class="cbp-lightbox cbp-l-caption-buttonRight" data-title="{{ message.web_doc_8.title }}<br>by Phonkrit Saenjai">{{ message.doc.view }}</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="cbp-l-grid-projects-title">
+                <a href="potfolio/motel.html" class="cbp-singlePage"> {{ message.web_doc_8.title }} </a>
+            </div>
+            <div class="cbp-l-grid-projects-desc">
+                {{ message.web_doc_8.des }}
+            </div>
+        </li>
+
+         <li class="cbp-item mobile">
+            <div class="cbp-caption">
+                <div class="cbp-caption-defaultWrap">
+                    <img src="images/9.jpg" alt="">
+                </div>
+                <div class="cbp-caption-activeWrap">
+                    <div class="cbp-l-caption-alignCenter">
+                        <div class="cbp-l-caption-body">
+                            <a href="potfolio/mobile.html" class="cbp-singlePage cbp-l-caption-buttonLeft">{{ message.doc.more }}</a>
+                            <a href="images/10big.jpg" class="cbp-lightbox cbp-l-caption-buttonRight" data-title="{{ message.web_doc_9.title }}<br>by Phonkrit Saenjai">{{ message.doc.view }}</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="cbp-l-grid-projects-title">
+                <a href="potfolio/mobile.html" class="cbp-singlePage"> {{ message.web_doc_9.title }} </a>
+            </div>
+            <div class="cbp-l-grid-projects-desc">
+                {{ message.web_doc_9.des }}
+            </div>
+        </li>
+
+
+
+    </ul>
+</div>
+<!-- <div class="cbp-l-loadMore-button">
+    <a href="potfolio/loadMore.html" class="cbp-l-loadMore-button-link">LOAD MORE</a>
+</div> -->
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="section-wrapper dbl-col" id="contact">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-6 section-full-height" data-backcolor="#3e91a1">
+                <div class="map-container">
+                    <div class="location-map" id="gmap" data-map-lat="17.3949366" data-map-lng="102.8008133" data-zoom="18" >
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 section-full-height" data-backcolor="#363636">
+                <div class="vertical-center-content">
+                    <div class="inner-element-container">
+                        <div class="header-wrap">
+                            <div class="section-header">
+                                <h2>{{ message.contract_data.title }}</h2>
+                                <span class="header-icon" data-backcolor="#3e91a1" data-color="#fff"><i class="fa fa-envelope"></i></span>
+                            </div>
+                        </div>
+                        <form class="home-contact-frm" id="emails_send">
+                        <span ng-bind-html="message.contract_data.des">
+                     
+                        </span>
+                        <div class="col-xs-12">
+<br/>
+                        </div>
+                        
+                            <ul>
+                                <li><input placeholder="{{ message.contract_data.name }}" type="text" class="h-frm-input" name="name" required></li>
+                                <li><input placeholder="{{ message.contract_data.email }}" type="email" class="h-frm-input" name="email" required></li>
+                                <li><input placeholder="{{ message.contract_data.subject }}" type="text" class="h-frm-input" name="subject" required></li>
+                                <li><textarea placeholder="{{ message.contract_data.message }}" class="h-frm-input h-contact-message" name="message" required></textarea></li>
+                            </ul>
+
+                        <div class="col-xs-12 text-center">
+<div id="result" class="text-center"></div>
+                        </div>
+                            <input type="submit" value="{{ message.contract_data.send }}" class="btn-post-msg" id="submit">
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="footer" id="footer">
+    <div class="container">
+             <div class="row">
+                <div class="col-sm-6 developer">
+                    &copy; 2015 Phonkrit Seanjai . 
+                </div>
+                <div class="col-sm-6 text-center">
+                    <ul class="social-icons">
+                        <li><a href="https://www.facebook.com/gotzilla.arka" target="_blank"><i class="fa fa-facebook"></i></a></li>
+                        <li><a href="https://twitter.com/Gotzilla_aka" target="_blank"><i class="fa fa-twitter"></i></a></li>
+                        <li><a href="https://plus.google.com/u/0/+%E0%B8%9E%E0%B8%A5%E0%B8%81%E0%B8%A4%E0%B8%A9%E0%B9%81%E0%B8%AA%E0%B8%99%E0%B9%83%E0%B8%88/about" target="_blank"><i class="fa fa-google-plus"></i></a></li>
+                        <li><a href="https://www.youtube.com/channel/UCqCzbXC7p-S3XCefq4i4kPw" target="_blank"><i class="fa fa-youtube"></i></a></li>
+                        <li><a href="https://github.com/gotzillas" target="_blank"><i class="fa fa-github"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+    </div>
+</div>
+
+
+</div>
+<script src="js/jquery-1.11.0.min.js" ></script>
+<script src="js/royal_preloader.min.js" ></script>
+<script type="text/javascript">
+    Royal_Preloader.config({
+        mode           : 'progress',
+        background     : '#f5f5f5',
+        showProgress   : true,
+        showPercentage : true
+    });
+
+jQuery.noConflict();
+    (function ($) {
+$('.goto[href*=#]').click(function(event){
+    $('html, body').animate({
+        scrollTop: $( $.attr(this, 'href') ).offset().top
+    }, 900);
+    event.preventDefault();
+});
+
+
+$("#emails_send").on('submit',(function(e) {
+        e.preventDefault(); 
+    $.ajax({
+        type: "POST",
+        url: "http://139.59.125.0/sendemails.php",
+        data: new FormData(this),
+        contentType: false,
+        cache: false,
+        processData:false,
+        beforeSend: function()
+        {
+            $('#result').html('<img src="images/devoops_getdata.gif"/>');
+        },
+        success: function(data){
+        $('#result').html(data);
+            
+        }
+        });
+    
+    }));
+
+
+    })(jQuery);
+
+
+</script>
+<script src="app.js"></script>
+<script src="js/modernizr.custom.js"></script>
+<script src="js/html5-polyfills.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/layout-plugins.js"></script>
+<script src="js/essential-plugins.js"></script>
+<!-- <script src="js/tweetie.min.js"></script> -->
+<script src="js/smoothscroll.js"></script>
+<script src="js/owl.carousel.min.js"></script>
+<script src="https://maps.googleapis.com/maps/api/js?v=3.exp&AMP;sensor=false" ></script>
+<script src="js/map.init.js?ver=12"></script>
+<script src="js/portfolio-init.js"></script>
+<script src="js/init.js"></script>
+</body>
+</html>
