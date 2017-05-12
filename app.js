@@ -24,7 +24,6 @@
                         'slide_2': 'Web Designer',
                         'slide_3': 'Mobile Developer',
                         'slide_4': 'Win App Developer.',
-                        'slide_5': 'Game Developer',
                         'details': 'สวัสดีครับ ผมชื่อ นาย พลกฤษ แสนใจ เว็บไซต์นี้เป็นเว็บไซต์แนะนำตัวและผลงานที่ผมเคยทำมา ครับ แนะนำ browser ที่ใช้เปิดให้ใช้ google chrome นะครับเพื่อการแสดงผลที่เต็ม 100% ',
                         'btn_title': 'เกี่ยวกับฉัน',
                         'btn_title_resume': 'MY RESUME'
@@ -32,7 +31,7 @@
                     'promote_data': {
                         'tab_one_title': 'การพัฒนาเว็บไซต์',
                         'tab_one_name': 'Web Developer',
-                        'tab_one_details': "มีความถนัดสูงทางด้านการเขียนเว็บไชต์เป็นอย่างดีทั้งในภาษา PHP และ ASP.NET C#.",
+                        'tab_one_details': "มีความถนัดสูงทางด้านการเขียนเว็บไชต์เป็นอย่างดีทั้งในภาษา PHP Javascript และ ASP.NET C#.",
                         'tab_two_title': 'การออกแบบเว็บไซต์',
                         'tab_two_name': 'Web Designer',
                         'tab_two_details': 'มีความสามารถในการออกแบบเว็บไซต์ด้วย  front-end framework Bootstrap , Css3 ได้เป็นอย่างดี .',
@@ -52,12 +51,12 @@
                         'tab_three': 'ความสามารถ'
                     },
                     'show_content': {
-                        'experience': 'เดือน ประสปการณ์ฝึกทำงาน',
+                        'experience': 'ปี ประสปการณ์ทำงาน',
                         'portfolio': 'ผลงานที่สำเร็จ'
                     },
                     'skill_data': {
                         'title': 'ความสามารถ',
-                        'details': 'ความสามารถ ทางด้านภาษาการเขียนโปรแกรม จากประสปการณ์ในระหว่างทำการเรียนเเละศึกษาด้วยตัวเองมีความสามารถของแต่ละภาษาคร่าวๆ ด้วยกันดังนี้ + อื่นๆ NodeJs , Angularjs , React  Config Vps Digitalocean , AWS ได้ ',
+                        'details': 'ความสามารถ ทางด้านภาษาการเขียนโปรแกรม จากประสปการณ์ในระหว่างทำการเรียนเเละศึกษาด้วยตัวเองมีความสามารถของแต่ละภาษาคร่าวๆ ด้วยกันดังนี้ + อื่นๆ NodeJs , Angularjs , React  Config Vps Digitalocean , AWS ได้เล็กน้อย ',
                         'title_skill': 'ความสามารถทางภาษา'
                     },
                     'skill_content': {
@@ -100,7 +99,7 @@
                         'des_details_3': 'ในขณะเรียนได้ทำการศึกษา หาข้อมูลการเขียนโปรแกรมของภาษาที่ถนัดเพื่อนำไปพัฒนาเป็นโปรเจคจบทำการวางแผนโปรเจคว่าจะทำเกมส์แต่เนื่องจากฝีมือการปั้น 3D น้อย จึงหันมาทำเว็บไซต์แทน',
                         'des_title_4': 'Peed Studio (อุดรธานี)',
                         'des_des_4': 'ทำงานที่บริษัท Peed Studio เป็นเวลา 1 ปี www.peedstudio.co.th ',
-                        'des_details_4': 'ได้ทำงานที่นี่ถือว่าเป็นอันที่ภูมิใจเนื่องจากเป็นบริษัทแรกที่ลองสมัครเเล้วได้งานเลย ทำการฝึกงาน 2 อาทิตย์ พี่หัวหน้าที่บริษัทได้รับเข้าทำงาน โดยโปรแกรมเมอร์ มี 2 คนรวมผมได้ร่วมกันทำงาน  โดยงานส่วนมากที่ทำจะใช้ Yii เป็นหลัก ขณะทำงานอาจารย์ทางมหาวิทยาลัยได้เชิญให้ไปเป็นวิทยากรให้น้องๆ ที่กำลังศึกษาด้วย ผลงานที่นี้ได้เยอะ สาเหตุที่ออกเนื่องจากไกลจากหอพัก ย้ายไปทำงานที่ไกล้แทน',
+                        'des_details_4': 'ได้ทำงานที่นี่ถือว่าเป็นอันที่ภูมิใจเนื่องจากเป็นบริษัทแรกที่ลองสมัครเเล้วได้งานเลย ทำการฝึกงาน 2 อาทิตย์ พี่หัวหน้าที่บริษัทได้รับเข้าทำงาน โดยโปรแกรมเมอร์ มี 2 คนรวมผมได้ร่วมกันทำงาน  โดยงานส่วนมากที่ทำจะใช้ Yii เป็นหลัก ขณะทำงานอาจารย์ทางมหาวิทยาลัยได้เชิญให้ไปเป็นวิทยากรให้น้องๆ ที่กำลังศึกษาด้วย ผลงานที่นี้ได้เยอะ สาเหตุที่ออกเนื่องจากไกลจากหอพัก ย้ายไปทำงานที่ใกล้แทน',
                         'des_title_5': 'The Best Design Studio (อุดรธานี)',
                         'des_des_5': 'ทำงานที่บริษัท The Best Design Studio เป็นเวลา 7 เดือน www.tbds.co.th',
                         'des_details_5': 'ย้ายมาทำงานนี่นี่เนื่องจากไกล้หอพัก ได้ทำงานงานเป็นหัวหน้าตัวเองเพราะมีโปรแกรมเมอร์คนเดียว เนื่องจากทำงานรูปแบบคนเดียวรูปแบบงานที่เขียนจะเป็น Oop ส่วนมากงานจะเป็นงานภายในระบบการเงิน เงินเดือนดีหัวหน้าพาทำอะไรหลากหลาย สาเหตุที่ออก : คัดเลือกทหาร - บวช',
@@ -139,7 +138,7 @@
                     },
                     'contract_data': {
                         'title': 'การติดต่อ',
-                        'des': 'เบอร์โทรติดต่อ : 085-459-3048 (อาก้า) <br/>อีเมลล์ : phonkritseanjai@gmail.com , gotzillaphonkrit@gmail.com',
+                        'des': 'เบอร์โทรติดต่อ : 085-459-3048 (อาก้า) <br/>อีเมลล์ : phonkritSaenjai@gmail.com , gotzillaphonkrit@gmail.com',
                         'name': 'ชื่อ',
                         'email': 'อีเมลล์ติดต่อกลับ',
                         'subject': 'หัวข้อ',
@@ -157,47 +156,152 @@
                         'more': 'รายละเอียด',
                         'view': 'แสดงภาพ'
                     },
+
+
                     'web_doc_1': {
-                        'title': 'ระบบขายรองเท้า online',
-                        'des': 'เว็บไซต์',
+                    'title' : 'ระบบขายรองเท้า online',
+                    'des' : 'เว็บไซต์ 2015',
                     },
+                    
                     'web_doc_2': {
-                        'title': 'Hashtags',
-                        'des': '(โปรเจค Hashtags Intragram) เว็บไซต์',
+                    'title' : 'Hashtags',
+                    'des' : '(โปรเจค Hashtags Intragram) เว็บไซต์ 2015',
                     },
+                    
                     'web_doc_3': {
-                        'title': 'ระบบขายสังฆภันณ์ online',
-                        'des': 'เว็บไซต์',
+                    'title' : 'ระบบขายสังฆภันณ์ online',
+                    'des' : 'เว็บไซต์ 2015',
                     },
+                    
+                    
                     'web_doc_4': {
-                        'title': 'ระบบขายเเว่นตาเเละหมวกด้วย AR',
-                        'des': 'เว็บไซต์ (responsive)',
+                    'title' : 'ระบบขายเเว่นตาเเละหมวกด้วย AR',
+                    'des' : 'เว็บไซต์ (responsive) 2015',
                     },
+                    
                     'web_doc_5': {
-                        'title': 'ห้องพัก Yii framework (Demo)',
-                        'des': 'เว็บไซต์',
+                    'title' : 'ห้องพัก Yii framework (Template)',
+                    'des' : 'เว็บไซต์ 2015',
                     },
+                    
                     'web_doc_6': {
-                        'title': 'ระบบขายสินค้า Minimart',
-                        'des': 'แอพพลิเคชั่นวินโดว์',
+                    'title' : 'ระบบขายสินค้า Minimart',
+                    'des' : 'แอพพลิเคชั่นวินโดว์ 2015',
                     },
+                    
                     'web_doc_7': {
-                        'title': 'ระบบจัดการร้านคอมพิวเตอร์',
-                        'des': 'แอพพลิเคชั่นวินโดว์',
+                    'title' : 'ระบบจัดการร้านคอมพิวเตอร์',
+                    'des' : 'แอพพลิเคชั่นวินโดว์ 2015',
                     },
+                    
                     'web_doc_8': {
-                        'title': 'ระบบหอพัก',
-                        'des': 'แอพพลิเคชั่นวินโดว์',
+                    'title' : 'ระบบหอพัก',
+                    'des' : 'แอพพลิเคชั่นวินโดว์ 2015',
                     },
+                    
                     'web_doc_9': {
-                        'title': 'การรับส่งข้อมูลด้วย Json Mobile',
-                        'des': 'โมบายแอพ',
+                    'title' : 'การรับส่งข้อมูลด้วย Json Mobile',
+                    'des' : '2015',
                     },
+
+
+                    'web_doc_11': {
+                    'title' : 'โรงแรม Forrahill resort',
+                    'des' : 'เว็บไซต์ 2016',
+                    },
+                    
+                    
                     'web_doc_10': {
-                        'title': 'ร้านอาหารภายในอุดรธานี',
-                        'des': 'โมบายแอพ',
-                    }
+                    'title' : 'Game',
+                    'des' : 'Game',
+                    },
+                    
+                    'portfolio_list' : { 
+                        'data' : [
+                        {
+                            'title': 'ระบบขายรองเท้า online',
+                            'des': 'เว็บไซต์',
+                            'image' : 'images/5.jpg',
+                            'limage': 'images/5big.jpg',
+                            'template':'potfolio/template.html?project=01',
+                            'type': 'web-site'
+                        },
+                        {
+                            'title': 'Hashtags',
+                            'des': '(โปรเจค Hashtags Intragram) เว็บไซต์',
+                            'image' : 'images/5.jpg',
+                            'limage': 'images/5big.jpg',
+                            'template':'potfolio/template.html?project=01',
+                            'type': 'web-site'
+                        },
+                        {
+                            'title': 'ระบบขายสังฆภันณ์ online',
+                            'des': 'เว็บไซต์',
+                            'image' : 'images/5.jpg',
+                            'limage': 'images/5big.jpg',
+                            'template':'potfolio/template.html?project=01',
+                            'type': 'web-site'
+                        },
+                        {
+                            'title': 'ระบบขายเเว่นตาเเละหมวกด้วย AR',
+                            'des': 'เว็บไซต์ (responsive)',
+                            'image' : 'images/5.jpg',
+                            'limage': 'images/5big.jpg',
+                            'template':'potfolio/template.html?project=01',
+                            'type': 'web-site'
+                        },
+                        {
+                            'title': 'ห้องพัก Yii framework (Demo)',
+                            'des': 'เว็บไซต์',
+                            'image' : 'images/5.jpg',
+                            'limage': 'images/5big.jpg',
+                            'template':'potfolio/template.html?project=01',
+                            'type': 'web-site'
+                        },
+                        {
+                            'title': 'ระบบขายสินค้า Minimart',
+                            'des': 'แอพพลิเคชั่นวินโดว์',
+                            'image' : 'images/5.jpg',
+                            'limage': 'images/5big.jpg',
+                            'template':'potfolio/template.html?project=01',
+                            'type': 'web-site'
+                        },
+                        {
+                            'title': 'ระบบจัดการร้านคอมพิวเตอร์',
+                            'des': 'แอพพลิเคชั่นวินโดว์',
+                            'image' : 'images/5.jpg',
+                            'limage': 'images/5big.jpg',
+                            'template':'potfolio/template.html?project=01',
+                            'type': 'web-site'
+                        },
+                        {
+                            'title': 'ระบบหอพัก',
+                            'des': 'แอพพลิเคชั่นวินโดว์',
+                            'image' : 'images/5.jpg',
+                            'limage': 'images/5big.jpg',
+                            'template':'potfolio/template.html?project=01',
+                            'type': 'web-site'
+                        },
+                        {
+                            'title': 'การรับส่งข้อมูลด้วย Json Mobile',
+                            'des': 'โมบายแอพ',
+                            'image' : 'images/5.jpg',
+                            'limage': 'images/5big.jpg',
+                            'template':'potfolio/template.html?project=01',
+                            'type': 'web-site'
+                        },
+                        {
+                            'title': 'ร้านอาหารภายในอุดรธานี',
+                            'des': 'โมบายแอพ',
+                            'image' : 'images/5.jpg',
+                            'limage': 'images/5big.jpg',
+                            'template':'potfolio/template.html?project=01',
+                            'type': 'web-site'
+                        }
+                    ]
                 }
+            }
+
             } else {
                 $scope.message = {
                     
@@ -353,7 +457,7 @@
                     
                     'contract_data': {
                     'title' : 'Contact',
-                    'des' : 'Tel : 085-459-3048 (Arkar) <br/> Email : phonkritseanjai@gmail.com , gotzillaphonkrit@gmail.com',
+                    'des' : 'Tel : 085-459-3048 (Arkar) <br/> Email : phonkritSaenjai@gmail.com , gotzillaphonkrit@gmail.com',
                     'name' : 'Name',
                     'email' : 'Email',
                     'subject' : 'Subject',
@@ -407,7 +511,7 @@
                     },
                     
                     'web_doc_7': {
-                    'title' : 'Hotel',
+                    'title' : 'Motel',
                     'des' : 'windows app',
                     },
                     
@@ -417,7 +521,7 @@
                     },
                     
                     'web_doc_9': {
-                    'title' : 'Math For Kids',
+                    'title' : 'Food Cal',
                     'des' : 'Android App',
                     },
                     
@@ -432,5 +536,7 @@
         }
         $scope.change_lang('thai');
     });
-
 })();
+
+
+   

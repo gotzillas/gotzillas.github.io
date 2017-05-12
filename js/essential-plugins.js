@@ -55,7 +55,55 @@
 /**
  * NumberProgressBar
  * ==*/
-;(function(a){var b=function(d,c){var e=a.extend({duration:10000,percentage:0,shownQuery:".number-pb-shown",numQuery:".number-pb-num"},c||{});this.duration=e.duration;this.last_percentage=-1;this.percentage=(e.percentage>=0&&e.percentage<=100)?e.percentage:0;this.$element=a(d);this.width=this.$element.width();this.$shownBar=this.$element.find(e.shownQuery);this.$num=this.$element.find(e.numQuery);this.reach(this.percentage)};b.prototype.reach=function(c){if(this.last_percentage<0){this.last_percentage=0}else{this.last_percentage=this.percentage}if(c<0){this.percentage=0}else{if(c>100){this.percentage=100}else{this.percentage=c}}console.log("reach: ",this.last_percentage,this.percentage,this.calDuration());this.moveShown();this.moveNum()};b.prototype.calDuration=function(){return this.duration*Math.abs(this.percentage-this.last_percentage)/100};b.prototype.moveShown=function(){console.log("moveShown: ",this.percentage);this.$shownBar.velocity({width:this.percentage+"%"},{duration:this.calDuration()})};b.prototype.moveNum=function(){console.log("moveNum: ",this.percentage);var d=this;var f=this.width*this.percentage/100;var e=this.$num.width();if(e+f>this.width){var c=(this.width-e)/this.width*100}else{var c=this.percentage}this.$num.velocity({left:c+"%"},{duration:this.calDuration()});a({num:parseInt(this.$num.text())}).animate({num:this.percentage},{queue:true,duration:d.calDuration(),step:function(){d.$num.text(Math.ceil(this.num)+"%")},complete:function(){d.$num.text(d.percentage+"%")}})};a.fn.NumberProgressBar=function(c){return this.each(function(){var d=a(this);if(d.data("number-pb")){return}d.data("number-pb",new b(this,c))})};a.fn.reach=function(c){return this.each(function(){var e=a(this);var d=e.data("number-pb");if(!d){return}if(c<0||c>100||c==d.percentage){return}d.reach(c)})}})(jQuery);
+;(function(a) {
+    var b = function(d, c) {
+        var e = a.extend({ duration: 10000, percentage: 0, shownQuery: ".number-pb-shown", numQuery: ".number-pb-num" }, c || {});
+        this.duration = e.duration;
+        this.last_percentage = -1;
+        this.percentage = (e.percentage >= 0 && e.percentage <= 100) ? e.percentage : 0;
+        this.$element = a(d);
+        this.width = this.$element.width();
+        this.$shownBar = this.$element.find(e.shownQuery);
+        this.$num = this.$element.find(e.numQuery);
+        this.reach(this.percentage) };
+    b.prototype.reach = function(c) {
+        if (this.last_percentage < 0) { this.last_percentage = 0 } else { this.last_percentage = this.percentage }
+        if (c < 0) { this.percentage = 0 } else {
+            if (c > 100) { this.percentage = 100 } else { this.percentage = c } }
+        // console.log("reach: ", this.last_percentage, this.percentage, this.calDuration());
+        this.moveShown();
+        this.moveNum() };
+    b.prototype.calDuration = function() {
+        return this.duration * Math.abs(this.percentage - this.last_percentage) / 100 };
+    b.prototype.moveShown = function() { 
+     // console.log("moveShown: ", this.percentage);
+        this.$shownBar.velocity({ width: this.percentage + "%" }, { duration: this.calDuration() }) };
+    b.prototype.moveNum = function() { 
+     // console.log("moveNum: ", this.percentage);
+        var d = this;
+        var f = this.width * this.percentage / 100;
+        var e = this.$num.width();
+        if (e + f > this.width) {
+            var c = (this.width - e) / this.width * 100 } else {
+            var c = this.percentage }
+        this.$num.velocity({ left: c + "%" }, { duration: this.calDuration() });
+        a({ num: parseInt(this.$num.text()) }).animate({ num: this.percentage }, { queue: true, duration: d.calDuration(), step: function() { d.$num.text(Math.ceil(this.num) + "%") }, complete: function() { d.$num.text(d.percentage + "%") } }) };
+    a.fn.NumberProgressBar = function(c) {
+        return this.each(function() {
+            var d = a(this);
+            if (d.data("number-pb")) {
+                return }
+            d.data("number-pb", new b(this, c)) }) };
+    a.fn.reach = function(c) {
+        return this.each(function() {
+            var e = a(this);
+            var d = e.data("number-pb");
+            if (!d) {
+                return }
+            if (c < 0 || c > 100 || c == d.percentage) {
+                return }
+            d.reach(c) }) } })(jQuery);
+
 
 /**!
  * Cube Portfolio - Responsive jQuery Grid Plugin

@@ -9,7 +9,7 @@
     /*********************************
      init cubeportfolio
      *********************************/
-    gridContainer.cubeportfolio({
+    var grid_data = gridContainer.cubeportfolio({
 
         defaultFilter: '*',
 
