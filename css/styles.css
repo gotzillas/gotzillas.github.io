@@ -5662,3 +5662,10 @@ h2.resp-accordion:first-child {
     color: #fff;
 
 }
+
+.cbp img, .cbp-l-inline img, .cbp-l-project-related-wrap img, .cbp-slider img {
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
