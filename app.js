@@ -176,11 +176,11 @@
 
                     'web_doc_4': {
                         'title': 'ระบบขายเเว่นตาเเละหมวกด้วย AR',
-                        'des': 'เว็บไซต์ (responsive) 2015',
+                        'des': 'เว็บไซต์ 2015',
                     },
 
                     'web_doc_5': {
-                        'title': 'ห้องพัก Yii framework (Template)',
+                        'title': 'ห้องพัก Yii framework',
                         'des': 'เว็บไซต์ 2015',
                     },
 
@@ -201,7 +201,7 @@
 
                     'web_doc_9': {
                         'title': 'การรับส่งข้อมูลด้วย Json Mobile',
-                        'des': '2015',
+                        'des': 'แอพโมบาย 2015',
                     },
 
 
@@ -228,24 +228,48 @@
                         'des': 'เว็บไซต์ 2015',
                     },
                     'web_doc_16': {
-                        'title': 'smart drive อุดร',
-                        'des': 'เว็บไซต์ 2015',
-                    },
-                    'web_doc_17': {
                         'title': 'siampetrotrade',
                         'des': 'เว็บไซต์ 2015',
                     },
-                    'web_doc_18': {
+                    'web_doc_17': {
                         'title': 'ivillage',
                         'des': 'เว็บไซต์ 2015',
                     },
-                    'web_doc_19': {
+                    'web_doc_18': {
                         'title': 'มวยไทยออนไลน์',
                         'des': 'เว็บไซต์ 2015',
                     },
-                    'web_doc_20': {
+                    'web_doc_19': {
                         'title': 'Duballsod',
                         'des': 'เว็บไซต์ 2016',
+                    },
+                    'web_doc_20': {
+                        'title': 'Designsbo',
+                        'des': 'เว็บไซต์ 2016',
+                    },
+                    'web_doc_21': {
+                        'title': 'Tdedzean App',
+                        'des': 'แอพโมบาย 2015',
+                    },
+                    'web_doc_22': {
+                        'title': 'Duballsod App',
+                        'des': 'แอพโมบาย 2016',
+                    },
+                    'web_doc_23': {
+                        'title': 'DamnRoad',
+                        'des': 'แอพพลิเคชั่นวินโดว์ 2017',
+                    },
+                    'web_doc_24': {
+                        'title': 'nongkhainewsonline',
+                        'des': 'เว็บไซต์ 2015',
+                    },
+                    'web_doc_25': {
+                        'title': 'แดกโลด (ระบบจัดการร้านอาหาร)',
+                        'des': 'แอพพลิเคชั่นวินโดว์ 2017',
+                    },
+                    'slideview':
+                    {
+                        'title' : 'Slide ที่นำเสนอ : Link'
                     },
                     
 
@@ -358,7 +382,7 @@
                         'slide_3': 'Mobile Developer',
                         'slide_4': 'Win App Developer.',
                         'slide_5': 'Game Developer',
-                        'details': 'Hello, my name is Mr. Phonkrit saebjai , this website is a introduce and works the browser enabled to use. Google Chrome. To display the full 100% if want to see resume create, click on My resume (only Google Chrome. Only).',
+                        'details': 'Hello, my name is Mr. Phonkrit Saenjai , this website is a introduce and works .the browser enabled to use Google Chrome To display the full 100% if want to see resume create, click on My resume (only Web Browser Google Chrome).',
                         'btn_title': 'About ME',
                         'btn_title_resume': 'MY RESUME'
                     },
@@ -381,8 +405,8 @@
 
                     'about_data': {
                         'title': 'About Me',
-                        'details_one': '<b> About </b><hr/><br/> Name : Phonkrit Saenjai <br/> Birthday  : 6 January 1992 <br/> Age : 23  <br/> Health : Excellent <br/> weight : 59 kilogram <br/> high : 177 centimeter <br/> Marital Status : <b class="text-danger" > Single </b> ',
-                        'details_two': 'At present, develop website in general, and windows app.',
+                        'details_one': '<b> About </b><hr/><br/> Name : Phonkrit Saenjai <br/> Birthday  : 6 January 1992 <br/> Age : 25  <br/> Health : Excellent <br/> weight : 59 kilogram <br/> high : 177 centimeter <br/> Marital Status : <b class="text-danger" > Single </b> ',
+                        'details_two': 'At present, develop website in general, and windows app , Android App Private . ',
                         'tab_one': 'About',
                         'tab_two': 'Education',
                         'tab_three': 'Skilled'
@@ -390,13 +414,13 @@
 
 
                     'show_content': {
-                        'experience': 'Mount Experience',
+                        'experience': 'Year Experience',
                         'portfolio': 'Project Complete',
                     },
 
                     'skill_data': {
                         'title': 'Skilled',
-                        'details': 'The ability of programming language From experience during the study and study by themselves have the ability of each language together as follows.',
+                        'details': 'The ability of programming language From experience during the study and study by themselves have the ability of each language together as follows. +  NodeJs , Angularjs , React Config Vps Digitalocean , AWS',
                         'title_skill': 'Language computer programming Skill'
                     },
 
@@ -404,19 +428,19 @@
                     'skill_content': {
                         'skill_title_1': 'Yii framework',
                         'skill_des_1': 'The ability to use Yii framework.',
-                        'skill_details_1': 'The present study framework use the basic knowledge in the working principle and basic configuration',
+                        'skill_details_1': 'The  framework use the advance knowledge in the working principle and advance configuration',
 
                         'skill_title_2': 'Bootstrap',
                         'skill_des_2': 'The ability to use Bootstrap.',
                         'skill_details_2': 'Have the ability to customize and understand the working principle of Bootstrap can display designer Responsive.',
 
-                        'skill_title_3': 'Socail API',
-                        'skill_des_3': 'The ability to use Socail API.',
-                        'skill_details_3': 'The ability to use API of Facebook Twitter and in doing login website and other related fields.',
+                        'skill_title_3': 'API & Other',
+                        'skill_des_3': 'The ability to use Socail API and other.',
+                        'skill_details_3': 'The ability to use API of Facebook Twitter and in doing login website and other related fields. + Github , Firebase Linux server',
 
-                        'skill_title_4': 'Mobile Apps',
+                        'skill_title_4': 'Mobile Apps / Android - IOS',
                         'skill_des_4': 'The ability to develop Mobile apps.',
-                        'skill_details_4': 'Can develop Mobile Apps using HTML5 (Phonegap Cordova), with jquerymobile by sending and receiving data JSON.'
+                        'skill_details_4': 'Can develop Mobile Apps using HTML5 (Phonegap Cordova , Ionic), with jquerymobile by sending and receiving data JSON.  (Php webserver)'
 
 
                     },
@@ -424,15 +448,19 @@
 
                     'exs_data': {
                         'title': 'Experience',
-                        'des': 'Mounth Experience',
-                        'details': 'Experience training and experience in programming, while being studied (new graduates.',
+                        'des': 'Year Experience',
+                        'details': 'Experience training and experience in programming',
                         'current': 'Current',
                         'date_one': 'Years 4 in college to',
-                        'date_one_des': 'Till Now',
+                        'date_one_des': 'apprentice',
                         'date_two': 'Years 3 in college to',
                         'date_two_des': 'Years 4 in college',
                         'date_three': 'Years 1 in college to',
                         'date_three_des': 'Years 3 in college',
+                        'data_foure': '1 July 58',
+                        'data_foure_des': '30 April 59',
+                        'data_five': '1 July 59',
+                        'data_five_des': '31 March 60 - present',
 
                         'des_title_1': 'Practice experience.',
                         'des_des_1': 'Trained experience work and job Freeland.',
@@ -442,7 +470,13 @@
                         'des_details_2': 'Study and development of the project site, product sales by AR hat and glasses were worn (virtual) by began writing website. Responsive using Bootstrap can finally make the project was accomplished well.',
                         'des_title_3': 'Study computer language education.',
                         'des_des_3': 'Study development of program language Java Sql PHP C # introduction.',
-                        'des_details_3': 'While studying the study. Find out the programming of language aptitude to developed a graduation project the plan project. Games, but due to low skill 3D molding turned website instead.'
+                        'des_details_3': 'While studying the study. Find out the programming of language aptitude to developed a graduation project the plan project. Games, but due to low skill 3D molding turned website instead.',
+                        'des_title_4': 'Peed Studio (Udonthani)',
+                        'des_des_4': 'The company. Peed Studio For 1 years. www.peedstudio.co.th ',
+                        'des_details_4': 'Working here is considered to be proud of, because the company is the first to apply this job. The job 2 week. boss get in. The programmer has 2 people including me have worked together to the most to do is used as the main  Yii Framework while the University invited as a guest to the children. Studying. Why due out far away from residential move to work near instead',
+                        'des_title_5': 'The Best Design Studio (Udonthani)',
+                        'des_des_5': 'The company. The Best Design Studio For 7 month . www.tbds.co.th',
+                        'des_details_5': 'Moving to work here because near the dormitory. Working it self, because the programmer alone. Because the work pattern alone use OOP most work is within the system to the money. Good salary chief take doing variety causes out: military recruitment - ordained.',
                     },
 
 
@@ -513,55 +547,116 @@
 
                     'web_doc_1': {
                         'title': 'Shoueshop online',
-                        'des': 'website',
+                        'des': 'website 2015',
                     },
 
                     'web_doc_2': {
                         'title': 'Resiver Json (Intragram Hashtags) ',
-                        'des': 'website',
+                        'des': 'website 2015',
                     },
 
                     'web_doc_3': {
                         'title': 'SankapanShop online',
-                        'des': 'website',
+                        'des': 'website 2015',
                     },
 
 
                     'web_doc_4': {
                         'title': 'GlasesAndHat Shop (AR)',
-                        'des': 'website(responsive)',
+                        'des': 'website 2015',
                     },
 
                     'web_doc_5': {
-                        'title': 'Hotel (Yii framework demo)',
-                        'des': 'website',
+                        'title': 'Hotel ',
+                        'des': 'website 2015',
                     },
 
                     'web_doc_6': {
                         'title': 'Minimart',
-                        'des': 'windows app',
+                        'des': 'windows app 2015',
                     },
 
                     'web_doc_7': {
-                        'title': 'Motel',
-                        'des': 'windows app',
+                        'title': 'Computer Shop',
+                        'des': 'windows app 2015',
                     },
 
                     'web_doc_8': {
-                        'title': 'Computer Shop',
+                        'title': 'Motel',
                         'des': 'windows app',
                     },
 
                     'web_doc_9': {
                         'title': 'Food Cal',
-                        'des': 'Android App',
+                        'des': 'Mobile 2015',
+                    },
+                    'web_doc_11': {
+                        'title': 'Forrahill resort',
+                        'des': 'website 2016',
                     },
 
+                    'web_doc_12': {
+                        'title': 'Tbds.co.th',
+                        'des': 'website 2016',
+                    },
 
-                    'web_doc_10': {
-                        'title': 'Game',
-                        'des': 'Game',
+                    'web_doc_13': {
+                        'title': 'Easy Stock',
+                        'des': 'website 2016',
+                    },
+                    'web_doc_14': {
+                        'title': 'Doggudy Shop',
+                        'des': 'website 2015',
+                    },
+                    'web_doc_15': {
+                        'title': 'smart drive udon',
+                        'des': 'website 2015',
+                    },
+                    'web_doc_16': {
+                        'title': 'siampetrotrade',
+                        'des': 'website 2015',
+                    },
+                    'web_doc_17': {
+                        'title': 'ivillage',
+                        'des': 'website 2015',
+                    },
+                    'web_doc_18': {
+                        'title': 'Muaythaionline',
+                        'des': 'website 2015',
+                    },
+                    'web_doc_19': {
+                        'title': 'Duballsod',
+                        'des': 'website 2016',
+                    },
+                    'web_doc_20': {
+                        'title': 'Designsbo',
+                        'des': 'website 2016',
+                    },
+                    'web_doc_21': {
+                        'title': 'Tdedzean App',
+                        'des': 'Mobile 2015',
+                    },
+                    'web_doc_22': {
+                        'title': 'Duballsod App',
+                        'des': 'Mobile 2016',
+                    },
+                    'web_doc_23': {
+                        'title': 'DamnRoad',
+                        'des': 'windows app 2017',
+                    },
+                    'web_doc_24': {
+                        'title': 'nongkhainewsonline',
+                        'des': 'website 2015',
+                    },
+                    'web_doc_25': {
+                        'title': 'DamnRoad',
+                        'des': 'windows app 2017',
+                    },
+                    'slideview':
+                    {
+                        'title' : 'Slide : Link'
                     }
+                    
 
                 }
             }

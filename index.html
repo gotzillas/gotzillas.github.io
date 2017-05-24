@@ -25,7 +25,7 @@
     <link rel="stylesheet" href="css/owl.theme.css">
     <link rel="stylesheet" href="css/justifiedgallery.css">
     <link rel="stylesheet" href="css/hover.css">
-    <link rel="stylesheet" href="css/styles.css?version=1">
+    <link rel="stylesheet" href="css/styles.css?version=3">
     <link id="theme-color" rel="stylesheet" href="css/theme-colors.css">
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.2/angular.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.2/angular-sanitize.js"></script>
@@ -299,7 +299,7 @@
                             <!--<img src="images/img-icon.png" alt="icon">-->
                             </span>
                             </div>
-                            <span class="numeric-value number-rotate" data-value="8" data-animation-duration="600">0</span>
+                            <span class="numeric-value number-rotate" data-value="25" data-animation-duration="600">0</span>
                             <span class="numeric-stats-title"> {{ message.show_content.portfolio }} </span>
                         </div>
                     </div>
@@ -590,7 +590,7 @@
                                                                     </div>
                                                                     <div class="job-details-container">
                                                                         <h3 class="job-identy-title">{{ message.exs_data.des_title_5 }} <span>{{ message.exs_data.des_des_5 }}</span></h3>
-                                                                        <a href="http://tbds.co.th/slide" target="_blank"><b> Slide ที่นำเสนอ : Link </b> </a>
+                                                                        <a href="http://tbds.co.th/slide" target="_blank"><b>  {{ message.slideview.title }} </b> </a>
                                                                         <p>
                                                                             {{ message.exs_data.des_details_5 }}
                                                                         </p>
@@ -622,7 +622,7 @@
                                                                         <h3 class="job-identy-title">
 
                                                                             {{ message.exs_data.des_title_4 }} <span>{{ message.exs_data.des_des_4 }}</span></h3>
-                                                                        <a href="https://peed.co.th/peedslide" target="_blank"><b> Slide ที่นำเสนอ : Link </b> </a>
+                                                                        <a href="https://peed.co.th/peedslide" target="_blank"><b> {{ message.slideview.title }} </b> </a>
                                                                         <p>
                                                                             {{ message.exs_data.des_details_4 }}
                                                                         </p>
@@ -953,6 +953,9 @@
                                         <ul>
                                             <!-- ng-repeat : key in mesage.portfolio_list.data (bug)-->
                                             <!-- ผลงาน -->
+
+                                           
+
                                             <li class="cbp-item web-site">
                                                 <div class="cbp-caption">
                                                     <div class="cbp-caption-defaultWrap">
@@ -974,6 +977,80 @@
                                                     {{ message.web_doc_11.des }}
                                                 </div>
                                             </li>
+
+
+                                            <li class="cbp-item web-site">
+                                                <div class="cbp-caption">
+                                                    <div class="cbp-caption-defaultWrap">
+                                                        <img src="images/de1.JPG" alt="">
+                                                    </div>
+                                                    <div class="cbp-caption-activeWrap">
+                                                        <div class="cbp-l-caption-alignCenter">
+                                                            <div class="cbp-l-caption-body">
+                                                                <a href="potfolio/designsbo.html" class="cbp-singlePage cbp-l-caption-buttonLeft">{{ message.doc.more }}</a>
+                                                                <a href="images/de1.JPG" class="cbp-lightbox cbp-l-caption-buttonRight" data-title="{{ message.web_doc_20.title }}<br>by Phonkrit Saenjai">{{ message.doc.view }}</a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="cbp-l-grid-projects-title">
+                                                    <a href="potfolio/designsbo.html" class="cbp-singlePage"> {{ message.web_doc_20.title }} </a>
+                                                </div>
+                                                <div class="cbp-l-grid-projects-desc">
+                                                    {{ message.web_doc_20.des }}
+                                                </div>
+                                            </li>
+
+
+
+                                            <li class="cbp-item mobile">
+                                                <div class="cbp-caption">
+                                                    <div class="cbp-caption-defaultWrap">
+                                                        <img src="images/duapp (3).png" alt="">
+                                                    </div>
+                                                    <div class="cbp-caption-activeWrap">
+                                                        <div class="cbp-l-caption-alignCenter">
+                                                            <div class="cbp-l-caption-body">
+                                                                <a href="potfolio/duballsodapp.html" class="cbp-singlePage cbp-l-caption-buttonLeft">{{ message.doc.more }}</a>
+                                                                <a href="images/duapp (3).png" class="cbp-lightbox cbp-l-caption-buttonRight" data-title="{{ message.web_doc_22.title }}<br>by Phonkrit Saenjai">{{ message.doc.view }}</a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="cbp-l-grid-projects-title">
+                                                    <a href="potfolio/duballsodapp.html" class="cbp-singlePage"> {{ message.web_doc_22.title }} </a>
+                                                </div>
+                                                <div class="cbp-l-grid-projects-desc">
+                                                    {{ message.web_doc_22.des }}
+                                                </div>
+                                            </li>
+
+
+
+
+                                            <li class="cbp-item web-site">
+                                                <div class="cbp-caption">
+                                                    <div class="cbp-caption-defaultWrap">
+                                                        <img src="images/du1.JPG" alt="">
+                                                    </div>
+                                                    <div class="cbp-caption-activeWrap">
+                                                        <div class="cbp-l-caption-alignCenter">
+                                                            <div class="cbp-l-caption-body">
+                                                                <a href="potfolio/duballsod.html" class="cbp-singlePage cbp-l-caption-buttonLeft">{{ message.doc.more }}</a>
+                                                                <a href="images/du1.JPG" class="cbp-lightbox cbp-l-caption-buttonRight" data-title="{{ message.web_doc_19.title }}<br>by Phonkrit Saenjai">{{ message.doc.view }}</a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="cbp-l-grid-projects-title">
+                                                    <a href="potfolio/duballsod.html" class="cbp-singlePage"> {{ message.web_doc_19.title }} </a>
+                                                </div>
+                                                <div class="cbp-l-grid-projects-desc">
+                                                    {{ message.web_doc_19.des }}
+                                                </div>
+                                            </li>
+
+
                                             <li class="cbp-item web-site">
                                                 <div class="cbp-caption">
                                                     <div class="cbp-caption-defaultWrap">
@@ -1016,6 +1093,144 @@
                                                     {{ message.web_doc_12.des }}
                                                 </div>
                                             </li>
+
+                                            <li class="cbp-item mobile">
+                                                <div class="cbp-caption">
+                                                    <div class="cbp-caption-defaultWrap">
+                                                        <img src="images/tded (1).jpg" alt="">
+                                                    </div>
+                                                    <div class="cbp-caption-activeWrap">
+                                                        <div class="cbp-l-caption-alignCenter">
+                                                            <div class="cbp-l-caption-body">
+                                                                <a href="potfolio/tdedzean.html" class="cbp-singlePage cbp-l-caption-buttonLeft">{{ message.doc.more }}</a>
+                                                                <a href="images/tded (1).jpg" class="cbp-lightbox cbp-l-caption-buttonRight" data-title="{{ message.web_doc_21.title }}<br>by Phonkrit Saenjai">{{ message.doc.view }}</a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="cbp-l-grid-projects-title">
+                                                    <a href="potfolio/tdedzean.html" class="cbp-singlePage"> {{ message.web_doc_21.title }} </a>
+                                                </div>
+                                                <div class="cbp-l-grid-projects-desc">
+                                                    {{ message.web_doc_21.des }}
+                                                </div>
+                                            </li>
+
+                                            <li class="cbp-item web-site">
+                                                <div class="cbp-caption">
+                                                    <div class="cbp-caption-defaultWrap">
+                                                        <img src="images/m1.JPG" alt="">
+                                                    </div>
+                                                    <div class="cbp-caption-activeWrap">
+                                                        <div class="cbp-l-caption-alignCenter">
+                                                            <div class="cbp-l-caption-body">
+                                                                <a href="potfolio/muaythai.html" class="cbp-singlePage cbp-l-caption-buttonLeft">{{ message.doc.more }}</a>
+                                                                <a href="images/m1.JPG" class="cbp-lightbox cbp-l-caption-buttonRight" data-title=" {{ message.web_doc_18.title }} <br>by Phonkrit Saenjai">{{ message.doc.view }}</a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="cbp-l-grid-projects-title">
+                                                    <a href="potfolio/muaythai.html" class="cbp-singlePage"> {{ message.web_doc_18.title }} </a>
+                                                </div>
+                                                <div class="cbp-l-grid-projects-desc">
+                                                    {{ message.web_doc_18.des }}
+                                                </div>
+                                            </li>
+
+
+
+                                            <li class="cbp-item web-site">
+                                                <div class="cbp-caption">
+                                                    <div class="cbp-caption-defaultWrap">
+                                                        <img src="images/sm1.JPG" alt="">
+                                                    </div>
+                                                    <div class="cbp-caption-activeWrap">
+                                                        <div class="cbp-l-caption-alignCenter">
+                                                            <div class="cbp-l-caption-body">
+                                                                <a href="potfolio/smartdrive.html" class="cbp-singlePage cbp-l-caption-buttonLeft">{{ message.doc.more }}</a>
+                                                                <a href="images/sm1.JPG" class="cbp-lightbox cbp-l-caption-buttonRight" data-title=" {{ message.web_doc_15.title }} <br>by Phonkrit Saenjai">{{ message.doc.view }}</a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="cbp-l-grid-projects-title">
+                                                    <a href="potfolio/smartdrive.html" class="cbp-singlePage"> {{ message.web_doc_15.title }} </a>
+                                                </div>
+                                                <div class="cbp-l-grid-projects-desc">
+                                                    {{ message.web_doc_15.des }}
+                                                </div>
+                                            </li>
+
+
+                                            <li class="cbp-item web-site">
+                                                <div class="cbp-caption">
+                                                    <div class="cbp-caption-defaultWrap">
+                                                        <img src="images/ivil.JPG" alt="">
+                                                    </div>
+                                                    <div class="cbp-caption-activeWrap">
+                                                        <div class="cbp-l-caption-alignCenter">
+                                                            <div class="cbp-l-caption-body">
+                                                                <a href="potfolio/ivilage.html" class="cbp-singlePage cbp-l-caption-buttonLeft">{{ message.doc.more }}</a>
+                                                                <a href="images/ivil.JPG" class="cbp-lightbox cbp-l-caption-buttonRight" data-title=" {{ message.web_doc_17.title }} <br>by Phonkrit Saenjai">{{ message.doc.view }}</a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="cbp-l-grid-projects-title">
+                                                    <a href="potfolio/ivilage.html" class="cbp-singlePage"> {{ message.web_doc_17.title }} </a>
+                                                </div>
+                                                <div class="cbp-l-grid-projects-desc">
+                                                    {{ message.web_doc_17.des }}
+                                                </div>
+                                            </li>
+
+
+                                             <li class="cbp-item web-site">
+                                                <div class="cbp-caption">
+                                                    <div class="cbp-caption-defaultWrap">
+                                                        <img src="images/s1.JPG" alt="">
+                                                    </div>
+                                                    <div class="cbp-caption-activeWrap">
+                                                        <div class="cbp-l-caption-alignCenter">
+                                                            <div class="cbp-l-caption-body">
+                                                                <a href="potfolio/siampetrotrade.html" class="cbp-singlePage cbp-l-caption-buttonLeft">{{ message.doc.more }}</a>
+                                                                <a href="images/s1.JPG" class="cbp-lightbox cbp-l-caption-buttonRight" data-title=" {{ message.web_doc_16.title }} <br>by Phonkrit Saenjai">{{ message.doc.view }}</a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="cbp-l-grid-projects-title">
+                                                    <a href="potfolio/siampetrotrade.html" class="cbp-singlePage"> {{ message.web_doc_16.title }} </a>
+                                                </div>
+                                                <div class="cbp-l-grid-projects-desc">
+                                                    {{ message.web_doc_16.des }}
+                                                </div>
+                                            </li>
+
+
+                                             <li class="cbp-item web-site">
+                                                <div class="cbp-caption">
+                                                    <div class="cbp-caption-defaultWrap">
+                                                        <img src="images/nong.JPG" alt="">
+                                                    </div>
+                                                    <div class="cbp-caption-activeWrap">
+                                                        <div class="cbp-l-caption-alignCenter">
+                                                            <div class="cbp-l-caption-body">
+                                                                <a href="potfolio/nongkhai.html" class="cbp-singlePage cbp-l-caption-buttonLeft">{{ message.doc.more }}</a>
+                                                                <a href="images/nong.jpg" class="cbp-lightbox cbp-l-caption-buttonRight" data-title="{{ message.web_doc_24.title }}<br>by Phonkrit Saenjai">{{ message.doc.view }}</a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="cbp-l-grid-projects-title">
+                                                    <a href="potfolio/nongkhai.html" class="cbp-singlePage"> {{ message.web_doc_24.title }} </a>
+                                                </div>
+                                                <div class="cbp-l-grid-projects-desc">
+                                                    {{ message.web_doc_24.des }}
+                                                </div>
+                                            </li>
+
                                             <li class="cbp-item web-site">
                                                 <div class="cbp-caption">
                                                     <div class="cbp-caption-defaultWrap">
@@ -1037,6 +1252,8 @@
                                                     {{ message.web_doc_1.des }}
                                                 </div>
                                             </li>
+
+
                                             <li class="cbp-item web-site">
                                                 <div class="cbp-caption">
                                                     <div class="cbp-caption-defaultWrap">
@@ -1207,6 +1424,11 @@
                                                     {{ message.web_doc_8.des }}
                                                 </div>
                                             </li>
+
+
+
+                                            
+
                                             <li class="cbp-item mobile">
                                                 <div class="cbp-caption">
                                                     <div class="cbp-caption-defaultWrap">
@@ -1228,6 +1450,29 @@
                                                     {{ message.web_doc_9.des }}
                                                 </div>
                                             </li>
+
+                                             <li class="cbp-item winapps">
+                                                <div class="cbp-caption">
+                                                    <div class="cbp-caption-defaultWrap">
+                                                        <img src="images/damnrod.jpg" alt="">
+                                                    </div>
+                                                    <div class="cbp-caption-activeWrap">
+                                                        <div class="cbp-l-caption-alignCenter">
+                                                            <div class="cbp-l-caption-body">
+                                                                <a href="potfolio/damnrod.html" class="cbp-singlePage cbp-l-caption-buttonLeft">{{ message.doc.more }}</a>
+                                                                <a href="images/damnrod.jpg" class="cbp-lightbox cbp-l-caption-buttonRight" data-title="{{ message.web_doc_25.title }}<br>by Phonkrit Saenjai">{{ message.doc.view }}</a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="cbp-l-grid-projects-title">
+                                                    <a href="potfolio/damnrod.html" class="cbp-singlePage"> {{ message.web_doc_25.title }} </a>
+                                                </div>
+                                                <div class="cbp-l-grid-projects-desc">
+                                                    {{ message.web_doc_25.des }}
+                                                </div>
+                                            </li>
+
                                         </ul>
                                     </div>
                                     <!-- <div class="cbp-l-loadMore-button">
@@ -1245,7 +1490,7 @@
                 <div class="row">
                     <div class="col-md-6 section-full-height" data-backcolor="#3e91a1">
                         <div class="map-container">
-                            <div class="location-map" id="gmap" data-map-lat="17.3949366" data-map-lng="102.8008133" data-zoom="18">
+                            <div class="location-map" id="gmap" data-map-lat="16.4455499" data-map-lng="102.822758" data-zoom="18">
                             </div>
                         </div>
                     </div>
@@ -1347,7 +1592,7 @@
         }));
     })(jQuery);
     </script>
-    <script src="app.js?version=3"></script>
+    <script src="app.js?version=5"></script>
     <script src="js/modernizr.custom.js"></script>
     <script src="js/html5-polyfills.js"></script>
     <script src="js/bootstrap.min.js"></script>
