@@ -45,8 +45,8 @@
                     },
                     'about_data': {
                         'title': 'เกี่ยวกับฉัน',
-                        'details_one': '<b> ประวัติส่วนตัว </b><hr/><br/> ชื่อ : นายพลกฤษ แสนใจ <br/> วันเดือนปีเกิด : 6 มกราคม พ.ศ. 2535 <br/> อายุ : 25 ปี <br/> สุขภาพ : สุขภาพดีไม่มีโรคติดต่อ <br/> น้ำหนัก : 59 กิโลกรัม <br/> ส่วนสูง : 177 เซนติเมตร <br/> สถานภาพทางการสมรส : <b class="text-danger" > โสด </b> ',
-                        'details_two': 'ปัจจุบันรับงานเขียนเว็บทั่วไป เเละ windows app , Android App Private .',
+                        'details_one': '<b> ประวัติส่วนตัว </b><hr/><br/> ชื่อ : นายพลกฤษ แสนใจ <br/> วันเดือนปีเกิด : 6 มกราคม พ.ศ. 2535 <br/> อายุ : 26 ปี <br/> สุขภาพ : สุขภาพดีไม่มีโรคติดต่อ <br/> น้ำหนัก : 62 กิโลกรัม <br/> ส่วนสูง : 177 เซนติเมตร <br/> สถานภาพทางการสมรส : <b class="text-danger" > โสด </b> ',
+                        'details_two': 'ปัจจุบันรับงานเขียนเว็บทั่วไป เเละ windows app , Android App Private . จัดการ Server ให้บริษัทนึง เเละของตัวเอง',
                         'tab_one': 'ประวัตืส่วนตัว',
                         'tab_two': 'การศึกษา',
                         'tab_three': 'ความสามารถ'
@@ -57,13 +57,13 @@
                     },
                     'skill_data': {
                         'title': 'ความสามารถ',
-                        'details': 'ความสามารถ ทางด้านภาษาการเขียนโปรแกรม จากประสปการณ์ในระหว่างทำการเรียนเเละศึกษาด้วยตัวเองมีความสามารถของแต่ละภาษาคร่าวๆ ด้วยกันดังนี้ + อื่นๆ NodeJs , Angularjs , React  Config Vps Digitalocean , AWS ได้เล็กน้อย ',
+                        'details': 'ความสามารถ ทางด้านภาษาการเขียนโปรแกรม จากประสปการณ์ในระหว่างทำการเรียนเเละศึกษาด้วยตัวเองมีความสามารถของแต่ละภาษาคร่าวๆ ด้วยกันดังนี้ + อื่นๆ NodeJs , Angularjs , React  Config Vps Digitalocean , AWS , Docker ',
                         'title_skill': 'ความสามารถทางภาษา'
                     },
                     'skill_content': {
-                        'skill_title_1': 'Yii framework',
-                        'skill_des_1': 'ความสามารถในการใช้  Yii framework',
-                        'skill_details_1': 'สามารถเขียนโปรแกรมโดยใช้ Framework Php Yii1 ได้เป็นอย่างดี',
+                        'skill_title_1': 'Yii framework & Codeigniter 3',
+                        'skill_des_1': 'ความสามารถในการใช้  Yii framework เเละ Codeigniter ',
+                        'skill_details_1': 'สามารถเขียนโปรแกรมโดยใช้ Framework Php Yii1 เเละ Codeigniter ได้เป็นอย่างดี',
                         'skill_title_2': 'Bootstrap',
                         'skill_des_2': 'ความสามารถในการใช้ Bootstrap',
                         'skill_details_2': 'มีความสามารถในการปรับแต่งและเข้าใจหลักการทำงานของ Bootstrap สามารถออกแบบการแสดงผลแบบ Responsive ได้',
@@ -72,7 +72,7 @@
                         'skill_details_3': 'มีความสามารถในการใช้ Plugin ของ facebook twitter , Github , Firebase และจัดการ server Linux ได้เป็นอย่างดี',
                         'skill_title_4': 'Mobile Apps / Android - IOS',
                         'skill_des_4': 'ความสามารถในการเขียน Mobile  apps',
-                        'skill_details_4': 'สามารถเขียน Mobile Apps โดยใช้ HTML5 (Phonegap, Cordova , Ionic) รับ - ส่งข้อมูลแบบ json  ได้ (Php webserver) '
+                        'skill_details_4': 'สามารถเขียน Mobile Apps โดยใช้ HTML5 (Phonegap, Cordova , Ionic) รับ - ส่งข้อมูลแบบ json  ได้ (Php webserver) สามารถใช้ React Native ได้เล็กน้อย '
                     },
                     'exs_data': {
                         'title': 'ประสปการณ์',
