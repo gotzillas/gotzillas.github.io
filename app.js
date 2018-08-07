@@ -17,13 +17,14 @@
                     },
                     'home_data': {
                         'header': 'พลกฤษ แสนใจ',
-                        'under_header': 'โปรแกรมเมอร์ & เว็บดีไซน์เนอร์',
+                        'under_header': 'โปรแกรมเมอร์ & เว็บดีไซน์เนอร์ & Admin Server',
                         'connect': 'การติดต่อ',
                         'slideTitle': "♥ ",
                         'slide_1': 'Web Developer',
                         'slide_2': 'Web Designer',
                         'slide_3': 'Mobile Developer',
                         'slide_4': 'Win App Developer.',
+                        'slide_5': 'Admin Server.',
                         'details': 'สวัสดีครับ ผมชื่อ นาย พลกฤษ แสนใจ เว็บไซต์นี้เป็นเว็บไซต์แนะนำตัวและผลงานที่ผมเคยทำมา ครับ แนะนำ browser ที่ใช้เปิดให้ใช้ google chrome นะครับเพื่อการแสดงผลที่เต็ม 100% ',
                         'btn_title': 'เกี่ยวกับฉัน',
                         'btn_title_resume': 'MY RESUME'
@@ -374,14 +375,14 @@
 
                     'home_data': {
                         'header': 'PHONKRIT SAENJAI',
-                        'under_header': 'Programmer And Web Designer',
+                        'under_header': 'Programmer And Web Designer & Admin Server',
                         'connect': 'Connect Me',
                         'slideTitle': "♥ ",
                         'slide_1': 'Web Developer',
                         'slide_2': 'Web Designer',
                         'slide_3': 'Mobile Developer',
                         'slide_4': 'Win App Developer.',
-                        'slide_5': 'Game Developer',
+                        'slide_5': 'Admin Server',
                         'details': 'Hello, my name is Mr. Phonkrit Saenjai , this website is a introduce and works .the browser enabled to use Google Chrome To display the full 100% if want to see resume create, click on My resume (only Web Browser Google Chrome).',
                         'btn_title': 'About ME',
                         'btn_title_resume': 'MY RESUME'
