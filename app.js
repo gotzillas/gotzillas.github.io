@@ -60,6 +60,11 @@
                         'details': 'ความสามารถ ทางด้านภาษาการเขียนโปรแกรม จากประสปการณ์ในระหว่างทำการเรียนเเละศึกษาด้วยตัวเองมีความสามารถของแต่ละภาษาคร่าวๆ ด้วยกันดังนี้ + อื่นๆ NodeJs , Angularjs , React  Config Vps Digitalocean , AWS , Docker ',
                         'title_skill': 'ความสามารถทางภาษา'
                     },
+                      'skill_data_server': {
+                        'title': 'ความสามารถทางด้าน Server',
+                        'details': 'มีความสามารถด้านจัดการระบบ Server เป็นอย่างดีของ Ubuntu Server โดยใช้ Docker เป็นตัวควบคุม สามารถสร้าง Container แยกใช้ของแต่ละโปรแกรมได้ สามารถสร้าง DB Replication & Mirror จาก MongoDB & Mysql & Pgsql ได้ สามารถสร้างระบบส่งข้อมูลแบบ Realtime โดยใช้ Mqtt & Websocket สรา้ง VPN เข้าถึงระบบเฉพาะได้ เเละจัดการระบบอื่นๆ [Webmail,Backup,Proxy] หาที่มาของปัญหา สามารถแก้ปัญหาได้เป็นอย่างดี',
+                        'title_skill': 'ความสามารถทางด้านระบบ Server'
+                    },
                     'skill_content': {
                         'skill_title_1': 'Yii framework & Codeigniter 3',
                         'skill_des_1': 'ความสามารถในการใช้  Yii framework เเละ Codeigniter ',
