@@ -1,0 +1,59 @@
+{
+    "data": 
+[
+    {
+        "title": "ระบบหอพัก",
+        "des": "แอพพลิเคชั่นวินโดว์ 2015",
+        "show_image": "images/5.jpg",
+        "show_image_l": "images/5big.jpg",
+        "type": "web-site",
+        "link": "template.html?id=1",
+        "des":
+        {
+            "title": "ระบบขายสินค้าเเว่นตาเเละหมวกด้วย",
+            "des": "เป็นระบบขายสินค้าที่ได้นำเทคโนโลยี AR เข้ามาใช้ในการทดลองสวมใส่สินค้า",
+            "image": [
+                "images/3big.jpg",
+                "images/3big-1.jpg",
+                "images/3big-2.jpg",
+                "images/3big-3.jpg"
+            ],
+            "des_full": "เป็นระบบการขายสินค้าโดยมีระบบการทดลองส่วมใส่สินค้าเพื่อให้การขายสินค้ามีความน่าสนใจมากขึ้น ภายในเว็บไซต์มีระบบให้คะแนนสินค้า มีการนำ facebook api เข้ามาเกี่ยวข้องกับงาน มีระบบจัดการสินค้า โปรโมชั่นและระบบจัดการข้อมูลพื้นฐานของการขายสินค้า",
+            "list":
+            {
+                "Deveoper": "Phonkrit Saenjai",
+                "Year": "2015",
+                "Type": "Website"
+            },
+            "link": " <a href=\"#\" target=\"_blank\" class=\"cbp-l-project-details-visit btn-view-profile\">เข้าสู่เว็บไซต์ (Code)</a>"
+        }
+    },
+    {
+        "title": "ForaHillResort",
+        "des": "ระบบจองโรมแรม",
+        "show_image": "images/fora1.jpg",
+        "show_image_l": "images/forrabig.jpg",
+        "type": "web-site",
+        "link": "template.html?id=2",
+        "des":
+        {
+            "title": "ForaHillResort",
+            "des": "ระบบจองโรมแรม",
+            "image": [
+                "images/foraslide1.jpg",
+                "images/foraslide2.jpg",
+                "images/foraslide3.jpg",
+                "images/forraadmin.jpg"
+            ],
+            "des_full": "เป็นระบบจัดการ การจองโรงแรม โรงแรม มีระบบจ่ายเงินผ่าน paypal",
+            "list":
+            {
+                "Deveoper": "Phonkrit Saenjai",
+                "Year": "2016",
+                "Type": "Website"
+            },
+            "link": " <a href=\"http:\/\/forrahillresort.co.th\/\" target=\"_blank\" class=\"cbp-l-project-details-visit btn-view-profile\">เข้าสู่เว็บไซต์</a>"
+        }
+    }
+]
+}

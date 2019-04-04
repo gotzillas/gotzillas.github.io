@@ -25,10 +25,10 @@
     <link rel="stylesheet" href="css/owl.theme.css">
     <link rel="stylesheet" href="css/justifiedgallery.css">
     <link rel="stylesheet" href="css/hover.css">
-    <link rel="stylesheet" href="css/styles.css?version=3">
+    <link rel="stylesheet" href="css/styles.css">
     <link id="theme-color" rel="stylesheet" href="css/theme-colors.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.2/angular.min.js"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.2/angular-sanitize.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.7.8/angular.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.7.8/angular-sanitize.js"></script>
     <!--<link href='http://fonts.googleapis.com/css?family=Roboto:400,400italic,500,500italic,700,900' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Roboto+Slab:400,700,300' rel='stylesheet' type='text/css'> -->
 </head>
@@ -53,21 +53,21 @@
                     <div class="col-md-12">
                         <div class="nav-container">
                             <nav class="main-nav">
-                                <ul class="sf-menu one-page-nav">
-                                    <li><a href="#home">
+                                <ul class="sf-menu " data-class="one-page-nav">
+                                    <li><a href="#home" class="goto">
                                 {{ message.show_menu_header.Home }}
                             </a>
                                     </li>
                                     <li>
                                         <a href="#about">{{ message.show_menu_header.About }}</a>
                                         <ul>
-                                            <li><a href="#skill">{{ message.show_menu_header.Skill }}</a></li>
-                                            <li><a href="#experience">{{ message.show_menu_header.Experience }}</a></li>
-                                            <li><a href="#education">{{ message.show_menu_header.Education }}</a></li>
+                                            <li><a href="#skill" class="goto">{{ message.show_menu_header.Skill }}</a></li>
+                                            <li><a href="#experience" class="goto">{{ message.show_menu_header.Experience }}</a></li>
+                                            <li><a href="#education" class="goto">{{ message.show_menu_header.Education }}</a></li>
                                         </ul>
                                     </li>
-                                    <li><a href="#portfolio">{{ message.show_menu_header.Portfolio }}</a></li>
-                                    <li><a href="#contact">{{ message.show_menu_header.Contact }}</a></li>
+                                    <li><a href="#portfolio" class="goto">{{ message.show_menu_header.Portfolio }}</a></li>
+                                    <li><a href="#contact" class="goto">{{ message.show_menu_header.Contact }}</a></li>
                                 </ul>
                                 <div class="lang pull-right">
                                     <a href="javascript:void(0)" ng-click="change_lang('thai')"><img src="images/thai-icon.png" width="25px"></a>
@@ -91,7 +91,7 @@
                             <div class="introduction-text">
                                 <div class="inner-element-container">
                                     <div class="profile-card">
-                                        <div class="image-block trim hero-profile-img" data-src="images/profile-img.jpg">
+                                        <div class="image-block trim hero-profile-img" data-src="images/34752557_1763447883677859_5465360633077694464_n.jpg">
                                             <a href="#" class="profileSelector">
                                                 <span class="profile-img-overlay">
                                         <span class="social-profile">
@@ -1538,7 +1538,7 @@
                                                     <div class="cbp-caption-activeWrap">
                                                         <div class="cbp-l-caption-alignCenter">
                                                             <div class="cbp-l-caption-body">
-                                                                <a href="potfolio/forahill.html" class="cbp-singlePage cbp-l-caption-buttonLeft">{{ message.doc.more }}</a>
+                                                                <a href="potfolio/template.html?id=1" class="cbp-singlePage cbp-l-caption-buttonLeft">{{ message.doc.more }}</a>
                                                                 <a href="images/forrabig.jpg" class="cbp-lightbox cbp-l-caption-buttonRight" data-title="{{ message.web_doc_11.title }}<br>by Phonkrit Saenjai">{{ message.doc.view }}</a>
                                                             </div>
                                                         </div>
@@ -1901,7 +1901,7 @@
                                                     <div class="cbp-caption-activeWrap">
                                                         <div class="cbp-l-caption-alignCenter">
                                                             <div class="cbp-l-caption-body">
-                                                                <a href="potfolio/ar.html" class="cbp-singlePage cbp-l-caption-buttonLeft">{{ message.doc.more }}</a>
+                                                                <a href="potfolio/template.html?id=0" class="cbp-singlePage cbp-l-caption-buttonLeft">{{ message.doc.more }}</a>
                                                                 <a href="images/3big.jpg" class="cbp-lightbox cbp-l-caption-buttonRight" data-title="{{ message.web_doc_4.title }}<br>by Phonkrit Saenjai">{{ message.doc.view }}</a>
                                                             </div>
                                                         </div>
@@ -2166,17 +2166,19 @@
         }));
     })(jQuery);
     </script>
-    <script src="app.js?version=13"></script>
+    <script src="app.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll@15.0/dist/smooth-scroll.polyfills.min.js"></script>
+
     <script src="js/modernizr.custom.js"></script>
     <script src="js/html5-polyfills.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/layout-plugins.js"></script>
-    <script src="js/essential-plugins.js?version=3"></script>
-    <script src="js/smoothscroll.js"></script>
+    <script src="js/essential-plugins.js"></script>
+
     <script src="js/owl.carousel.min.js"></script>
-    <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&key=AIzaSyD25TAK_0Vye2aI5g4PYsWDf-KB6aPdWuM"></script>
-    <script src="js/map.init.js?ver=12"></script>
-    <script src="js/portfolio-init.js?version=2"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD25TAK_0Vye2aI5g4PYsWDf-KB6aPdWuM"></script>
+    <script src="js/map.init.js"></script>
+    <script src="js/portfolio-init.js"></script>
     <script src="js/init.js"></script>
 </body>
 

@@ -1,0 +1,92 @@
+<div ng-view>
+    <div class="cbp-l-project-title" id="title_top"></div>
+    <div class="cbp-l-project-subtitle" id="title_des"> </div>
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators" id="btn_cus">
+            
+        </ol>
+        <div class="carousel-inner" role="listbox" id="list_box">
+        </div>
+        <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
+    </div>
+    <div class="cbp-l-project-container">
+        <div class="cbp-l-project-desc">
+            <div class="cbp-l-project-desc-title"><span>Project Description</span></div>
+            <div class="cbp-l-project-desc-text" id="des_full"></div>
+        </div>
+        <div class="cbp-l-project-details">
+            <div class="cbp-l-project-details-title"><span>Project Details</span></div>
+            <ul class="cbp-l-project-details-list" id="data_list">
+            </ul>
+            <div id="link_data"></div>
+        </div>
+    </div>
+</div>
+<script src="js/jquery-1.11.0.min.js"></script>
+<!-- <script src="js/bootstrap.min.js"></script> -->
+<script type="text/javascript">
+function getUrlVars() {
+    var vars = {};
+    var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, function(m, key, value) {
+        vars[key] = value;
+    });
+    return vars;
+}
+let get_id = getUrlVars()['id'];
+console.log(get_id);
+$.ajax({
+    url: "/db/database.json",
+    success: function(result) {
+         $('#btn_cus').html('');
+            $('#list_box').html('');
+        if (result.data[get_id]) {
+            let load_data = result.data[get_id].des;
+            
+            console.log(load_data);
+
+            $('#title_top').html(load_data.title);
+            $('#title_des').html(load_data.des);
+            $('#des_full').html(load_data.des_full);
+            let data_html_list = '' , data_html_btn = '' , data_html_listbox = '';
+
+            let data_list = load_data.list;
+
+            for (const [key, value] of Object.entries(load_data.list)) {
+                data_html_list += '<li><strong>' + key + '</strong> ' + value + '</li>';
+            }
+
+            load_data.image.forEach( function(element, index) {
+
+                let active = '';
+
+                if(index == 0)
+                {
+                    active = 'active';
+                }
+
+                data_html_btn += `<li data-target="#myCarousel" data-slide-to="`+index+`" class="`+active+`"></li>`;
+                data_html_listbox += `<div class="item `+active+`"><img src="`+element+`" alt="ar"></div>`;
+
+            });
+
+           
+            $('#btn_cus').html(data_html_btn);
+
+            $('#list_box').html(data_html_listbox);
+
+            $('#data_list').html(data_html_list);
+            $('#link_data').html(load_data.link);
+           
+            
+        }
+
+    }
+});
+</script>

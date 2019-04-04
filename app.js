@@ -17,14 +17,14 @@
                     },
                     'home_data': {
                         'header': 'พลกฤษ แสนใจ',
-                        'under_header': 'โปรแกรมเมอร์ & เว็บดีไซน์เนอร์ & Admin Server',
+                        'under_header': 'โปรแกรมเมอร์ & เว็บดีไซน์เนอร์ & Server Administrator',
                         'connect': 'การติดต่อ',
                         'slideTitle': "♥ ",
                         'slide_1': 'Web Developer',
                         'slide_2': 'Web Designer',
                         'slide_3': 'Mobile Developer',
                         'slide_4': 'Win App Developer.',
-                        'slide_5': 'Admin Server.',
+                        'slide_5': 'Server Administrator.',
                         'details': 'สวัสดีครับ ผมชื่อ นาย พลกฤษ แสนใจ เว็บไซต์นี้เป็นเว็บไซต์แนะนำตัวและผลงานที่ผมเคยทำมา ครับ แนะนำ browser ที่ใช้เปิดให้ใช้ google chrome นะครับเพื่อการแสดงผลที่เต็ม 100% ',
                         'btn_title': 'เกี่ยวกับฉัน',
                         'btn_title_resume': 'MY RESUME'
@@ -41,11 +41,11 @@
                         'tab_three_details': 'มีความสามารถในการจัดตั้ง Server OS ระบบ debian ubuntu ทำระบบ load balance จัดการระบบโดยใช้ docker ได้เป็นอย่างดี',
                         'tab_four_title': 'การทำงานเป็นทีม',
                         'tab_four_name': 'Skilled Team',
-                        'tab_four_details': 'สามารถทำงานเป็นทีมและสามารถทำงานในหลักการทำงานแบบ MVC ได้'
+                        'tab_four_details': 'สามารถทำงานเป็นทีมและสามารถทำงานในหลักการทำงานแบบ MVC ได้ สามารถใช้ git ได้ github , gitlab'
                     },
                     'about_data': {
                         'title': 'เกี่ยวกับฉัน',
-                        'details_one': '<b> ประวัติส่วนตัว </b><hr/><br/> ชื่อ : นายพลกฤษ แสนใจ <br/> วันเดือนปีเกิด : 6 มกราคม พ.ศ. 2535 <br/> อายุ : 26 ปี <br/> สุขภาพ : สุขภาพดีไม่มีโรคติดต่อ <br/> น้ำหนัก : 62 กิโลกรัม <br/> ส่วนสูง : 177 เซนติเมตร <br/> สถานภาพทางการสมรส : <b class="text-danger" > โสด </b> ',
+                        'details_one': '<b> ประวัติส่วนตัว </b><hr/><br/> ชื่อ : นายพลกฤษ แสนใจ <br/> วันเดือนปีเกิด : 6 มกราคม พ.ศ. 2535 <br/> อายุ : 27 ปี <br/> สุขภาพ : สุขภาพดีไม่มีโรคติดต่อ <br/> น้ำหนัก : 62 กิโลกรัม <br/> ส่วนสูง : 177 เซนติเมตร <br/> สถานภาพทางการสมรส : <b class="text-danger" > โสด </b> ',
                         'details_two': 'ปัจจุบันรับงานเขียนเว็บทั่วไป เเละ windows app , Android App Private . จัดการ Server ให้บริษัทนึง เเละของตัวเอง',
                         'tab_one': 'ประวัตืส่วนตัว',
                         'tab_two': 'การศึกษา',
@@ -144,12 +144,12 @@
                         'tab_1': 'ทั้งหมด',
                         'tab_2': 'เว็บไซต์',
                         'tab_3': 'วินโดว์แอพพลิเคชั่น',
-                        'tab_4': 'โมบาย',
+                        'tab_4': 'โมบายแอพ',
                         'tab_5': 'Server'
                     },
                     'contract_data': {
                         'title': 'การติดต่อ',
-                        'des': 'เบอร์โทรติดต่อ : 085-459-3048 (อาก้า) <br/>อีเมลล์ : phonkritSaenjai@gmail.com , gotzillaphonkrit@gmail.com',
+                        'des': 'เบอร์โทรติดต่อ : 085-459-3048 (อาก้า) <br/>อีเมลล์ :  gotzillaphonkrit@gmail.com',
                         'name': 'ชื่อ',
                         'email': 'อีเมลล์ติดต่อกลับ',
                         'subject': 'หัวข้อ',
@@ -389,14 +389,14 @@
 
                     'home_data': {
                         'header': 'PHONKRIT SAENJAI',
-                        'under_header': 'Programmer And Web Designer & Admin Server',
+                        'under_header': 'Programmer And Web Designer & Server Administrator',
                         'connect': 'Connect Me',
                         'slideTitle': "♥ ",
                         'slide_1': 'Web Developer',
                         'slide_2': 'Web Designer',
                         'slide_3': 'Mobile Developer',
                         'slide_4': 'Win App Developer.',
-                        'slide_5': 'Admin Server',
+                        'slide_5': 'Server Administrator',
                         'details': 'Hello, my name is Mr. Phonkrit Saenjai , this website is a introduce and works .the browser enabled to use Google Chrome To display the full 100% if want to see resume create, click on My resume (only Web Browser Google Chrome).',
                         'btn_title': 'About ME',
                         'btn_title_resume': 'MY RESUME'
@@ -410,7 +410,7 @@
                         'tab_two_name': 'Web Designer',
                         'tab_two_details': 'Have the ability to design website, front-end framework Bootstrap Css3 as well.',
                         'tab_three_title': 'Server',
-                        'tab_three_name': 'Admin Server',
+                        'tab_three_name': 'Server Administrator',
                         'tab_three_details': 'The ability to ubuntu Server OS debian system, establishment of system load balance management system using the docker as well.',
                         'tab_four_title': 'Skilled Team',
                         'tab_four_name': 'Skilled Team',
@@ -420,7 +420,7 @@
 
                     'about_data': {
                         'title': 'About Me',
-                        'details_one': '<b> About </b><hr/><br/> Name : Phonkrit Saenjai <br/> Birthday  : 6 January 1992 <br/> Age : 25  <br/> Health : Excellent <br/> weight : 59 kilogram <br/> high : 177 centimeter <br/> Marital Status : <b class="text-danger" > Single </b> ',
+                        'details_one': '<b> About </b><hr/><br/> Name : Phonkrit Saenjai <br/> Birthday  : 6 January 1992 <br/> Age : 27  <br/> Health : Excellent <br/> weight : 59 K.G <br/> high : 177 CM <br/> Marital Status : <b class="text-danger" > Single </b> ',
                         'details_two': 'At present, develop website in general, and windows app , Android App Private . ',
                         'tab_one': 'About',
                         'tab_two': 'Education',
@@ -538,7 +538,7 @@
 
                     'contract_data': {
                         'title': 'Contact',
-                        'des': 'Tel : 085-459-3048 (Arkar) <br/> Email : phonkritSaenjai@gmail.com , gotzillaphonkrit@gmail.com',
+                        'des': 'Tel : 085-459-3048 (Arkar) <br/> Email : gotzillaphonkrit@gmail.com',
                         'name': 'Name',
                         'email': 'Email',
                         'subject': 'Subject',
