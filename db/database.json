@@ -1,59 +1,1030 @@
-{
-    "data": 
-[
-    {
-        "title": "ระบบหอพัก",
-        "des": "แอพพลิเคชั่นวินโดว์ 2015",
-        "show_image": "images/5.jpg",
-        "show_image_l": "images/5big.jpg",
-        "type": "web-site",
-        "link": "template.html?id=1",
-        "des":
-        {
-            "title": "ระบบขายสินค้าเเว่นตาเเละหมวกด้วย",
-            "des": "เป็นระบบขายสินค้าที่ได้นำเทคโนโลยี AR เข้ามาใช้ในการทดลองสวมใส่สินค้า",
-            "image": [
-                "images/3big.jpg",
-                "images/3big-1.jpg",
-                "images/3big-2.jpg",
-                "images/3big-3.jpg"
+{  
+   "data":[  
+      {  
+         "title":"App PTTOR",
+         "title_en":"APP PTTOR สั่งซื้อน้ำมัน 2019",
+         "des_th":"APP PTTOR สั่งซื้อน้ำมัน 2019 ",
+         "des_en":"APP PTTOR สั่งซื้อน้ำมัน 2019",
+         "show_image":"newimg/22418.jpg",
+         "show_image_l":"newimg/22418.jpg",
+         "type":"mobile",
+         "link":"",
+         "des":{  
+            "title":"App PTTOR",
+            "des":"APP PTTOR สั่งซื้อน้ำมัน 2019",
+            "image":[  
+               "newimg/22418.jpg",
+               "newimg/22419.jpg",
+               "newimg/22420.jpg",
+               "newimg/22421.jpg"
             ],
-            "des_full": "เป็นระบบการขายสินค้าโดยมีระบบการทดลองส่วมใส่สินค้าเพื่อให้การขายสินค้ามีความน่าสนใจมากขึ้น ภายในเว็บไซต์มีระบบให้คะแนนสินค้า มีการนำ facebook api เข้ามาเกี่ยวข้องกับงาน มีระบบจัดการสินค้า โปรโมชั่นและระบบจัดการข้อมูลพื้นฐานของการขายสินค้า",
-            "list":
-            {
-                "Deveoper": "Phonkrit Saenjai",
-                "Year": "2015",
-                "Type": "Website"
+            "des_full":"APP PTTOR สั่งซื้อน้ำมัน 2019",
+            "list":{  
+               "Deveoper":"Phonkrit Saenjai",
+               "Year":"2019",
+               "Type":"mobile"
             },
-            "link": " <a href=\"#\" target=\"_blank\" class=\"cbp-l-project-details-visit btn-view-profile\">เข้าสู่เว็บไซต์ (Code)</a>"
-        }
-    },
-    {
-        "title": "ForaHillResort",
-        "des": "ระบบจองโรมแรม",
-        "show_image": "images/fora1.jpg",
-        "show_image_l": "images/forrabig.jpg",
-        "type": "web-site",
-        "link": "template.html?id=2",
-        "des":
-        {
-            "title": "ForaHillResort",
-            "des": "ระบบจองโรมแรม",
-            "image": [
-                "images/foraslide1.jpg",
-                "images/foraslide2.jpg",
-                "images/foraslide3.jpg",
-                "images/forraadmin.jpg"
+            "link":"-"
+         }
+      },
+      {  
+         "title":"Udon City Bus",
+         "title_en":"Udon City Bus แอพแสดงตำแหน่งรถบัส พร้อมเส้นทางการเดินรถจังหวัดอุดรธานี",
+         "des_th":"Udon City Bus แอพแสดงตำแหน่งรถบัส พร้อมเส้นทางการเดินรถจังหวัดอุดรธานี ",
+         "des_en":"Udon City Bus แอพแสดงตำแหน่งรถบัส พร้อมเส้นทางการเดินรถจังหวัดอุดรธานี",
+         "show_image":"https://lh3.googleusercontent.com/gYY3FuSaXqBdffuIvKoF7Z2IDZbqlbQd3c0M7iGOfgUPCs7Ae0NPFbc-iu3GiitprTI=w1280-h605-rw",
+         "show_image_l":"https://lh3.googleusercontent.com/gYY3FuSaXqBdffuIvKoF7Z2IDZbqlbQd3c0M7iGOfgUPCs7Ae0NPFbc-iu3GiitprTI=w1280-h605-rw",
+         "type":"mobile",
+         "link":"",
+         "des":{  
+            "title":"Udon City Bus",
+            "des":"Udon City Bus แอพแสดงตำแหน่งรถบัส พร้อมเส้นทางการเดินรถจังหวัดอุดรธานี",
+            "image":[  
+               "https://lh3.googleusercontent.com/oAu0Te6raWlSv0jOBIJccMzccuMteXv5WU3kyCbsxy9B--8HlhCaIhej5UH_OwBYV1iB=w1280-h605-rw",
+               "https://lh3.googleusercontent.com/PZq04fmliZN7nqyhMNkYq7fJlo9qr1gYgjtt7I0uAm6Weg_CuLXfNHZZ7xo8wSmpySY=w1280-h605-rw",
+               "https://lh3.googleusercontent.com/QbAkcVYF_Wh0lZdCI_TbOq4H_j9u_i8__YQKTqLhSaNoTYqhPwD__DLbHt9NguvfxZid=w1280-h605-rw",
+               "https://lh3.googleusercontent.com/a8RzLkrV7yXFTPwsNB9WmKjvAZYcV8enWiG3ytIHYJ6saLAmiibd4qLYSzcqqXXFKw=w1280-h605-rw"
             ],
-            "des_full": "เป็นระบบจัดการ การจองโรงแรม โรงแรม มีระบบจ่ายเงินผ่าน paypal",
-            "list":
-            {
-                "Deveoper": "Phonkrit Saenjai",
-                "Year": "2016",
-                "Type": "Website"
+            "des_full":"Udon City Bus แอพแสดงตำแหน่งรถบัส พร้อมเส้นทางการเดินรถจังหวัดอุดรธานี",
+            "list":{  
+               "Deveoper":"Phonkrit Saenjai",
+               "Year":"2019",
+               "Type":"mobile"
             },
-            "link": " <a href=\"http:\/\/forrahillresort.co.th\/\" target=\"_blank\" class=\"cbp-l-project-details-visit btn-view-profile\">เข้าสู่เว็บไซต์</a>"
-        }
-    }
-]
+            "link":"-"
+         }
+      },
+      {  
+         "title":"siampetrotrade",
+         "title_en":"-",
+         "des_th":" เว็บไซต์ 2015",
+         "des_en":"-",
+         "show_image":"images/s1.JPG",
+         "show_image_l":"images/s1.JPG",
+         "type":"web-site",
+         "link":"-",
+         "des":{  
+            "title":"SIAMPETROTRADE",
+            "des":"เว็บประชาสัมพัน - ราคาน้ำมัน",
+            "image":[  
+               "images/s1.JPG",
+               "images/s1.JPG",
+               "images/s1.JPG"
+            ],
+            "des_full":"ระบบมีสองภาษา ระบบจัดการภาพ ระบบแท๊ก ใช้ Yii framework",
+            "list":{  
+               "Deveoper":"Phonkrit Saenjai",
+               "Year":"2015",
+               "Type":"website"
+            },
+            "link":"-"
+         }
+      },
+      {  
+         "title":"ForaHillResort",
+         "title_en":"ForaHillResort",
+         "des_th":"ระบบจองโรมแรม",
+         "des_en":"ระบบจองโรมแรม",
+         "show_image":"images/fora1.jpg",
+         "show_image_l":"images/forrabig.jpg",
+         "type":"web-site",
+         "link":"template.html?id=1",
+         "des":{  
+            "title":"ForaHillResort",
+            "des":"ระบบจองโรมแรม",
+            "image":[  
+               "images/foraslide1.jpg",
+               "images/foraslide2.jpg",
+               "images/foraslide3.jpg",
+               "images/forraadmin.jpg"
+            ],
+            "des_full":"เป็นระบบจัดการ การจองโรงแรม โรงแรม มีระบบจ่ายเงินผ่าน paypal",
+            "list":{  
+               "Deveoper":"Phonkrit Saenjai",
+               "Year":"2016",
+               "Type":"Website"
+            },
+            "link":" <a href=\"http:\/\/forrahillresort.co.th\/\" target=\"_blank\" class=\"cbp-l-project-details-visit btn-view-profile\">เข้าสู่เว็บไซต์</a>"
+         }
+      },
+      {  
+         "title":"Damnroad",
+         "title_en":"Damnroad",
+         "des_th":"ระบบร้านขายอาหาร",
+         "des_en":"ระบบร้านขายอาหาร",
+         "show_image":"images/damnrod.jpg",
+         "show_image_l":"images/damnrod.jpg",
+         "type":"winapps",
+         "link":"template.html?id=2",
+         "des":{  
+            "title":"Damnroad",
+            "des":"เป็นระบบขายอาหาร มีออกใบเสร็จ คำนวนรายรับรายจ่ายต่อวัน รูปแบบตามใจลูกค้า",
+            "image":[  
+               "images/damnrod.jpg"
+            ],
+            "des_full":"เป็นระบบขายอาหาร มีออกใบเสร็จ คำนวนรายรับรายจ่ายต่อวัน รูปแบบตามใจลูกค้า",
+            "list":{  
+               "Deveoper":"Phonkrit Saenjai",
+               "Year":"2016",
+               "Type":"windows-app"
+            },
+            "link":"-"
+         }
+      },
+      {  
+         "title":"App บันทึกอาหารที่ชอบ",
+         "title_en":"App บันทึกอาหารที่ชอบ",
+         "des_th":"เป็นระบบบันทึกข้อความโดยใช้ ionic framwork ผ่าน service ",
+         "des_en":"เป็นระบบบันทึกข้อความโดยใช้ ionic framwork ผ่าน service ",
+         "show_image":"images/9.jpg",
+         "show_image_l":"images/10big.jpg",
+         "type":"mobile",
+         "link":"template.html?id=3",
+         "des":{  
+            "title":"App บันทึกอาหารที่ชอบ",
+            "des":"เป็นระบบบันทึกข้อความโดยใช้ ionic framwork ผ่าน service โดยใช้ json โดยมีระบบเพิ่มลบแก้ไขข้อมูล ผ่านเว็บ services ได้",
+            "image":[  
+               "images/10big.jpg",
+               "images/10big-1.jpg",
+               "images/10big-2.jpg",
+               "images/10big-3.jpg"
+            ],
+            "des_full":"เป็นระบบขายอาหาร มีออกใบเสร็จ คำนวนรายรับรายจ่ายต่อวัน รูปแบบตามใจลูกค้า",
+            "list":{  
+               "Deveoper":"Phonkrit Saenjai",
+               "Year":"2015",
+               "Type":"mobile"
+            },
+            "link":"-"
+         }
+      },
+      {  
+         "title":"ห้องพัก Yii framework",
+         "title_en":"ห้องพัก Yii framework",
+         "des_th":"Yii Hotel Booking ",
+         "des_en":"Yii Hotel Booking",
+         "show_image":"images/4.jpg",
+         "show_image_l":"images/4big.jpg",
+         "type":"web-site",
+         "link":"template.html?id=4",
+         "des":{  
+            "title":"ห้องพัก Yii framework",
+            "des":"Yii Hotel Booking",
+            "image":[  
+               "images/4big.jpg",
+               "images/4big-1.jpg",
+               "images/4big-2.jpg"
+            ],
+            "des_full":"เป็นระบบจองโรงแรม",
+            "list":{  
+               "Deveoper":"Phonkrit Saenjai",
+               "Year":"2015",
+               "Type":"website"
+            },
+            "link":"-"
+         }
+      },
+      {  
+         "title":"ระบบหอพัก",
+         "title_en":"ระบบหอพัก",
+         "des_th":"แอพพลิเคชั่นวินโดว์ห้องพัก 2015",
+         "des_en":"แอพพลิเคชั่นวินโดว์ห้องพัก 2015",
+         "show_image":"images/8.jpg",
+         "show_image_l":"images/8big.jpg",
+         "type":"winapps",
+         "link":"template.html?id=5",
+         "des":{  
+            "title":"ระบบหอพัก",
+            "des":"เป็นระบบหอพักโดยใช้ theme ของ .netbar",
+            "image":[  
+               "images/8big.jpg",
+               "images/8big-1.jpg",
+               "images/8big-2.jpg"
+            ],
+            "des_full":"เป็นรับบจัดการข้อมูลหอพักโดยสามารถจัดการข้อมูลที่จำเป็นในการจัดการห้องพัก มีระบบจองห้องพัก การเซ็คอิน การเซ็คเอ้า ห้องพัก มีการออกรายงานของแต่ละเดือน มีระบบแจ้งเกือนกรณีไม่จ่ายค่าห้องพัก ตัวนี่ได้ทีมงานพัฒนาช่วยกัน 3 คน ช่วงหารายได้ระหว่างเรียน",
+            "list":{  
+               "Deveoper":"Phonkrit Saenjai",
+               "Year":"2015",
+               "Type":"winapps"
+            },
+            "link":"-"
+         }
+      },
+      {  
+         "title":"ระบบจัดการร้านคอมพิวเตอร์",
+         "title_en":"ระบบจัดการร้านคอมพิวเตอร์",
+         "des_th":"แอพพลิเคชั่นวินโดว์ห้องพัก 2015",
+         "des_en":"แอพพลิเคชั่นวินโดว์ห้องพัก 2015",
+         "show_image":"images/7.jpg",
+         "show_image_l":"images/7big.jpg",
+         "type":"winapps",
+         "link":"template.html?id=6",
+         "des":{  
+            "title":"ระบบจัดการการขาย COMPUTER",
+            "des":"เป็นระบบจัดการข้อมูลการขาย Computer",
+            "image":[  
+               "images/7big.jpg",
+               "images/7big-1.jpg",
+               "images/7big-2.jpg"
+            ],
+            "des_full":"เป็นระบบจัดการข้อมูลการขายสินค้าคอมพิวเคอร์โดยทุกๆ การสั่งซื้อจะมีระบบของแถมว่าสินค้านั้นๆ จะได้ของแถมอะไรบ้าง โดยการจัดการข้อมูลก็เป็นระบบจัดการข้อมูลสินค้าทั่วไป และ สามารถออกรายงานการขายและอื่นๆได้",
+            "list":{  
+               "Deveoper":"Phonkrit Saenjai",
+               "Year":"2015",
+               "Type":"winapps"
+            },
+            "link":"-"
+         }
+      },
+      {  
+         "title":"ระบบขายสินค้า Minimart",
+         "title_en":"ระบบขายสินค้า Minimart",
+         "des_th":"แอพพลิเคชั่นวินโดว์ห้องพัก 2015",
+         "des_en":"แอพพลิเคชั่นวินโดว์ห้องพัก 2015",
+         "show_image":"images/6.jpg",
+         "show_image_l":"images/6big.jpg",
+         "type":"winapps",
+         "link":"template.html?id=7",
+         "des":{  
+            "title":"ระบบขายสินค้า Minimart",
+            "des":"เป็นระบบจัดการร้านค้าขายสินค้าขนาดเล็ก",
+            "image":[  
+               "images/6big.jpg",
+               "images/6big-1.jpg",
+               "images/6big-2.jpg"
+            ],
+            "des_full":"เป็นระบบจัดการร้านค้าขายสินค้าขนาดเล็กมีระบบจัดการข้อมูลสินค้าประเภทสินค้า สมาชิก มีการนับแต้มการสั่งซื้อสินค้าเพื่อมาแลกสินค้าได้ โดยระบบรวมๆ ก็เป็นระบบขายสินค้า สามารถออกรายงานการขายได้",
+            "list":{  
+               "Deveoper":"Phonkrit Saenjai",
+               "Year":"2015",
+               "Type":"winapps"
+            },
+            "link":"-"
+         }
+      },
+      {  
+         "title":"ระบบขายเเว่นตาเเละหมวกด้วย AR",
+         "title_en":"ระบบขายเเว่นตาเเละหมวกด้วย AR",
+         "des_th":"เว็บไซต์ 2015",
+         "des_en":"เว็บไซต์ 2015",
+         "show_image":"images/3.jpg",
+         "show_image_l":"images/3big.jpg",
+         "type":"web-site",
+         "link":"template.html?id=8",
+         "des":{  
+            "title":"ระบบขายสินค้าเเว่นตาเเละหมวกด้วย AR",
+            "des":"เป็นระบบขายสินค้าที่ได้นำเทคโนโลยี AR เข้ามาใช้ในการทดลองสวมใส่สินค้า",
+            "image":[  
+               "images/3big.jpg",
+               "images/3big-1.jpg",
+               "images/3big-2.jpg",
+               "images/3big-3.jpg"
+            ],
+            "des_full":"เป็นระบบการขายสินค้าโดยมีระบบการทดลองส่วมใส่สินค้าเพื่อให้การขายสินค้ามีความน่าสนใจมากขึ้น ภายในเว็บไซต์มีระบบให้คะแนนสินค้า มีการนำ facebook api เข้ามาเกี่ยวข้องกับงาน มีระบบจัดการสินค้า โปรโมชั่นและระบบจัดการข้อมูลพื้นฐานของการขายสินค้า",
+            "list":{  
+               "Deveoper":"Phonkrit Saenjai",
+               "Year":"2015",
+               "Type":"website"
+            },
+            "link":"-"
+         }
+      },
+      {  
+         "title":"Doggudy Shop",
+         "title_en":"Doggudy Shop",
+         "des_th":"เว็บไซต์ 2015",
+         "des_en":"เว็บไซต์ 2015",
+         "show_image":"images/d1.JPG",
+         "show_image_l":"images/d1.JPG",
+         "type":"web-site",
+         "link":"template.html?id=8",
+         "des":{  
+            "title":"DOGGUDY SHOP",
+            "des":"ระบบขายสุนัขเเละสินค้าของสุนัข",
+            "image":[  
+               "images/d1.JPG",
+               "images/d2.JPG",
+               "images/d3.JPG"
+            ],
+            "des_full":"เป็นระบบจัดการ ขายสินค้าธรรมดา",
+            "list":{  
+               "Deveoper":"Phonkrit Saenjai",
+               "Year":"2015",
+               "Type":"website"
+            },
+            "link":"-"
+         }
+      },
+      {  
+         "title":"ระบบขายสังฆภันณ์ online",
+         "title_en":"-",
+         "des_th":"เว็บไซต์ 2015",
+         "des_en":"-",
+         "show_image":"images/2.jpg",
+         "show_image_l":"images/2big.jpg",
+         "type":"web-site",
+         "link":"-",
+         "des":{  
+            "title":"สังฆภัณฑ์ ออนไลน์",
+            "des":"เป็นระบบขายสินค้า online มีระบบการจัดเซ็ตโปรโมชั่น & google maps ระยะจัดส่ง",
+            "image":[  
+               "images/2big.jpg",
+               "images/2big-1.jpg",
+               "images/2big-2.jpg"
+            ],
+            "des_full":"เป็นระบบขายสินค้าที่ชำให้ลูกค้ามีระบบ login ด้วย facebook และ twister ระบบสั่งซื้อสินค้าเเละจัดส่งสินค้าผ่าน google maps มีระบบจัดการหลังร้านที่สามารถจัดการและออกข้อมูลต่างๆ ได้ สามารถเข้าดูผู้ดูเเลระบบได้ด้วย username : admin password : admin",
+            "list":{  
+               "Deveoper":"Phonkrit Saenjai",
+               "Year":"2015",
+               "Type":"website"
+            },
+            "link":"-"
+         }
+      },
+      {  
+         "title":"Hashtags",
+         "title_en":"-",
+         "des_th":" Hashtags Intragram",
+         "des_en":"-",
+         "show_image":"images/1.jpg",
+         "show_image_l":"images/1big.jpg",
+         "type":"web-site",
+         "link":"-",
+         "des":{  
+            "title":"HASHTAGS INTRAGRAM",
+            "des":"การดึงข้อมูลภาพจาก #Tags ที่ค้นหาจาก Intragram",
+            "image":[  
+               "images/1big.jpg",
+               "images/1big-1.jpg",
+               "images/1big-2.jpg"
+            ],
+            "des_full":"ระบบทดสอบการดึงข้อมูลภาพจาก #Tags ที่ค้นหาจาก Intragram โดยตั้งผลไว้ว่าจะทำให้สามารถ print ภาพได้",
+            "list":{  
+               "Deveoper":"Phonkrit Saenjai",
+               "Year":"2015",
+               "Type":"website"
+            },
+            "link":"-"
+         }
+      },
+      {  
+         "title":"ระบบขายรองเท้า online",
+         "title_en":"-",
+         "des_th":" เว็บไซต์ 2015",
+         "des_en":"-",
+         "show_image":"images/5.jpg",
+         "show_image_l":"images/5big.jpg",
+         "type":"web-site",
+         "link":"-",
+         "des":{  
+            "title":"SHOUESHOP ONLINE (ระบบร้านขายรองเท้า)",
+            "des":"เป็นระบบขายสินค้ารองเท้า",
+            "image":[  
+               "images/5big.jpg",
+               "images/5big-1.jpg",
+               "images/5big-2.jpg"
+            ],
+            "des_full":"เป็นระบบขายรองเท้า มีระบบจ่ายเงินผ่านธนาคาร เเละสามารถ login ผ่าน facebook ได้ โดยมีระบบหลังร้านสามารถจัดการข้อมูลต่างๆและสามารถออกรายงานได้ ",
+            "list":{  
+               "Deveoper":"Phonkrit Saenjai",
+               "Year":"2015",
+               "Type":"website"
+            },
+            "link":"-"
+         }
+      },
+      {  
+         "title":"nongkhainewsonline",
+         "title_en":"-",
+         "des_th":" เว็บไซต์ 2016",
+         "des_en":"-",
+         "show_image":"images/nong.JPG",
+         "show_image_l":"images/nong2.JPG",
+         "type":"web-site",
+         "link":"-",
+         "des":{  
+            "title":"NONGKHAINEWSONLINE",
+            "des":"เว็บข่าวทั่วไป แบบ ตามใจเเบบลูกค้า",
+            "image":[  
+               "images/nong.JPG",
+               "images/nong2.JPG"
+            ],
+            "des_full":"ระบบอัพข่าวทั่วไป เว็บแบบตามใจลูกค้าชอบรูปแบบนี้ ",
+            "list":{  
+               "Deveoper":"Phonkrit Saenjai",
+               "Year":"2016",
+               "Type":"website"
+            },
+            "link":"-"
+         }
+      },
+      {  
+         "title":"ivillage",
+         "title_en":"-",
+         "des_th":" เว็บไซต์ 2015",
+         "des_en":"-",
+         "show_image":"images/ivil.JPG",
+         "show_image_l":"images/ivil.JPG",
+         "type":"web-site",
+         "link":"-",
+         "des":{  
+            "title":"SIAMPETROTRADE",
+            "des":"เว็บประชาสัมพัน - ราคาน้ำมัน",
+            "image":[  
+               "images/ivil.JPG",
+               "images/ivil2.JPG",
+               "images/ivil3.JPG"
+            ],
+            "des_full":"เว็บประชาสัมพันธ์ทั่วไปมีระบบจัดการ หลังบ้านเล็กน้อย framework Yii",
+            "list":{  
+               "Deveoper":"Phonkrit Saenjai",
+               "Year":"2015",
+               "Type":"website"
+            },
+            "link":"-"
+         }
+      },
+      {  
+         "title":"smart drive อุดร",
+         "title_en":"-",
+         "des_th":" เว็บไซต์ 2015",
+         "des_en":"-",
+         "show_image":"images/sm1.JPG",
+         "show_image_l":"images/sm1.JPG",
+         "type":"web-site",
+         "link":"-",
+         "des":{  
+            "title":"SMARTDRIVEUDON",
+            "des":"โรงเรียนสอนขับรถ",
+            "image":[  
+               "images/sm1.JPG",
+               "images/sm2.JPG"
+            ],
+            "des_full":"เว็บประชาสัมพันธ์ทั่วไปมีระบบจัดการ หลังบ้าน framework Yii",
+            "list":{  
+               "Deveoper":"Phonkrit Saenjai",
+               "Year":"2015",
+               "Type":"website"
+            },
+            "link":"<a href=\"http:\/\/www.smartdriveudon.com\/\" target=\"_blank\" class=\"cbp-l-project-details-visit btn-view-profile\">เข้าสู่เว็บไซต์</a>"
+         }
+      },
+      {  
+         "title":"มวยไทยออนไลน์",
+         "title_en":"-",
+         "des_th":" เว็บไซต์ 2015",
+         "des_en":"-",
+         "show_image":"images/m1.JPG",
+         "show_image_l":"images/m1.JPG",
+         "type":"web-site",
+         "link":"-",
+         "des":{  
+            "title":"มวยไทยออนไลน์",
+            "des":"เว็บข่าว - live steam",
+            "image":[  
+               "images/m1.JPG",
+               "images/m2.JPG",
+               "images/m3.JPG",
+               "images/m4.JPG",
+               "images/m5.JPG"
+            ],
+            "des_full":"เว็บนี้ระบบเบอะมาก ดึงข้อมูล auto แทบทั้งเว็บ ระบบข่อนค้างซับซ้อนใช้เวลาทำนาน ระบบ cache สร้างเป็น file html เพื่อลดการ query รายละเอียดเยอะใช้ yii ในการทำ",
+            "list":{  
+               "Deveoper":"Phonkrit Saenjai",
+               "Year":"2015",
+               "Type":"website"
+            },
+            "link":"-"
+         }
+      },
+      {  
+         "title":"Tdedzean App",
+         "title_en":"-",
+         "des_th":" แอพโมบาย 2015",
+         "des_en":"-",
+         "show_image":"images/tded%20(1).jpg",
+         "show_image_l":"images/tded%20(1).jpg",
+         "type":"mobile",
+         "link":"-",
+         "des":{  
+            "title":"TDEDZEAN",
+            "des":"Application เว็บบอล",
+            "image":[  
+               "images/tded%20(1).jpg",
+               "images/tded%20(2).jpg",
+               "images/tded%20(3).jpg",
+               "images/tded%20(4).jpg"
+            ],
+            "des_full":"แอปผลบอลเเละ Live score จาก tdedzean เขียนด้วย codova ใช้ api จากเว็บเช่นเดียวกับ duballsod",
+            "list":{  
+               "Deveoper":"Phonkrit Saenjai",
+               "Year":"2016",
+               "Type":"mobile app"
+            },
+            "link":"-"
+         }
+      },
+      {  
+         "title":"Tbds.co.th เว็บบริษัท",
+         "title_en":"-",
+         "des_th":" เว็บไซต์ 2016",
+         "des_en":"-",
+         "show_image":"images/tbdssmall.JPG",
+         "show_image_l":"images/tbdsbig.JPG",
+         "type":"web-site",
+         "link":"-",
+         "des":{  
+            "title":"TBDS",
+            "des":"เว็บประชาสัมพัน",
+            "image":[  
+               "images/tbdsslide.jpg",
+               "images/tbdsslide2.jpg"
+            ],
+            "des_full":"ระบบเว็บประชาสัมพัน บริษัท",
+            "list":{  
+               "Deveoper":"Phonkrit Saenjai",
+               "Year":"2016",
+               "Type":"website"
+            },
+            "link":"-"
+         }
+      },
+      {  
+         "title":"Easy Stock",
+         "title_en":"-",
+         "des_th":" เว็บไซต์ 2016",
+         "des_en":"-",
+         "show_image":"images/g1.JPG",
+         "show_image_l":"images/g1.JPG",
+         "type":"web-site",
+         "link":"-",
+         "des":{  
+            "title":"TBDS",
+            "des":"เว็บประชาสัมพัน",
+            "image":[  
+               "images/g1.JPG",
+               "images/g2.JPG",
+               "images/g3.JPG",
+               "images/g4.JPG",
+               "images/g5.JPG"
+            ],
+            "des_full":"เป็นระบบจัดการ ขายภาพออนไลน์ ระบบ จัดการภาพ อัตโนมัติ อ่านค่าจากภาพว่าถ่ายยังไงบ้าง",
+            "list":{  
+               "Deveoper":"Phonkrit Saenjai",
+               "Year":"2016",
+               "Type":"website"
+            },
+            "link":"-"
+         }
+      },
+      {  
+         "title":"Duballsod",
+         "title_en":"-",
+         "des_th":" เว็บไซต์ 2016",
+         "des_en":"-",
+         "show_image":"images/du1.JPG",
+         "show_image_l":"images/du1.JPG",
+         "type":"web-site",
+         "link":"-",
+         "des":{  
+            "title":"DUBALLSOD",
+            "des":"เว็บไซต์ข่าว - Livestream",
+            "image":[  
+               "images/du1.JPG",
+               "images/du2.JPG",
+               "images/du3.JPG",
+               "images/du4.JPG",
+               "images/du5.JPG",
+               "images/du6.JPG"
+            ],
+            "des_full":"เว็บนี้ระบบเยอะมาก ส่วนมากจะเป็นระบบอัตโนมัติ มีการส้ราง user เพื่อเป็นฝ่ายต่างๆ ระบบ auto post ไปยัง 2 เพจ มีเกมตอบคำถาม ระบบสร้างภาพ canvas ดึงข้อมูลจากเว็บอื่น",
+            "list":{  
+               "Deveoper":"Phonkrit Saenjai",
+               "Year":"2016",
+               "Type":"website"
+            },
+            "link":"-"
+         }
+      },
+      {  
+         "title":"DESIGNSBO",
+         "title_en":"-",
+         "des_th":" เว็บไซต์ 2016",
+         "des_en":"-",
+         "show_image":"images/de1.JPG",
+         "show_image_l":"images/de1.JPG",
+         "type":"web-site",
+         "link":"-",
+         "des":{  
+            "title":"DESIGNSBO",
+            "des":"เว็บประชาสัมพัน",
+            "image":[  
+               "images/de1.JPG",
+               "images/de1.JPG"
+            ],
+            "des_full":"เป็นระบบเว็บไซต์ธรรมดาทั่วไป",
+            "list":{  
+               "Deveoper":"Phonkrit Saenjai",
+               "Year":"2016",
+               "Type":"website"
+            },
+            "link":"-"
+         }
+      },
+      {  
+         "title":"Duballsod App",
+         "title_en":"-",
+         "des_th":" แอพโมบาย 2016",
+         "des_en":"-",
+         "show_image":"images/duapp%20(3).png",
+         "show_image_l":"images/duapp%20(3).png",
+         "type":"mobile",
+         "link":"-",
+         "des":{  
+            "title":"Duballsod HD",
+            "des":"ดูบอลป่านมือถือ - live score",
+            "image":[  
+               "images/images/duapp (2).png",
+               "images/images/duapp (3).png",
+               "images/images/duapp (4).png",
+               "images/images/duapp (5).png",
+               "images/images/duapp (6).png",
+               "images/images/duapp (7).png",
+               "images/images/duapp (8).png",
+               "images/images/duapp (9).png",
+               "images/images/duapp (10).png",
+               "images/images/duapp (11).png",
+               "images/images/duapp (12).png",
+               "images/images/duapp (13).png"
+            ],
+            "des_full":"app duballsod ทำต่อจากเว็บ โดยใช้ web เป็น api เเล้วใช้ตัวโมบายรับส่งข้อมูลโดยทำเป็น json (สร้างด้วย codova) ทั้ง android เเละ ios ",
+            "list":{  
+               "Deveoper":"Phonkrit Saenjai",
+               "Year":"2016",
+               "Type":"mobile app"
+            },
+            "link":"-"
+         }
+      },
+      {  
+         "title":"Goal ประเทศไทย",
+         "title_en":"-",
+         "des_th":" แอพโมบาย 2017",
+         "des_en":"-",
+         "show_image":"https://lh3.googleusercontent.com/ikuVWm2Wmzbj5zHEYjmgZ3gS6cEDKWoqbFvLwrfd-6WYyk1SnH33NmKBEp9zDy06cEI=w1280-h605-rw",
+         "show_image_l":"https://lh3.googleusercontent.com/ikuVWm2Wmzbj5zHEYjmgZ3gS6cEDKWoqbFvLwrfd-6WYyk1SnH33NmKBEp9zDy06cEI=w1280-h605-rw",
+         "type":"mobile",
+         "link":"-",
+         "des":{  
+            "title":"Duballsod HD",
+            "des":"ทีเด็ดบอล ผลบอล วิเคราะห์บอล คลิปบอล ",
+            "image":[  
+               "https://lh3.googleusercontent.com/ikuVWm2Wmzbj5zHEYjmgZ3gS6cEDKWoqbFvLwrfd-6WYyk1SnH33NmKBEp9zDy06cEI=w1280-h605-rw"
+            ],
+            "des_full":"Goal.in.th เว็บไซต์นำเสนอรายงาน ผลบอล พร้อม ทีเด็ดบอล คุณภาพจากเหล่าเซียน แม่นยำมากคัดสรรอย่างมืออาชีพ ทีเด็ดบอลเต็ง ทีเด็ดบอลสเต็ป อีกทั้งมีบทวิจารย์บอล วิเคราะห์บอล เจาะลึกทุกอย่างเกี่ยวกับสโมสรดัง อทิ วิเคราะห์บอลแมนยู วิเคราะห์บอลเชลซี วิเคราะห์บอลอาร์เซน่อล วิเคราะห์บอลลิเวอร์พูล อื่นๆอีกมากมาย โกลประเทศไทย สามารถเช็ค 11 ผู้เล่นตัวจริง ได้อีกด้วย",
+            "list":{  
+               "Deveoper":"Phonkrit Saenjai",
+               "Year":"2017",
+               "Type":"mobile app"
+            },
+            "link":"-"
+         }
+      },
+      {  
+         "title":"KKTransit",
+         "title_en":"-",
+         "des_th":"Application ติดตามรถรถเมื่อไหร่จะถึง",
+         "des_en":"-",
+         "show_image":"https://lh3.googleusercontent.com/dV5HjXxMX4x29YbM07o-UIqrhuFFP1LP9EBm-1dpsaqOeEtQs97SQ5i5j-DzxF4Kdp8=w1253-h625-rw",
+         "show_image_l":"https://lh3.googleusercontent.com/dV5HjXxMX4x29YbM07o-UIqrhuFFP1LP9EBm-1dpsaqOeEtQs97SQ5i5j-DzxF4Kdp8=w1253-h625-rw",
+         "type":"mobile",
+         "link":"-",
+         "des":{  
+            "title":"KKTransit",
+            "des":"Application ติดตามรถรถเมื่อไหร่จะถึง ",
+            "image":[  
+               "https://lh3.googleusercontent.com/dV5HjXxMX4x29YbM07o-UIqrhuFFP1LP9EBm-1dpsaqOeEtQs97SQ5i5j-DzxF4Kdp8=w1253-h625-rw"
+            ],
+            "des_full":"เมื่อไหร่รถบัสจะมา? ต้องรออีกนานมั้ย? สายไหนผ่านโรงพยาบาล? ทุกคำถามเหล่านี้พบคำตอบได้ใน KK ",
+            "list":{  
+               "Deveoper":"Phonkrit Saenjai",
+               "Year":"2016",
+               "Type":"mobile app"
+            },
+            "link":"-"
+         }
+      },
+      {  
+         "title":"Nichada",
+         "title_en":"-",
+         "des_th":"Application ติดตามรถรถเมื่อไหร่จะถึง",
+         "des_en":"-",
+         "show_image":"https://lh3.googleusercontent.com/M09fBSfwDJubFmAccOnOGgII7NkieId2HNoqUyISyxTiUJLr23Acr2dvr_6bf4OAM9Mq=w1253-h625-rw",
+         "show_image_l":"https://lh3.googleusercontent.com/M09fBSfwDJubFmAccOnOGgII7NkieId2HNoqUyISyxTiUJLr23Acr2dvr_6bf4OAM9Mq=w1253-h625-rw",
+         "type":"mobile",
+         "link":"-",
+         "des":{  
+            "title":"Nichada",
+            "des":"Application ติดตามรถรถเมื่อไหร่จะถึง ",
+            "image":[  
+               "https://lh3.googleusercontent.com/M09fBSfwDJubFmAccOnOGgII7NkieId2HNoqUyISyxTiUJLr23Acr2dvr_6bf4OAM9Mq=w1253-h625-rw"
+            ],
+            "des_full":"Application ติดตามรถรถเมื่อไหร่จะถึงแสดงป้าย แสดงเส้นทาง",
+            "list":{  
+               "Deveoper":"Phonkrit Saenjai",
+               "Year":"2018",
+               "Type":"mobile app"
+            },
+            "link":"-"
+         }
+      },
+      {  
+         "title":"CmTransit",
+         "title_en":"-",
+         "des_th":"Application ติดตามรถรถเมื่อไหร่จะถึง",
+         "des_en":"-",
+         "show_image":"https://lh3.googleusercontent.com/Hbkkm188Zhw5M4qbbi8FMsnoxJurOhRHWQKyKJhEj80wlIR8TAoCmhdauT-7FaVs180=w1253-h625-rw",
+         "show_image_l":"https://lh3.googleusercontent.com/Hbkkm188Zhw5M4qbbi8FMsnoxJurOhRHWQKyKJhEj80wlIR8TAoCmhdauT-7FaVs180=w1253-h625-rw",
+         "type":"mobile",
+         "link":"-",
+         "des":{  
+            "title":"Nichada",
+            "des":"Application ติดตามรถรถเมื่อไหร่จะถึง ",
+            "image":[  
+               "https://lh3.googleusercontent.com/Hbkkm188Zhw5M4qbbi8FMsnoxJurOhRHWQKyKJhEj80wlIR8TAoCmhdauT-7FaVs180=w1253-h625-rw"
+            ],
+            "des_full":"Application ติดตามรถรถเมื่อไหร่จะถึงแสดงป้าย แสดงเส้นทาง",
+            "list":{  
+               "Deveoper":"Phonkrit Saenjai",
+               "Year":"2018",
+               "Type":"mobile app"
+            },
+            "link":"-"
+         }
+      },
+      {  
+         "title":"CHO THAVEE ETICKET(POD)",
+         "title_en":"-",
+         "des_th":"ระบบส่งมอบงาน แจ้งปัญหา",
+         "des_en":"-",
+         "show_image":"https://lh3.googleusercontent.com/IzufeWbFw4vNwfBEU-ovbTIA2pKswC9NUsB6DQqfdsqSgE0k3B8T6P31eYCsPjunzA=w1253-h625-rw",
+         "show_image_l":"https://lh3.googleusercontent.com/IzufeWbFw4vNwfBEU-ovbTIA2pKswC9NUsB6DQqfdsqSgE0k3B8T6P31eYCsPjunzA=w1253-h625-rw",
+         "type":"mobile",
+         "link":"-",
+         "des":{  
+            "title":"CHO THAVEE ETICKET",
+            "des":"ระบบส่งมอบงาน แจ้งปัญหา POD ERP",
+            "image":[  
+               "https://lh3.googleusercontent.com/IzufeWbFw4vNwfBEU-ovbTIA2pKswC9NUsB6DQqfdsqSgE0k3B8T6P31eYCsPjunzA=w1253-h625-rw"
+            ],
+            "des_full":"ระบบส่งมอบงาน แจ้งปัญหา",
+            "list":{  
+               "Deveoper":"Phonkrit Saenjai",
+               "Year":"2018",
+               "Type":"mobile app"
+            },
+            "link":"-"
+         }
+      },
+      {  
+         "title":"Toyota Crm (POD)",
+         "title_en":"-",
+         "des_th":"ระบบส่งมอบงาน แจ้งปัญหา",
+         "des_en":"-",
+         "show_image":"https://lh3.googleusercontent.com/EDbT_OaNT8MS3EWsUnPNzY3ZGSN_yvxXsi6wvVm4I0GDI1_7snnNrEtr-4lDtllHUf8=w1253-h625-rw",
+         "show_image_l":"https://lh3.googleusercontent.com/EDbT_OaNT8MS3EWsUnPNzY3ZGSN_yvxXsi6wvVm4I0GDI1_7snnNrEtr-4lDtllHUf8=w1253-h625-rw",
+         "type":"mobile",
+         "link":"-",
+         "des":{  
+            "title":"Toyota Crm (POD)",
+            "des":"ระบบ POD ส่งงานรับงานจากหลังบ้านเข้าหาลูกค้า",
+            "image":[  
+               "https://lh3.googleusercontent.com/EDbT_OaNT8MS3EWsUnPNzY3ZGSN_yvxXsi6wvVm4I0GDI1_7snnNrEtr-4lDtllHUf8=w1253-h625-rw"
+            ],
+            "des_full":"ระบบ POD ส่งงานรับงานจากหลังบ้านเข้าหาลูกค้า",
+            "list":{  
+               "Deveoper":"Phonkrit Saenjai",
+               "Year":"2018",
+               "Type":"mobile app"
+            },
+            "link":"-"
+         }
+      },
+      {  
+         "title":"Ncondo App",
+         "title_en":"-",
+         "des_th":"ระบบรับงานเเละส่ง location",
+         "des_en":"-",
+         "show_image":"https://lh3.googleusercontent.com/bLF5DrcDF9OwX_fU9jtFc0oJI39ywh0d5XpZ-hJDKVw3EcMzKowK4DsbPQt6Ds3H_b4=w1253-h625-rw",
+         "show_image_l":"https://lh3.googleusercontent.com/bLF5DrcDF9OwX_fU9jtFc0oJI39ywh0d5XpZ-hJDKVw3EcMzKowK4DsbPQt6Ds3H_b4=w1253-h625-rw",
+         "type":"mobile",
+         "link":"-",
+         "des":{  
+            "title":"Ncondo App",
+            "des":"ระบบรับงานเเละส่ง location",
+            "image":[  
+               "https://lh3.googleusercontent.com/bLF5DrcDF9OwX_fU9jtFc0oJI39ywh0d5XpZ-hJDKVw3EcMzKowK4DsbPQt6Ds3H_b4=w1253-h625-rw"
+            ],
+            "des_full":"ระบบรับงานเเละส่ง location",
+            "list":{  
+               "Deveoper":"Phonkrit Saenjai",
+               "Year":"2018",
+               "Type":"mobile app"
+            },
+            "link":"-"
+         }
+      },
+      {  
+         "title":"Njoy App",
+         "title_en":"-",
+         "des_th":"Application หาเพื่อนเที่ยวมีระบบค้นหาจากระยะ สั่งซื้อ",
+         "des_en":"-",
+         "show_image":"https://lh3.googleusercontent.com/MnKgiqvGBxYuak_6iFBVSckNxcl-AinvAm_YU2KO-t-miyHHAIAfHRH13xfE5ppr4oU=w1253-h625-rw",
+         "show_image_l":"https://lh3.googleusercontent.com/MnKgiqvGBxYuak_6iFBVSckNxcl-AinvAm_YU2KO-t-miyHHAIAfHRH13xfE5ppr4oU=w1253-h625-rw",
+         "type":"mobile",
+         "link":"-",
+         "des":{  
+            "title":"Njoy App",
+            "des":"Application หาเพื่อนเที่ยวมีระบบค้นหาจากระยะ สั่งซื้อ",
+            "image":[  
+               "https://lh3.googleusercontent.com/MnKgiqvGBxYuak_6iFBVSckNxcl-AinvAm_YU2KO-t-miyHHAIAfHRH13xfE5ppr4oU=w1253-h625-rw"
+            ],
+            "des_full":"Application หาเพื่อนเที่ยวมีระบบค้นหาจากระยะ สั่งซื้อ",
+            "list":{  
+               "Deveoper":"Phonkrit Saenjai",
+               "Year":"2018",
+               "Type":"mobile app"
+            },
+            "link":"-"
+         }
+      },
+      {  
+         "title":"Vesta CP",
+         "title_en":"-",
+         "des_th":"จัดการระบบ โดยใช้ Vestacp",
+         "des_en":"-",
+         "show_image":"newimg/vesta.png",
+         "show_image_l":"newimg/vesta.png",
+         "type":"server",
+         "link":"-",
+         "des":{  
+            "title":"Vesta CP",
+            "des":"จัดการระบบ โดยใช้ Vestacp",
+            "image":[  
+               "newimg/vesta.png"
+            ],
+            "des_full":"จัดการระบบ โดยใช้ Vestacp",
+            "list":{  
+               "Deveoper":"Phonkrit Saenjai",
+               "Year":"2018",
+               "Type":"server"
+            },
+            "link":"-"
+         }
+      },
+      {  
+         "title":"DigitalOcean Server",
+         "title_en":"-",
+         "des_th":"จัดการระบบ DigitalOcean VPS ",
+         "des_en":"-",
+         "show_image":"newimg/doserver.png",
+         "show_image_l":"newimg/doserver.png",
+         "type":"server",
+         "link":"-",
+         "des":{  
+            "title":"DigitalOcean Server",
+            "des":"จัดการระบบ DigitalOcean VPS ",
+            "image":[  
+               "newimg/doserver.png"
+            ],
+            "des_full":"จัดการระบบ DigitalOcean VPS ",
+            "list":{  
+               "Deveoper":"Phonkrit Saenjai",
+               "Year":"2018",
+               "Type":"server"
+            },
+            "link":"-"
+         }
+      },
+      {  
+         "title":"Taxikk Server",
+         "title_en":"-",
+         "des_th":"ระบบ Server จัดการโดย Docker & node",
+         "des_en":"-",
+         "show_image":"newimg/taxikk.png",
+         "show_image_l":"newimg/taxikk.png",
+         "type":"server",
+         "link":"-",
+         "des":{  
+            "title":"Taxikk Server",
+            "des":"ระบบ Server จัดการโดย Docker & node",
+            "image":[  
+               "newimg/taxikk.png"
+            ],
+            "des_full":"ระบบ Server จัดการโดย Docker & node",
+            "list":{  
+               "Deveoper":"Phonkrit Saenjai",
+               "Year":"2018",
+               "Type":"server"
+            },
+            "link":"-"
+         }
+      },
+      {  
+         "title":"ขอนแก่น Server",
+         "title_en":"-",
+         "des_th":"ระบบ Server จัดการโดย Docker",
+         "des_en":"-",
+         "show_image":"newimg/jumpup.png",
+         "show_image_l":"newimg/jumpup.png",
+         "type":"server",
+         "link":"-",
+         "des":{  
+            "title":"ขอนแก่น Server",
+            "des":"ระบบ Server จัดการโดย Docker ",
+            "image":[  
+               "newimg/jumpup.png"
+            ],
+            "des_full":"ระบบ Server จัดการโดย Docker ",
+            "list":{  
+               "Deveoper":"Phonkrit Saenjai",
+               "Year":"2018",
+               "Type":"server"
+            },
+            "link":"-"
+         }
+      },
+      {  
+         "title":"เชียงใหม่ Server",
+         "title_en":"-",
+         "des_th":"ระบบ Server จัดการโดย Docker",
+         "des_en":"-",
+         "show_image":"newimg/cmserver.png",
+         "show_image_l":"newimg/cmserver.png",
+         "type":"server",
+         "link":"-",
+         "des":{  
+            "title":"เชียงใหม่ Server",
+            "des":"ระบบ Server จัดการโดย Docker ",
+            "image":[  
+               "newimg/cmserver.png"
+            ],
+            "des_full":"ระบบ Server จัดการโดย Docker ",
+            "list":{  
+               "Deveoper":"Phonkrit Saenjai",
+               "Year":"2018",
+               "Type":"server"
+            },
+            "link":"-"
+         }
+      },
+      {  
+         "title":"BMTA Server",
+         "title_en":"-",
+         "des_th":"ระบบ Server bmta private ip",
+         "des_en":"-",
+         "show_image":"newimg/bmtadev.png",
+         "show_image_l":"newimg/bmtadev.png",
+         "type":"server",
+         "link":"-",
+         "des":{  
+            "title":"เชียงใหม่ Server",
+            "des":"ระบบ Server bmta private ip",
+            "image":[  
+               "newimg/bmtadev.png"
+            ],
+            "des_full":"ระบบ Server bmta private ip",
+            "list":{  
+               "Deveoper":"Phonkrit Saenjai",
+               "Year":"2018",
+               "Type":"server"
+            },
+            "link":"-"
+         }
+      },
+      {  
+         "title":"Njoy Server",
+         "title_en":"-",
+         "des_th":"ระบบ Server docker",
+         "des_en":"-",
+         "show_image":"newimg/njoyserver.png",
+         "show_image_l":"newimg/njoyserver.png",
+         "type":"server",
+         "link":"-",
+         "des":{  
+            "title":"Njoy Server",
+            "des":"ระบบ Server docker",
+            "image":[  
+               "newimg/njoyserver.png"
+            ],
+            "des_full":"ระบบ Server docker",
+            "list":{  
+               "Deveoper":"Phonkrit Saenjai",
+               "Year":"2018",
+               "Type":"server"
+            },
+            "link":"-"
+         }
+      }
+   ]
 }

@@ -29,31 +29,35 @@
         </div>
     </div>
 </div>
-<script src="js/jquery-1.11.0.min.js"></script>
-<!-- <script src="js/bootstrap.min.js"></script> -->
+<!-- <script src="js/jquery-1.11.0.min.js"></script> -->
 <script type="text/javascript">
-function getUrlVars() {
+
+// "use strict";
+// var jq = jQuery.noConflict();
+
+async function getUrlVars() {
     var vars = {};
-    var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, function(m, key, value) {
+    var parts = await window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, function(m, key, value) {
         vars[key] = value;
     });
     return vars;
 }
-let get_id = getUrlVars()['id'];
-console.log(get_id);
-$.ajax({
+getUrlVars().then(dt =>{
+    console.log(dt.id);  
+let get_id = dt.id; 
+jq.ajax({
     url: "/db/database.json",
     success: function(result) {
-         $('#btn_cus').html('');
-            $('#list_box').html('');
+         jq('#btn_cus').html('');
+            jq('#list_box').html('');
         if (result.data[get_id]) {
             let load_data = result.data[get_id].des;
             
-            console.log(load_data);
+            // console.log(load_data);
 
-            $('#title_top').html(load_data.title);
-            $('#title_des').html(load_data.des);
-            $('#des_full').html(load_data.des_full);
+            jq('#title_top').html(load_data.title);
+            jq('#title_des').html(load_data.des);
+            jq('#des_full').html(load_data.des_full);
             let data_html_list = '' , data_html_btn = '' , data_html_listbox = '';
 
             let data_list = load_data.list;
@@ -77,16 +81,19 @@ $.ajax({
             });
 
            
-            $('#btn_cus').html(data_html_btn);
+            jq('#btn_cus').html(data_html_btn);
 
-            $('#list_box').html(data_html_listbox);
+            jq('#list_box').html(data_html_listbox);
 
-            $('#data_list').html(data_html_list);
-            $('#link_data').html(load_data.link);
+            jq('#data_list').html(data_html_list);
+            jq('#link_data').html(load_data.link);
            
             
         }
 
     }
 });
+
+})
+    
 </script>

@@ -4,8 +4,6 @@
     var gridContainer = $('#grid-container'),
         filtersContainer = $('#filters-container'),
         wrap, filtersCallback;
-
-
     /*********************************
      init cubeportfolio
      *********************************/

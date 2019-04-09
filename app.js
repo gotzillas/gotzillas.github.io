@@ -1,7 +1,7 @@
 (function() {
     'use strict';
     var app = angular.module('application', ['ngSanitize']);
-    app.controller('MainController', function($scope) {
+    app.controller('MainController', function($scope, $http) {
         $scope.change_lang = function(lang) {
             if (lang == 'thai') {
 
@@ -37,7 +37,7 @@
                         'tab_two_name': 'Web Designer',
                         'tab_two_details': 'มีความสามารถในการออกแบบเว็บไซต์ด้วย  front-end framework Bootstrap , Css3 ได้เป็นอย่างดี .',
                         'tab_three_title': 'Server',
-                        'tab_three_name': 'Admin Server',
+                        'tab_three_name': 'Server Administrator',
                         'tab_three_details': 'มีความสามารถในการจัดตั้ง Server OS ระบบ debian ubuntu ทำระบบ load balance จัดการระบบโดยใช้ docker ได้เป็นอย่างดี',
                         'tab_four_title': 'การทำงานเป็นทีม',
                         'tab_four_name': 'Skilled Team',
@@ -45,7 +45,7 @@
                     },
                     'about_data': {
                         'title': 'เกี่ยวกับฉัน',
-                        'details_one': '<b> ประวัติส่วนตัว </b><hr/><br/> ชื่อ : นายพลกฤษ แสนใจ <br/> วันเดือนปีเกิด : 6 มกราคม พ.ศ. 2535 <br/> อายุ : 27 ปี <br/> สุขภาพ : สุขภาพดีไม่มีโรคติดต่อ <br/> น้ำหนัก : 62 กิโลกรัม <br/> ส่วนสูง : 177 เซนติเมตร <br/> สถานภาพทางการสมรส : <b class="text-danger" > โสด </b> ',
+                        'details_one': '<b> ประวัติส่วนตัว </b><hr/><br/> ชื่อ : นายพลกฤษ แสนใจ <br/> วันเดือนปีเกิด : 6 มกราคม พ.ศ. 2535 <br/> อายุ : 27 ปี <br/> สุขภาพ : สุขภาพดีไม่มีโรคติดต่อ <br/> น้ำหนัก : 62 กิโลกรัม <br/> ส่วนสูง : 176 เซนติเมตร <br/> สถานภาพทางการสมรส : <b class="text-danger" > โสด </b> ',
                         'details_two': 'ปัจจุบันรับงานเขียนเว็บทั่วไป เเละ windows app , Android App Private . จัดการ Server ให้บริษัทนึง เเละของตัวเอง',
                         'tab_one': 'ประวัตืส่วนตัว',
                         'tab_two': 'การศึกษา',
@@ -60,7 +60,7 @@
                         'details': 'ความสามารถ ทางด้านภาษาการเขียนโปรแกรม จากประสปการณ์ในระหว่างทำการเรียนเเละศึกษาด้วยตัวเองมีความสามารถของแต่ละภาษาคร่าวๆ ด้วยกันดังนี้ + อื่นๆ NodeJs , Angularjs , React  Config Vps Digitalocean , AWS , Docker ',
                         'title_skill': 'ความสามารถทางภาษา'
                     },
-                      'skill_data_server': {
+                    'skill_data_server': {
                         'title': 'ความสามารถทางด้าน Server',
                         'details': 'มีความสามารถด้านจัดการระบบ Server เป็นอย่างดีของ Ubuntu Server โดยใช้ Docker เป็นตัวควบคุม สามารถสร้าง Container แยกใช้ของแต่ละโปรแกรมได้ สามารถสร้าง DB Replication & Mirror จาก MongoDB & Mysql & Pgsql ได้ สามารถสร้างระบบส่งข้อมูลแบบ Realtime โดยใช้ Mqtt & Websocket สรา้ง VPN เข้าถึงระบบเฉพาะได้ เเละจัดการระบบอื่นๆ [Webmail,Backup,Proxy] หาที่มาของปัญหา สามารถแก้ปัญหาได้เป็นอย่างดี',
                         'title_skill': 'ความสามารถทางด้านระบบ Server'
@@ -77,19 +77,19 @@
                         'skill_details_3': 'มีความสามารถในการใช้ Plugin ของ facebook twitter , Github , Firebase และจัดการ server Linux ได้เป็นอย่างดี',
                         'skill_title_4': 'Mobile Apps / Android - IOS',
                         'skill_des_4': 'ความสามารถในการเขียน Mobile  apps',
-                        'skill_details_4': 'สามารถเขียน Mobile Apps โดยใช้ HTML5 (Phonegap, Cordova , Ionic) รับ - ส่งข้อมูลแบบ json  ได้ (Php webserver) สามารถใช้ React Native ได้เล็กน้อย '
+                        'skill_details_4': 'สามารถเขียน Mobile Apps โดยใช้ HTML5 (Phonegap, Cordova , Ionic) รับ - ส่งข้อมูลแบบ json  ได้ (Php webserver , NodeJs ,Python) สามารถใช้ React Native  '
                     },
                     'exs_data': {
                         'title': 'ประสปการณ์',
                         'des': 'ปีในการทำงาน',
                         'details': 'ประสปการณ์ทำงานในที่ต่างๆ ปัจจุบันรับงานทั่วไป',
                         'current': 'ปัจจุบัน',
-                         'data_six': '1 มิ.ย 60',
+                        'data_six': '1 มิ.ย 60',
                         'data_six_des': '30 ก.ค - ปัจจุบัน',
                         'data_foure': '1 ก.ค 58',
                         'data_foure_des': '30 ม.ย 59',
                         'data_five': '1 ก.ค 59',
-                        'data_five_des': '31 มี.ค 60 - ปัจจุบัน',
+                        'data_five_des': '31 มี.ค 60 ',
                         'date_one': ' ปี 4 ถึง',
                         'date_one_des': 'ฝึกงาน',
                         'date_two': 'ปี 3 ถึง',
@@ -97,11 +97,11 @@
                         'date_three': 'ปี 1 ถึง',
                         'date_three_des': 'ปี 3 ',
                         'des_title_1': 'ฝึกประสปการณ์ทำงาน',
-                        'des_des_1': 'ฝึกประสปการณ์ทำงาน และ รับงาน freeland',
+                        'des_des_1': 'ฝึกประสปการณ์ทำงาน และ รับงาน freelance',
                         'des_details_1': 'ในขณะที่ทำการฝึกงานได้ทำการศึกษาข้อมูลเเละได้เขียนโปรแกรมกับหน่วยงานบริษัท (Freewill Solutions สาขาขอนแก่น) โดยงานที่ได้รับมอบหมายก็เขียนตามโครงสร้างของผู้ออกแบบระบบ ได้ทำการฝึกการเขียนโปรแกรมแบบ MVC ของ ASP.NET C# และในขณะที่ว่างได้รับงานเว็บไซต์ทั่วไปทำขณะฝึกงาน โดย ตอนจบฝึกงานทางบริษัทได้ชักชวนให้ทำงานด้วย แต่ต้องผ่านเกมทหารก่อน.. ปีนั้นำด้สละสิทธฺผ่อนผันต่อเเล้วจึงไปหางานที่อุดรบ้านเกิด',
                         'des_title_2': 'เริ่มทำโปรเจค',
                         'des_des_2': 'ปี 3 ถึง ปี 4 ในขณะที่ทำการศึกษา',
-                        'des_details_2': 'ได้ศึกษาและทำโปรเจคเว็บไซต์ ขายสินค้าด้วย AR หมวกเเละแว่นตาที่สามารถทดลองสวมใส่ได้ {เสมือนจริง) โดยได้เริ่มเขียนเว็บไซต์แบบ Responsive โดยใช้ Bootstrap จนสามารถทำให้โปรเจคนั้นเสำเร็จลงได้ด้วยดี ',
+                        'des_details_2': 'ได้ศึกษาและทำโปรเจคเว็บไซต์ ขายสินค้าด้วย AR หมวกเเละแว่นตาที่สามารถทดลองสวมใส่ได้ {เสมือนจริง) โดยได้เริ่มเขียนเว็บไซต์แบบ Responsive โดยใช้ Bootstrap  ',
                         'des_title_3': 'ทำการศึกษาข้อมูล',
                         'des_des_3': 'ได้ศึกษาการเขียน Java , Sql , PHP , C# เบื้องต้น',
                         'des_details_3': 'ในขณะเรียนได้ทำการศึกษา หาข้อมูลการเขียนโปรแกรมของภาษาที่ถนัดเพื่อนำไปพัฒนาเป็นโปรเจคจบทำการวางแผนโปรเจคว่าจะทำเกมส์แต่เนื่องจากฝีมือการปั้น 3D น้อย จึงหันมาทำเว็บไซต์แทน',
@@ -125,7 +125,7 @@
                         'title': 'การศึกษา ระดับปริญญาตรี',
                         'des': 'คณะวิทยาศาสตร์ - สาขาเทคโนโลยีสารสนเทศพัฒนาซอฟแวร์',
                         'date': 'พ.ศ.2554 - พ.ศ.2558',
-                        'details': 'การศึกษาในระดับปริญญาตรี ในมหาวิทยาลัยราชฏัชอุดรธานีได้รู้จักผู้คน และรูปแบบการเขียนโปรแกรมมากมาย จึงได้เริ่มศึกษาที่ตัวเองสนใจ จนในช่วงหนึ่งได้มุ่งเน้นมาทางเว็บไซต์เเละโมบาย เพราะมองเห็นว่าในอนาคตทุกอย่างคงจะมาทำที่เว็บไซต์หมดเเล้ว'
+                        'details': 'การศึกษาในระดับปริญญาตรี ในมหาวิทยาลัยราชฏัชอุดรธานีได้ทำการศึกษาและรูปแบบการเขียนโปรแกรมมากมาย จึงได้เริ่มศึกษาภาษาที่ตัวเองสนใจ จนในช่วงหนึ่งได้มุ่งเน้นมาทางเว็บไซต์เเละโมบาย เพราะมองเห็นว่าในอนาคตทุกอย่างคงจะมาทำที่เว็บไซต์หมดเเล้ว'
                     },
                     'edu_coleg': {
                         'title': 'การศึกษา ระดับมัธยมปลาย',
@@ -137,7 +137,7 @@
                         'title': 'การศึกษา ระดับมัธยมต้น',
                         'des': '-----------------------',
                         'date': 'พ.ศ.2548 - พ.ศ.2550',
-                        'details': 'ในช่วงระหว่างนี้ได้ทำการหัด ซ่อมคอมพิวเตอร์ ติดตั้งโปรแกรมเบื้องต้น ตามประสาเด็กอยากรู้ โดยมีอาจารย์สอนให้หัดใช้โปรแกรมต่างๆ การทำเว็บไซต์เบื้องต้น จึงทำให้รักในการทำงานเกี่ยวกับคอมพิวเตอร์มาตั้งแต่เด็กครับ'
+                        'details': 'ในช่วงระหว่างนี้ได้ทำการหัด ซ่อมคอมพิวเตอร์ ติดตั้งโปรแกรมเบื้องต้น โดยมีอาจารย์สอนให้หัดใช้โปรแกรมต่างๆ การทำเว็บไซต์เบื้องต้น จึงทำให้รักในการทำงานเกี่ยวกับคอมพิวเตอร์มาตั้งแต่เด็ก'
                     },
                     'portfolio_data': {
                         'title': 'ผลงานบางส่วน',
@@ -282,11 +282,10 @@
                         'title': 'App Goal',
                         'des': 'แอพโมบาย 2017',
                     },
-                    'slideview':
-                    {
-                        'title' : 'Slide ที่นำเสนอ : Link'
+                    'slideview': {
+                        'title': 'Slide ที่นำเสนอ : Link'
                     },
-                    
+
 
                     'portfolio_list': {
                         'data': [{
@@ -395,9 +394,9 @@
                         'slide_1': 'Web Developer',
                         'slide_2': 'Web Designer',
                         'slide_3': 'Mobile Developer',
-                        'slide_4': 'Win App Developer.',
+                        'slide_4': 'WinApp Developer.',
                         'slide_5': 'Server Administrator',
-                        'details': 'Hello, my name is Mr. Phonkrit Saenjai , this website is a introduce and works .the browser enabled to use Google Chrome To display the full 100% if want to see resume create, click on My resume (only Web Browser Google Chrome).',
+                        'details': 'My name is Mr. Phonkrit Saenjai , this website is a introduce and works .the browser enabled to use Google Chrome To display the full 100% ',
                         'btn_title': 'About ME',
                         'btn_title_resume': 'MY RESUME'
                     },
@@ -408,19 +407,19 @@
                         'tab_one_details': "A high aptitude for develop website as well, both in the language and PHP ASP.NET C #. NodeJs",
                         'tab_two_title': 'Web Designer',
                         'tab_two_name': 'Web Designer',
-                        'tab_two_details': 'Have the ability to design website, front-end framework Bootstrap Css3 as well.',
+                        'tab_two_details': 'Have the ability to design website, front-end framework Bootstrap Css3 as very well.',
                         'tab_three_title': 'Server',
                         'tab_three_name': 'Server Administrator',
-                        'tab_three_details': 'The ability to ubuntu Server OS debian system, establishment of system load balance management system using the docker as well.',
+                        'tab_three_details': 'The ability to ubuntu Server OS debian system, establishment of system load balance management system using the docker , portainer as very well.',
                         'tab_four_title': 'Skilled Team',
                         'tab_four_name': 'Skilled Team',
-                        'tab_four_details': 'Able to work as a team and can work in the working principles of MVC.'
+                        'tab_four_details': 'Able to work as a team and can work in the working principles of MVC & Github & Gitlab & another'
                     },
 
 
                     'about_data': {
                         'title': 'About Me',
-                        'details_one': '<b> About </b><hr/><br/> Name : Phonkrit Saenjai <br/> Birthday  : 6 January 1992 <br/> Age : 27  <br/> Health : Excellent <br/> weight : 59 K.G <br/> high : 177 CM <br/> Marital Status : <b class="text-danger" > Single </b> ',
+                        'details_one': '<b> About </b><hr/><br/> Name : Phonkrit Saenjai <br/> Birthday  : 6 January 1992 <br/> Age : 27  <br/> Health : Excellent <br/> weight : 59 K.G <br/> high : 176 CM <br/> Marital Status : <b class="text-danger" > Single </b> ',
                         'details_two': 'At present, develop website in general, and windows app , Android App Private . ',
                         'tab_one': 'About',
                         'tab_two': 'Education',
@@ -435,32 +434,34 @@
 
                     'skill_data': {
                         'title': 'Skilled',
-                        'details': 'The ability of programming language From experience during the study and study by themselves have the ability of each language together as follows. +  NodeJs , Angularjs , React Config Vps Digitalocean , AWS',
+                        'details': 'The ability of programming language From experience during the study. have the ability of each language together. +  NodeJs , Angularjs , React Config Vps Digitalocean , AWS , Docker',
                         'title_skill': 'Language computer programming Skill'
+                    },
+
+                    'skill_data_server': {
+                        'title': 'Skill Server',
+                        'details': 'Competences in Systems Management Server using Ubuntu as a Docker. Container can be created using the split of each program. Can create a DB Replication & MongoDB Mysql & Pgsql & Mirror from. Realtime data transmission can be created using the Mqtt & VPN access system creation Websocket. only. And other system management [Webmail, Backup, Proxy] find the source of the problem. Can solve the problem very well.',
+                        'title_skill': 'Skill Admin Server'
                     },
 
 
                     'skill_content': {
-                        'skill_title_1': 'Yii framework',
-                        'skill_des_1': 'The ability to use Yii framework.',
-                        'skill_details_1': 'The  framework use the advance knowledge in the working principle and advance configuration',
+                        'skill_title_1': 'Yii framework & Codeigniter 3',
+                        'skill_des_1': 'The ability to use Yii framework & Codeigniter3.',
+                        'skill_details_1': 'Can develop programs using the PHP YII Codeigniter & laravel Strong',
 
-                        'skill_title_2': 'Bootstrap',
-                        'skill_des_2': 'The ability to use Bootstrap.',
-                        'skill_details_2': 'Have the ability to customize and understand the working principle of Bootstrap can display designer Responsive.',
+                        'skill_title_2': 'Bootstrap & Bulma & Other',
+                        'skill_des_2': 'The ability to use Bootstrap. Css Framework & other Css Strong',
+                        'skill_details_2': 'Have the ability to customize and understand the working principle of Bootstrap can display designer Responsive & another Css Framework Very Strong.',
 
                         'skill_title_3': 'API & Other',
                         'skill_des_3': 'The ability to use Socail API and other.',
-                        'skill_details_3': 'The ability to use API of Facebook Twitter and in doing login website and other related fields. + Github , Firebase Linux server',
+                        'skill_details_3': 'The ability to use API of Facebook Twitter and in doing login website and other related fields. + Github , Firebase Linux server strong',
 
                         'skill_title_4': 'Mobile Apps / Android - IOS',
                         'skill_des_4': 'The ability to develop Mobile apps.',
-                        'skill_details_4': 'Can develop Mobile Apps using HTML5 (Phonegap Cordova , Ionic), with jquerymobile by sending and receiving data JSON.  (Php webserver)'
-
-
+                        'skill_details_4': 'Can develop Mobile Apps using HTML5 (Phonegap Cordova , Ionic), with jquerymobile by sending and receiving data JSON.  (Php webserver , NodeJs ,Python) & React Native'
                     },
-
-
                     'exs_data': {
                         'title': 'Experience',
                         'des': 'Year Experience',
@@ -475,23 +476,28 @@
                         'data_foure': '1 July 58',
                         'data_foure_des': '30 April 59',
                         'data_five': '1 July 59',
-                        'data_five_des': '31 March 60 - present',
+                        'data_five_des': '31 March 60',
+                        'data_six': '1 June 60',
+                        'data_six_des': '15 July 61 - present',
 
                         'des_title_1': 'Practice experience.',
-                        'des_des_1': 'Trained experience work and job Freeland.',
+                        'des_des_1': 'Trained experience work and job freelance.',
                         'des_details_1': 'While the training data has been studied and developed a program with the agency company (Freewill Solutions konkean) by the assignment is written by the structure of the designed system. The practice of programming MVC ASP.NET C # and while leisure get site general do while training.',
                         'des_title_2': 'Start the project.',
                         'des_des_2': 'Year to year 3 4 while study',
-                        'des_details_2': 'Study and development of the project site, product sales by AR hat and glasses were worn (virtual) by began writing website. Responsive using Bootstrap can finally make the project was accomplished well.',
+                        'des_details_2': 'Study and development of the project site, product sales by AR hat and glasses were worn (virtual) by began writing website. Responsive using Bootstrap .',
                         'des_title_3': 'Study computer language education.',
                         'des_des_3': 'Study development of program language Java Sql PHP C # introduction.',
                         'des_details_3': 'While studying the study. Find out the programming of language aptitude to developed a graduation project the plan project. Games, but due to low skill 3D molding turned website instead.',
                         'des_title_4': 'Peed Studio (Udonthani)',
                         'des_des_4': 'The company. Peed Studio For 1 years. www.peedstudio.co.th ',
-                        'des_details_4': 'Working here is considered to be proud of, because the company is the first to apply this job. The job 2 week. boss get in. The programmer has 2 people including me have worked together to the most to do is used as the main  Yii Framework while the University invited as a guest to the children. Studying. Why due out far away from residential move to work near instead',
+                        'des_details_4': 'The Company has been Website , Design Website. Responsibilities Develop Back-end & Front-end . Management system VPS Server ',
                         'des_title_5': 'The Best Design Studio (Udonthani)',
-                        'des_des_5': 'The company. The Best Design Studio For 7 month . www.tbds.co.th',
-                        'des_details_5': 'Moving to work here because near the dormitory. Working it self, because the programmer alone. Because the work pattern alone use OOP most work is within the system to the money. Good salary chief take doing variety causes out: military recruitment - ordained.',
+                        'des_des_5': 'The company. The Best Design Studio For 9 month . www.tbds.co.th',
+                        'des_details_5': 'The company is a company design and system, Streaming Server Hosting responsibility management system Server wrote a program to support the system. Frontend & Backend',
+                         'des_title_6': 'Miracle Inspire & Jumpup (Khonkaen)',
+                        'des_des_6': 'The company.Miracle Inspire & Jumpup for 1 years 1 months. www.miracle.co.th & www.jumpup.online ',
+                        'des_details_6': `The company has made , system of clinic, website , design, windows app , Android , IOS  , management system its own system Smart bus Khon Kaen. Present's moving system development. High, the responsibility system  , management Server of BMTA Company . develop a program to support the system backend .`,
                     },
 
 
@@ -506,7 +512,7 @@
                         'title': 'Undergraduate degree',
                         'des': 'Faculty of Science - Information Technology Software Development .',
                         'date': '2014 - 2018',
-                        'details': 'A bachelors degree. In the University Rajabpat Udon Thani know people. Model and program development. The study itself. And during one has focused on websites and mobile. Because they see that in the future, everything would be made at the website is up.'
+                        'details': 'A bachelors degree. In the University Rajabpat Udon Thani . learning language program development. The study itself. And during one has focused on websites and mobile application. Because they see that in the future, everything would be made at the website is up.'
                     },
 
                     'edu_coleg': {
@@ -520,17 +526,17 @@
                         'title': ' Junior high school',
                         'des': '----------',
                         'date': '2007 - 2010',
-                        'details': 'During this, the measles, computer repair, installation. Some children wanted to know by the teacher to use programs. Make a website. Therefore, love working on computers since I was young.'
+                        'details': `In the meantime, I've made. Computer repair, software installation prerequisites. The teachers learn to use the program, the primary site. Making love to work with computers since childhood.`
                     },
 
 
                     'portfolio_data': {
                         'title': 'Potfolio',
                         'tab_1': 'All',
-                        'tab_2': 'Web site',
-                        'tab_3': 'Windows App',
-                        'tab_4': 'Mobile',
-                        'tab_5': 'Game',
+                        'tab_2': 'Website',
+                        'tab_3': 'Window` App',
+                        'tab_4': 'Mobile App',
+                        'tab_5': 'Server',
                     },
 
 
@@ -667,15 +673,244 @@
                         'title': 'DamnRoad',
                         'des': 'windows app 2017',
                     },
-                    'slideview':
-                    {
-                        'title' : 'Slide : Link'
+                    'slideview': {
+                        'title': 'Slide : Link'
                     }
-                    
+
 
                 }
             }
         }
         $scope.change_lang('thai');
+
+        var date = new Date();
+        var timestamp = date.getTime();
+
+        
+        $scope.dataport = [];
+        $http({
+            method: 'GET',
+            url: 'db/database.json?version'+timestamp
+        }).then(function successCallback(response) {
+            $scope.dataport = response.data.data;
+
+
+
+
+setTimeout(function(e){
+
+    
+
+            ( async function($, window, document, undefined) {
+    'use strict';
+
+
+
+    var gridContainer = $('#grid-container'),
+        filtersContainer = $('#filters-container'),
+        wrap, filtersCallback;
+
+
+    await gridContainer.cubeportfolio('destroy');
+
+    /*********************************
+     init cubeportfolio
+     *********************************/
+    var grid_data = await gridContainer.cubeportfolio({
+
+        defaultFilter: '*',
+
+        animationType: 'flipOutDelay',
+
+        gapHorizontal: 24,
+
+        gapVertical: 20,
+
+        gridAdjustment: 'responsive',
+
+        caption: 'overlayBottomReveal',
+
+        displayType: 'lazyLoading',
+
+        displayTypeSpeed: 100,
+
+        // lightbox
+        lightboxDelegate: '.cbp-lightbox',
+        lightboxGallery: true,
+        lightboxTitleSrc: 'data-title',
+        lightboxCounter: '<div class="cbp-popup-lightbox-counter">{{current}} of {{total}}</div>',
+
+        // singlePage popup
+        singlePageDelegate: '.cbp-singlePage',
+        singlePageDeeplinking: true,
+        singlePageStickyNavigation: true,
+        singlePageCounter: '<div class="cbp-popup-singlePage-counter">{{current}} of {{total}}</div>',
+        singlePageCallback: function(url, element) {
+
+            // to update singlePage content use the following method: this.updateSinglePage(yourContent)
+            var t = this;
+
+            $.ajax({
+                url: url,
+                type: 'GET',
+                dataType: 'html',
+                timeout: 5000
+            })
+                .done(function(result) {
+                    t.updateSinglePage(result);
+                })
+                .fail(function() {
+                    t.updateSinglePage("Error! Please refresh the page!");
+                });
+
+        },
+
+        // single page inline
+        singlePageInlineDelegate: '.cbp-singlePageInline',
+        singlePageInlinePosition: 'above',
+        singlePageInlineInFocus: true,
+        singlePageInlineCallback: function(url, element) {
+            // to update singlePage Inline content use the following method: this.updateSinglePageInline(yourContent)
+        }
+    });
+
+
+    /*********************************
+     add listener for filters
+     *********************************/
+    if (filtersContainer.hasClass('cbp-l-filters-dropdown')) {
+
+        wrap = filtersContainer.find('.cbp-l-filters-dropdownWrap');
+
+        wrap.on({
+            'mouseover.cbp': function() {
+                wrap.addClass('cbp-l-filters-dropdownWrap-open');
+            },
+            'mouseleave.cbp': function() {
+                wrap.removeClass('cbp-l-filters-dropdownWrap-open');
+            }
+        });
+
+        filtersCallback = function(me) {
+            wrap.find('.cbp-filter-item').removeClass('cbp-filter-item-active');
+
+            wrap.find('.cbp-l-filters-dropdownHeader').text(me.text());
+
+            me.addClass('cbp-filter-item-active');
+
+            wrap.trigger('mouseleave.cbp');
+        };
+
+    } else {
+        filtersCallback = function(me) {
+            me.addClass('cbp-filter-item-active').siblings().removeClass('cbp-filter-item-active');
+        };
+    }
+
+    filtersContainer.on('click.cbp', '.cbp-filter-item', function() {
+
+        var me = $(this);
+
+        if (me.hasClass('cbp-filter-item-active')) {
+            return;
+        }
+
+        // get cubeportfolio data and check if is still animating (reposition) the items.
+        if (!$.data(gridContainer[0], 'cubeportfolio').isAnimating) {
+            filtersCallback.call(null, me);
+        }
+
+        // filter the items
+        gridContainer.cubeportfolio('filter', me.data('filter'), function() {});
+
+    });
+
+
+    /*********************************
+     activate counter for filters
+     *********************************/
+    gridContainer.cubeportfolio('showCounter', filtersContainer.find('.cbp-filter-item'), function() {
+        // read from url and change filter active
+        var match = /#cbpf=(.*?)([#|?&]|$)/gi.exec(location.href),
+            item;
+        if (match !== null) {
+            item = filtersContainer.find('.cbp-filter-item').filter('[data-filter="' + match[1] + '"]');
+            if (item.length) {
+                filtersCallback.call(null, item);
+            }
+        }
+    });
+
+
+    /*********************************
+     add listener for load more
+     *********************************/
+    $('.cbp-l-loadMore-button-link').on('click.cbp', function(e) {
+
+        e.preventDefault();
+
+        var clicks, me = $(this),
+            oMsg;
+
+        if (me.hasClass('cbp-l-loadMore-button-stop')) {
+            return;
+        }
+
+        // get the number of times the loadMore link has been clicked
+        clicks = $.data(this, 'numberOfClicks');
+        clicks = (clicks) ? ++clicks : 1;
+        $.data(this, 'numberOfClicks', clicks);
+
+        // set loading status
+        oMsg = me.text();
+        me.text('LOADING...');
+
+        // perform ajax request
+        $.ajax({
+            url: me.attr('href'),
+            type: 'GET',
+            dataType: 'HTML'
+        }).done(function(result) {
+                var items, itemsNext;
+
+                // find current container
+                items = $(result).filter(function() {
+                    return $(this).is('div' + '.cbp-loadMore-block' + clicks);
+                });
+
+                gridContainer.cubeportfolio('appendItems', items.html(),
+                    function() {
+                        // put the original message back
+                        me.text(oMsg);
+
+                        // check if we have more works
+                        itemsNext = $(result).filter(function() {
+                            return $(this).is('div' + '.cbp-loadMore-block' + (clicks + 1));
+                        });
+
+                        if (itemsNext.length === 0) {
+                            me.text('NO MORE WORKS');
+                            me.addClass('cbp-l-loadMore-button-stop');
+                        }
+
+                    });
+
+            }).fail(function() {
+                // error
+            });
+
+    });
+
+})(jQuery, window, document);
+
+
+
+
+},3000);
+        }, function errorCallback(response) {
+
+        });
+
+
     });
 })();

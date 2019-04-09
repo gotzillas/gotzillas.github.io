@@ -8,6 +8,11 @@ var jq = jQuery.noConflict();
             jq(this).addClass("external-link");
         });
 
+
+        jq('body').click(function(e){
+            jq('#hideaftebody').hide();
+        })
+
         var wow = new WOW({
             boxClass: 'wow', // animated element css class (default is wow)
             animateClass: 'animated', // animation css class (default is animated)
@@ -458,6 +463,7 @@ var jq = jQuery.noConflict();
 
             },
             exit: function() {
+                
                 hHero.heroDestroy();
                 sectionFullH.destroyHeight();
                 jq(window).on('resize', function() {

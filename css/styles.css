@@ -5669,3 +5669,9 @@ h2.resp-accordion:first-child {
     height: 100%;
     object-fit: cover;
 }
+
+.carousel-inner>.item>img, .carousel-inner>.item>a>img {
+    line-height: 1;
+    margin: auto;
+    background-color: black;
+}
