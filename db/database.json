@@ -28,6 +28,32 @@
          }
       },
       {  
+         "title":"JCMCOMERCE",
+         "title_en":"JCMCOMERCE",
+         "des_th":"JCMCOMERCE ซื้อสินค้า JC",
+         "des_en":"JCMCOMERCE ซื้อสินค้า JC",
+         "show_image":"https://lh3.googleusercontent.com/Fj7kyl-R-dTVJP8Fac0Hnuw6SBQxIFDPtFSjNL-l5OcfNtCAZgF9VWo2nBGEN5dFvWo=w1280-h604-rw",
+         "show_image_l":"https://lh3.googleusercontent.com/Fj7kyl-R-dTVJP8Fac0Hnuw6SBQxIFDPtFSjNL-l5OcfNtCAZgF9VWo2nBGEN5dFvWo=w1280-h604-rw",
+         "type":"mobile",
+         "link":"",
+         "des":{  
+            "title":"JCMCOMERCE",
+            "des":"JCMCOMERCE ซื้อสินค้า JC",
+            "image":[  
+               "newimg/22418.jpg",
+               "https://lh3.googleusercontent.com/_Zu9Isrxh4cE-lW1XxWRSWS03ZX56z4EcOvM8IJgH9k-7ZuU9HQ6eb5g7wl92g39jOw=w1280-h604-rw",
+               "https://lh3.googleusercontent.com/xKXw14F3cM5MIABLHDY2lYAD3phOZHjj8HqW9nuNoSjAf5j-Nd8HISGKcJZVBHxVeDY=w1280-h604-rw"
+            ],
+            "des_full":"แอพพลิเคชั่นที่จะเปลี่ยนสมาร์ทโฟนให้เป็นร้านสะดวกซื้อหรือแคชเชียร์ในมือท่าน ที่ถูกออกแบบมาให้สำหรับนักธุรกิจ Join&Coin สามารถขายสินค้า/รับชำระเงินได้ทุกที่(บัตรเครดิต) และได้รับมาตรฐานความปลอดภัย PCI DSS และผ่านการรับรองจาก Visa รวมถึงการแจ้งเตือนผ่าน sms/email นั้นหมายถึงการพัฒนาอย่างไม่หยุดยั้งของบริษัท Join&Coin เพื่อมุ่งไปสู่ Digital Solution",
+            "list":{  
+               "Deveoper":"Phonkrit Saenjai",
+               "Year":"2019",
+               "Type":"mobile"
+            },
+            "link":"-"
+         }
+      },
+      {  
          "title":"Udon City Bus",
          "title_en":"Udon City Bus แอพแสดงตำแหน่งรถบัส พร้อมเส้นทางการเดินรถจังหวัดอุดรธานี",
          "des_th":"Udon City Bus แอพแสดงตำแหน่งรถบัส พร้อมเส้นทางการเดินรถจังหวัดอุดรธานี ",
