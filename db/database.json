@@ -111,15 +111,15 @@
          "title_en":"-",
          "des_th":" เว็บไซต์ 2018",
          "des_en":"-",
-         "show_image":"newimg/bmta",
-         "show_image_l":"newimg/bmta",
+         "show_image":"newimg/bmt.png",
+         "show_image_l":"newimg/bmta.png",
          "type":"web-site",
          "link":"-",
          "des":{  
             "title":"BMTA",
             "des":"BMTA - ระบบหลังบ้านจัดการ bmta",
             "image":[  
-               "newimg/bmta"
+               "newimg/bmta.png"
             ],
             "des_full":"ระบบหลังบ้านจัดการ จัดการระบบเหรียญ บัตร การแตะบัตร การหยอดเหรียญปริมาณข้อมูลมหาศาล",
             "list":{  
