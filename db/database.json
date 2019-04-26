@@ -107,6 +107,30 @@
          }
       },
       {  
+         "title":"BMTA Backend",
+         "title_en":"-",
+         "des_th":" เว็บไซต์ 2018",
+         "des_en":"-",
+         "show_image":"newimg/bmta",
+         "show_image_l":"newimg/bmta",
+         "type":"web-site",
+         "link":"-",
+         "des":{  
+            "title":"BMTA",
+            "des":"BMTA - ระบบหลังบ้านจัดการ bmta",
+            "image":[  
+               "newimg/bmta"
+            ],
+            "des_full":"ระบบหลังบ้านจัดการ จัดการระบบเหรียญ บัตร การแตะบัตร การหยอดเหรียญปริมาณข้อมูลมหาศาล",
+            "list":{  
+               "Deveoper":"Phonkrit Saenjai",
+               "Year":"2018",
+               "Type":"website"
+            },
+            "link":"-"
+         }
+      },
+      {  
          "title":"ForaHillResort",
          "title_en":"ForaHillResort",
          "des_th":"ระบบจองโรมแรม",
