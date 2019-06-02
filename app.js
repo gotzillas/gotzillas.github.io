@@ -66,9 +66,9 @@
                         'title_skill': 'ความสามารถทางด้านระบบ Server'
                     },
                     'skill_content': {
-                        'skill_title_1': 'Yii framework & Codeigniter 3',
-                        'skill_des_1': 'ความสามารถในการใช้  Yii framework เเละ Codeigniter ',
-                        'skill_details_1': 'สามารถเขียนโปรแกรมโดยใช้ Framework Php Yii1 เเละ Codeigniter ได้เป็นอย่างดี',
+                        'skill_title_1': 'Laravel & Codeigniter Yii framework ',
+                        'skill_des_1': 'ความสามารถในการใช้  Laravel Codeigniter เเละ Yii framework  ',
+                        'skill_details_1': 'สามารถเขียนโปรแกรมโดยใช้ Framework Php Laravel & Yii1 & Codeigniter ได้เป็นอย่างดี',
                         'skill_title_2': 'Bootstrap & Bulma',
                         'skill_des_2': 'ความสามารถในการใช้ Bootstrap',
                         'skill_details_2': 'มีความสามารถในการปรับแต่งและเข้าใจหลักการทำงานของ Bootstrap สามารถออกแบบการแสดงผลแบบ Responsive ได้',
@@ -446,8 +446,8 @@
 
 
                     'skill_content': {
-                        'skill_title_1': 'Yii framework & Codeigniter 3',
-                        'skill_des_1': 'The ability to use Yii framework & Codeigniter3.',
+                        'skill_title_1': 'Laravel & Yii framework & Codeigniter 3',
+                        'skill_des_1': 'The ability to use Laravel & Yii framework & Codeigniter3.',
                         'skill_details_1': 'Can develop programs using the PHP YII Codeigniter & laravel Strong',
 
                         'skill_title_2': 'Bootstrap & Bulma & Other',
