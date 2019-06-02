@@ -107,30 +107,6 @@
          }
       },
       {  
-         "title":"BMTA Backend",
-         "title_en":"-",
-         "des_th":" เว็บไซต์ 2018",
-         "des_en":"-",
-         "show_image":"newimg/bmt.png",
-         "show_image_l":"newimg/bmta.png",
-         "type":"web-site",
-         "link":"-",
-         "des":{  
-            "title":"BMTA",
-            "des":"BMTA - ระบบหลังบ้านจัดการ bmta",
-            "image":[  
-               "newimg/bmta.png"
-            ],
-            "des_full":"ระบบหลังบ้านจัดการ จัดการระบบเหรียญ บัตร การแตะบัตร การหยอดเหรียญปริมาณข้อมูลมหาศาล",
-            "list":{  
-               "Deveoper":"Phonkrit Saenjai",
-               "Year":"2018",
-               "Type":"website"
-            },
-            "link":"-"
-         }
-      },
-      {  
          "title":"ForaHillResort",
          "title_en":"ForaHillResort",
          "des_th":"ระบบจองโรมแรม",
@@ -547,7 +523,33 @@
             "link":"-"
          }
       },
-    
+      {  
+         "title":"Tdedzean App",
+         "title_en":"-",
+         "des_th":" แอพโมบาย 2015",
+         "des_en":"-",
+         "show_image":"images/tded%20(1).jpg",
+         "show_image_l":"images/tded%20(1).jpg",
+         "type":"mobile",
+         "link":"-",
+         "des":{  
+            "title":"TDEDZEAN",
+            "des":"Application เว็บบอล",
+            "image":[  
+               "images/tded%20(1).jpg",
+               "images/tded%20(2).jpg",
+               "images/tded%20(3).jpg",
+               "images/tded%20(4).jpg"
+            ],
+            "des_full":"แอปผลบอลเเละ Live score จาก tdedzean เขียนด้วย codova ใช้ api จากเว็บเช่นเดียวกับ duballsod",
+            "list":{  
+               "Deveoper":"Phonkrit Saenjai",
+               "Year":"2016",
+               "Type":"mobile app"
+            },
+            "link":"-"
+         }
+      },
       {  
          "title":"Tbds.co.th เว็บบริษัท",
          "title_en":"-",
@@ -630,7 +632,31 @@
             "link":"-"
          }
       },
-      
+      {  
+         "title":"DESIGNSBO",
+         "title_en":"-",
+         "des_th":" เว็บไซต์ 2016",
+         "des_en":"-",
+         "show_image":"images/de1.JPG",
+         "show_image_l":"images/de1.JPG",
+         "type":"web-site",
+         "link":"-",
+         "des":{  
+            "title":"DESIGNSBO",
+            "des":"เว็บประชาสัมพัน",
+            "image":[  
+               "images/de1.JPG",
+               "images/de1.JPG"
+            ],
+            "des_full":"เป็นระบบเว็บไซต์ธรรมดาทั่วไป",
+            "list":{  
+               "Deveoper":"Phonkrit Saenjai",
+               "Year":"2016",
+               "Type":"website"
+            },
+            "link":"-"
+         }
+      },
       {  
          "title":"Duballsod App",
          "title_en":"-",
@@ -666,7 +692,30 @@
             "link":"-"
          }
       },
-      
+      {  
+         "title":"Goal ประเทศไทย",
+         "title_en":"-",
+         "des_th":" แอพโมบาย 2017",
+         "des_en":"-",
+         "show_image":"https://lh3.googleusercontent.com/ikuVWm2Wmzbj5zHEYjmgZ3gS6cEDKWoqbFvLwrfd-6WYyk1SnH33NmKBEp9zDy06cEI=w1280-h605-rw",
+         "show_image_l":"https://lh3.googleusercontent.com/ikuVWm2Wmzbj5zHEYjmgZ3gS6cEDKWoqbFvLwrfd-6WYyk1SnH33NmKBEp9zDy06cEI=w1280-h605-rw",
+         "type":"mobile",
+         "link":"-",
+         "des":{  
+            "title":"Duballsod HD",
+            "des":"ทีเด็ดบอล ผลบอล วิเคราะห์บอล คลิปบอล ",
+            "image":[  
+               "https://lh3.googleusercontent.com/ikuVWm2Wmzbj5zHEYjmgZ3gS6cEDKWoqbFvLwrfd-6WYyk1SnH33NmKBEp9zDy06cEI=w1280-h605-rw"
+            ],
+            "des_full":"Goal.in.th เว็บไซต์นำเสนอรายงาน ผลบอล พร้อม ทีเด็ดบอล คุณภาพจากเหล่าเซียน แม่นยำมากคัดสรรอย่างมืออาชีพ ทีเด็ดบอลเต็ง ทีเด็ดบอลสเต็ป อีกทั้งมีบทวิจารย์บอล วิเคราะห์บอล เจาะลึกทุกอย่างเกี่ยวกับสโมสรดัง อทิ วิเคราะห์บอลแมนยู วิเคราะห์บอลเชลซี วิเคราะห์บอลอาร์เซน่อล วิเคราะห์บอลลิเวอร์พูล อื่นๆอีกมากมาย โกลประเทศไทย สามารถเช็ค 11 ผู้เล่นตัวจริง ได้อีกด้วย",
+            "list":{  
+               "Deveoper":"Phonkrit Saenjai",
+               "Year":"2017",
+               "Type":"mobile app"
+            },
+            "link":"-"
+         }
+      },
       {  
          "title":"KKTransit",
          "title_en":"-",
