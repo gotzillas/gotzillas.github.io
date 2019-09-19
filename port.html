@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js" ng-app="application">
+<!--<![endif]-->
+
+<head>
+    <meta charset="utf-8">
+    <title>Phonkrit Port ผลงาน</title>
+    <meta name="description" content="Phonkrit Resume">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/royal_preloader.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/line-icons.css">
+    <link rel="stylesheet" href="css/iconics-font.css">
+    <link rel="stylesheet" href="css/cubeportfolio.css">
+    <link rel="stylesheet" href="css/arthref.css">
+    <link rel="stylesheet" href="css/nav.css">
+    <link rel="stylesheet" href="css/slicknav.css">
+    <link rel="stylesheet" href="css/owl.carousel.css">
+    <link rel="stylesheet" href="css/owl.theme.css">
+    <link rel="stylesheet" href="css/justifiedgallery.css">
+    <link rel="stylesheet" href="css/hover.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link id="theme-color" rel="stylesheet" href="css/theme-colors.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.7.8/angular.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.7.8/angular-sanitize.js"></script>
+    <!--<link href='http://fonts.googleapis.com/css?family=Roboto:400,400italic,500,500italic,700,900' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Roboto+Slab:400,700,300' rel='stylesheet' type='text/css'> -->
+</head>
+
+<body class="royal_preloader" ng-controller="MainController">
+    <div id="royal_preloader"></div>
+    <script>
+        if (!window.console) console = {
+            log: function () { }
+        };
+    </script>
+    <!--[if lt IE 7]>
+<p class="browsehappy">ใช้ Browser <strong>เก่าไป</strong> กรุณาโหลด Browser ตัวใหม่เพื่อการแสดงผลที่ 100% ครับ <a href="http://www.google.com/">upgrade your browser</a> >_< </p>
+<![endif]-->
+    <div class="page-wrapper">
+        <div class="nav-wrapper sticky-nav">
+            <div class="top-logo">
+                <a href="#"><img src="images/stain-logo.png" alt="phonkrit resume" title="phonkrit resume"></a>
+            </div>
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="nav-container">
+                            <nav class="main-nav">
+                                <ul class="sf-menu " data-class="one-page-nav">
+                                    <li><a href="#portfolio" class="goto">{{ message.show_menu_header.Portfolio }}</a>
+                                    </li>
+                                    <li><a href="#contact" class="goto">{{ message.show_menu_header.Contact }}</a></li>
+                                </ul>
+                                <div class="lang pull-right">
+                                    <a href="javascript:void(0)" ng-click="change_lang('thai')"><img
+                                            src="images/thai-icon.png" width="25px"></a>
+                                    <a href="javascript:void(0)" ng-click="change_lang('eng')"><img
+                                            src="images/icon_en_o.jpg" width="25px"> </a>
+                                </div>
+                            </nav>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="mobile-menu">
+        </div>
+        
+     
+        <div class="section-wrapper" id="portfolio">
+            <div class="full-width-section">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="full-container">
+                                <div class="header-wrap">
+                                    <div class="section-header">
+                                        <h2>{{ message.portfolio_data.title }}</h2>
+                                        <span class="header-icon" data-backcolor="#666" data-color="#fff"><i
+                                                class="fa fa-briefcase"></i></span>
+                                    </div>
+                                </div>
+                                <div class="portfolio-wrapper">
+                                    <div id="filters-container" class="cbp-l-filters-button portfolio-filter">
+                                        <div data-filter="*" class="cbp-filter-item-active cbp-filter-item">
+                                            {{ message.portfolio_data.tab_1 }}
+                                            <div class="cbp-filter-counter">
+                                            </div>
+                                        </div>
+                                        <div data-filter=".web-site" class="cbp-filter-item">
+                                            {{ message.portfolio_data.tab_2 }}
+                                            <div class="cbp-filter-counter">
+                                            </div>
+                                        </div>
+                                        <div data-filter=".winapps" class="cbp-filter-item">
+                                            {{ message.portfolio_data.tab_3 }}
+                                            <div class="cbp-filter-counter">
+                                            </div>
+                                        </div>
+                                        <div data-filter=".mobile" class="cbp-filter-item">
+                                            {{ message.portfolio_data.tab_4 }}
+                                            <div class="cbp-filter-counter">
+                                            </div>
+                                        </div>
+                                        <div data-filter=".server" class="cbp-filter-item">
+                                            {{ message.portfolio_data.tab_5 }}
+                                            <div class="cbp-filter-counter">
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div id="grid-container" class="cbp-l-grid-projects">
+                                        <ul >
+
+ <li ng-repeat="list in dataport" ng-attr-class="cbp-item {{list.type}}" >
+                                                <div class="cbp-caption">
+                                                    <div class="cbp-caption-defaultWrap">
+                                                        <img ng-src="{{list.show_image}}" src="" alt="">
+                                                    </div>
+                                                    <div class="cbp-caption-activeWrap">
+                                                        <div class="cbp-l-caption-alignCenter">
+                                                            <div class="cbp-l-caption-body">
+
+ <a ng-href="potfolio/template.html?id={{$index}}" class="cbp-singlePage cbp-l-caption-buttonLeft">{{ message.doc.more }}</a>
+                                                                <a ng-href="{{list.show_image_l}}
+" class="cbp-lightbox cbp-l-caption-buttonRight" ng-attr-data-title="{{list.title}}<br>by Phonkrit Saenjai">{{ message.doc.view }}</a>
+
+
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="cbp-l-grid-projects-title">
+                                                    <a ng-href="potfolio/template.html?id={{$index}}" class="cbp-singlePage"> {{list.title}}</a>
+                                                </div>
+                                                <div class="cbp-l-grid-projects-desc">
+                                                   {{list.des_th}}
+                                                </div>
+                                            </li>
+                                           
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="section-wrapper dbl-col" id="contact">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-md-6 section-full-height" data-backcolor="#3e91a1">
+                        <div class="map-container">
+                            <div class="location-map" id="gmap" data-map-lat="16.4455499" data-map-lng="102.822758"
+                                data-zoom="18">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 section-full-height" data-backcolor="#363636">
+                        <div class="vertical-center-content">
+                            <div class="inner-element-container">
+                                <div class="header-wrap">
+                                    <div class="section-header">
+                                        <h2>{{ message.contract_data.title }}</h2>
+                                        <span class="header-icon" data-backcolor="#3e91a1" data-color="#fff"><i
+                                                class="fa fa-envelope"></i></span>
+                                    </div>
+                                </div>
+                                <form class="home-contact-frm" id="emails_send">
+                                    <span ng-bind-html="message.contract_data.des">
+                                    </span>
+                                    <div class="col-xs-12">
+                                        <br />
+                                    </div>
+                                    <ul>
+                                        <li>
+                                            <input placeholder="{{ message.contract_data.name }}" type="text"
+                                                class="h-frm-input" name="name" required>
+                                        </li>
+                                        <li>
+                                            <input placeholder="{{ message.contract_data.email }}" type="email"
+                                                class="h-frm-input" name="email" required>
+                                        </li>
+                                        <li>
+                                            <input placeholder="{{ message.contract_data.subject }}" type="text"
+                                                class="h-frm-input" name="subject" required>
+                                        </li>
+                                        <li>
+                                            <textarea placeholder="{{ message.contract_data.message }}"
+                                                class="h-frm-input h-contact-message" name="message"
+                                                required></textarea>
+                                        </li>
+                                    </ul>
+                                    <div class="col-xs-12 text-center">
+                                        <div id="result" class="text-center"></div>
+                                    </div>
+                                    <input type="submit" value="{{ message.contract_data.send }}" class="btn-post-msg"
+                                        id="submit">
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer" id="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-6 developer">
+                        &copy; 2013 Phonkrit Saenjai .
+                    </div>
+                    <div class="col-sm-6 text-center">
+                        <ul class="social-icons">
+                            <li><a href="https://www.facebook.com/gotzilla.arka" target="_blank"><i
+                                        class="fa fa-facebook"></i></a></li>
+                            <li><a href="https://twitter.com/Gotzilla_aka" target="_blank"><i
+                                        class="fa fa-twitter"></i></a></li>
+                            <li><a href="https://plus.google.com/u/0/+%E0%B8%9E%E0%B8%A5%E0%B8%81%E0%B8%A4%E0%B8%A9%E0%B9%81%E0%B8%AA%E0%B8%99%E0%B9%83%E0%B8%88/about"
+                                    target="_blank"><i class="fa fa-google-plus"></i></a></li>
+                            <li><a href="https://www.youtube.com/channel/UCqCzbXC7p-S3XCefq4i4kPw" target="_blank"><i
+                                        class="fa fa-youtube"></i></a></li>
+                            <li><a href="https://github.com/gotzillas" target="_blank"><i class="fa fa-github"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="js/jquery-1.11.0.min.js" ></script>
+    <script src="js/royal_preloader.min.js" ></script>
+    <script type="text/javascript" >
+        Royal_Preloader.config({
+            mode: 'progress',
+            background: '#f5f5f5',
+            showProgress: true,
+            showPercentage: true
+        });
+        jQuery.noConflict();
+        (function ($) {
+            $('.goto[href*=#]').click(function (event) {
+                $('html, body').animate({
+                    scrollTop: $($.attr(this, 'href')).offset().top
+                }, 900);
+                event.preventDefault();
+            });
+
+            $("#emails_send").on('submit', (function (e) {
+                e.preventDefault();
+                $.ajax({
+                    type: "POST",
+                    url: "https://gotzillas.ga/sendmail.php",
+                    data: new FormData(this),
+                    contentType: false,
+                    cache: false,
+                    processData: false,
+                    beforeSend: function () {
+                        $('#result').html('<img src="images/devoops_getdata.gif"/>');
+                    },
+                    success: function (data) {
+                        $('#result').html(data);
+
+                    },
+                    error:function(e){
+                        $('#result').html('ไม่สามารถส่งข้อมูลได้');
+                    }
+                });
+            }));
+        })(jQuery);
+    </script>
+    
+    <script
+        src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll@15.0/dist/smooth-scroll.polyfills.min.js" ></script>
+    <script src="js/modernizr.custom.js" ></script>
+    <script src="js/html5-polyfills.js" ></script>
+    <script src="js/bootstrap.min.js" ></script>
+    <script src="js/layout-plugins.js" ></script>
+    <script src="js/essential-plugins.js" ></script>
+    <script src="js/tweetie.min.js" ></script>
+    <script src="js/owl.carousel.min.js" ></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD25TAK_0Vye2aI5g4PYsWDf-KB6aPdWuM" ></script>
+    <script src="js/map.init.js" ></script>
+    <script src="js/portfolio-init.js" ></script>
+    <script src="js/init.js" ></script>
+    <script src="app.js" ></script>
+</body>
+
+</html>
