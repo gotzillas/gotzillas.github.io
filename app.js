@@ -690,7 +690,7 @@
         $scope.dataport = [];
         $http({
             method: 'GET',
-            url: 'db/database.json?version'+timestamp
+            url: 'db/database2.json?version'+timestamp
         }).then(function successCallback(response) {
             $scope.dataport = response.data.data;
 
