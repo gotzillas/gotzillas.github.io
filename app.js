@@ -45,7 +45,7 @@
                     },
                     'about_data': {
                         'title': 'เกี่ยวกับฉัน',
-                        'details_one': '<b> ประวัติส่วนตัว </b><hr/><br/> ชื่อ : นายพลกฤษ แสนใจ <br/> วันเดือนปีเกิด : 6 มกราคม พ.ศ. 2535 <br/> อายุ : 27 ปี <br/> สุขภาพ : สุขภาพดีไม่มีโรคติดต่อ <br/> น้ำหนัก : 62 กิโลกรัม <br/> ส่วนสูง : 176 เซนติเมตร <br/> สถานภาพทางการสมรส : <b class="text-danger" > โสด </b> ',
+                        'details_one': '<b> ประวัติส่วนตัว </b><hr/><br/> ชื่อ : นายพลกฤษ แสนใจ <br/> วันเดือนปีเกิด : 6 มกราคม พ.ศ. 2535 <br/> อายุ : 31 ปี <br/> สุขภาพ : สุขภาพดีไม่มีโรคติดต่อ <br/> น้ำหนัก : 80 กิโลกรัม <br/> ส่วนสูง : 176 เซนติเมตร <br/> สถานภาพทางการสมรส : <b class="text-danger" > สมรส </b> ',
                         'details_two': 'ปัจจุบันรับงานเขียนเว็บทั่วไป เเละ windows app , Android App Private . จัดการ Server ให้บริษัทนึง เเละของตัวเอง',
                         'tab_one': 'ประวัตืส่วนตัว',
                         'tab_two': 'การศึกษา',
@@ -85,7 +85,7 @@
                         'details': 'ประสปการณ์ทำงานในที่ต่างๆ ปัจจุบันรับงานทั่วไป',
                         'current': 'ปัจจุบัน',
                         'data_six': '1 มิ.ย 60',
-                        'data_six_des': '30 ก.ค - ปัจจุบัน',
+                        'data_six_des': '30 ก.ค ',
                         'data_foure': '1 ก.ค 58',
                         'data_foure_des': '30 ม.ย 59',
                         'data_five': '1 ก.ค 59',
@@ -109,11 +109,20 @@
                         'des_des_4': 'ทำงานที่บริษัท Peed Studio เป็นเวลา 1 ปี www.peedstudio.co.th ',
                         'des_details_4': 'ทางบริษัทได้ รับทำเว็บไซต์ เป็นงานหลัก และออกรับออกแบบ หน้าที่ความรับผิดชอบ เขียนระบบจัดการหลังบ้าน ดูเเลระบบ Server VPS แก้ไขปัญหา',
                         'des_title_5': 'The Best Design Studio (อุดรธานี)',
-                        'des_des_5': 'ทำงานที่บริษัท The Best Design Studio เป็นเวลา 9 เดือน www.tbds.co.th',
+                        'des_des_5': 'ทำงานที่บริษัท The Best Design Studio เป็นเวลา 1 ปี www.tbds.co.th',
                         'des_details_5': 'ทางบริษัทเป็นบริษัทรับออกแบบเเละทำระบบ Streaming Server , Hosting หน้าที่ความรับผิดชอบ จัดการระบบ Server เขียนโปรแกรมเพื่อสนับสนุนระบบ จัดทำหลังบ้านเเละหน้าบ้าน',
                         'des_title_6': 'Miracle Inspire & Jumpup (ขอนแก่น)',
                         'des_des_6': 'ทำงานที่บริษัท The Best Design Studio เป็นเวลา 1 ปี  1 เดือน www.miracle.co.th & www.jumpup.online ',
                         'des_details_6': 'ทางบริษัทได้ทำระบบคลีนิครับทำเว็บไซต์ต่างๆ ทั้ง windows app , android , ios จัดการระบบ โดยทางบริษัทเป็นเจ้าของระบบ Smart bus ขอนแก่น ปัจจุบันกำลังเดินหน้าพัฒนาระบบ ให้ ขสมก หน้าที่ความรับผิดชอบ จัดการระบบ Server ขององค์กรณ์ เขียนโปรแกรมเพื่อสนับสนุนระบบ จัดทำระบบหลังบ้าน',
+
+                        'des_title_7': 'บริษัท แบล็คโฮลซอฟต์ จำกัด (ขอนแก่น)',
+                        'des_des_7': 'ระยะเวลทำงาน 1 ปี ',
+                        'des_details_7': 'ทำระบบ WEB APP ให้บริษัทที่เข้ามาจ้างงาน',
+
+                        'des_title_8': 'บริษัท ดิวิชั่นคลาวด์ ดีเวลอปเม้นท์ จำกัด (กรุงเทพ)',
+                        'des_des_8': '-',
+                        'des_details_8': 'ดูเเลระบบ Server ให้บริษัทเเละรับงานที่ได้รับมอบหมาย',
+
                     },
                     'edu_data': {
                         'title': 'การศึกษา',
@@ -419,7 +428,7 @@
 
                     'about_data': {
                         'title': 'About Me',
-                        'details_one': '<b> About </b><hr/><br/> Name : Phonkrit Saenjai <br/> Birthday  : 6 January 1992 <br/> Age : 27  <br/> Health : Excellent <br/> weight : 59 K.G <br/> high : 176 CM <br/> Marital Status : <b class="text-danger" > Single </b> ',
+                        'details_one': '<b> About </b><hr/><br/> Name : Phonkrit Saenjai <br/> Birthday  : 6 January 1992 <br/> Age : 31  <br/> Health : Excellent <br/> weight : 80 K.G <br/> high : 176 CM <br/> Marital Status : <b class="text-danger" > marital status </b> ',
                         'details_two': 'At present, develop website in general, and windows app , Android App Private . ',
                         'tab_one': 'About',
                         'tab_two': 'Education',
@@ -478,7 +487,7 @@
                         'data_five': '1 July 59',
                         'data_five_des': '31 March 60',
                         'data_six': '1 June 60',
-                        'data_six_des': '15 July 61 - present',
+                        'data_six_des': '15 July 61 ',
 
                         'des_title_1': 'Practice experience.',
                         'des_des_1': 'Trained experience work and job freelance.',
@@ -493,11 +502,19 @@
                         'des_des_4': 'The company. Peed Studio For 1 years. www.peedstudio.co.th ',
                         'des_details_4': 'The Company has been Website , Design Website. Responsibilities Develop Back-end & Front-end . Management system VPS Server ',
                         'des_title_5': 'The Best Design Studio (Udonthani)',
-                        'des_des_5': 'The company. The Best Design Studio For 9 month . www.tbds.co.th',
+                        'des_des_5': 'The company. The Best Design Studio For 1 year . www.tbds.co.th',
                         'des_details_5': 'The company is a company design and system, Streaming Server Hosting responsibility management system Server wrote a program to support the system. Frontend & Backend',
                          'des_title_6': 'Miracle Inspire & Jumpup (Khonkaen)',
                         'des_des_6': 'The company.Miracle Inspire & Jumpup for 1 years 1 months. www.miracle.co.th & www.jumpup.online ',
                         'des_details_6': `The company has made , system of clinic, website , design, windows app , Android , IOS  , management system its own system Smart bus Khon Kaen. Present's moving system development. High, the responsibility system  , management Server of BMTA Company . develop a program to support the system backend .`,
+
+                        'des_title_7': 'บริษัท แบล็คโฮลซอฟต์ จำกัด (ขอนแก่น)',
+                        'des_des_7': 'ระยะเวลทำงาน 1 ปี ',
+                        'des_details_7': 'ทำระบบ WEB APP ให้บริษัทที่เข้ามาจ้างงาน',
+
+                        'des_title_8': 'บริษัท ดิวิชั่นคลาวด์ ดีเวลอปเม้นท์ จำกัด (กรุงเทพ)',
+                        'des_des_8': '-',
+                        'des_details_8': 'ดูเเลระบบ Server ให้บริษัทเเละรับงานที่ได้รับมอบหมาย',
                     },
 
 
