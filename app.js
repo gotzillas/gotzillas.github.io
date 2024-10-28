@@ -45,7 +45,7 @@
                     },
                     'about_data': {
                         'title': 'เกี่ยวกับฉัน',
-                        'details_one': '<b> ประวัติส่วนตัว </b><hr/><br/> ชื่อ : นายพลกฤษ แสนใจ <br/> วันเดือนปีเกิด : 6 มกราคม พ.ศ. 2535 <br/> อายุ : 31 ปี <br/> สุขภาพ : สุขภาพดีไม่มีโรคติดต่อ <br/> น้ำหนัก : 80 กิโลกรัม <br/> ส่วนสูง : 176 เซนติเมตร <br/> สถานภาพทางการสมรส : <b class="text-danger" > สมรส </b> ',
+                        'details_one': '<b> ประวัติส่วนตัว </b><hr/><br/> ชื่อ : นายพลกฤษ แสนใจ <br/> วันเดือนปีเกิด : 2535 <br/> อายุ : 32 ปี <br/> สุขภาพ : สุขภาพดีไม่มีโรคติดต่อ <br/> น้ำหนัก : 80 กิโลกรัม <br/> ส่วนสูง : 176 เซนติเมตร <br/> สถานภาพทางการสมรส : <b class="text-danger" > สมรส </b> ',
                         'details_two': 'ปัจจุบันรับงานเขียนเว็บทั่วไป เเละ windows app , Android App Private . จัดการ Server ให้บริษัทนึง เเละของตัวเอง',
                         'tab_one': 'ประวัตืส่วนตัว',
                         'tab_two': 'การศึกษา',
@@ -158,7 +158,7 @@
                     },
                     'contract_data': {
                         'title': 'การติดต่อ',
-                        'des': 'เบอร์โทรติดต่อ : 085-459-3048 (อาก้า) <br/>อีเมลล์ :  gotzillaphonkrit@gmail.com',
+                        'des': 'เบอร์โทรติดต่อ : Callmail <br/>อีเมลล์ :  gotzillaphonkrit@gmail.com',
                         'name': 'ชื่อ',
                         'email': 'อีเมลล์ติดต่อกลับ',
                         'subject': 'หัวข้อ',
@@ -428,7 +428,7 @@
 
                     'about_data': {
                         'title': 'About Me',
-                        'details_one': '<b> About </b><hr/><br/> Name : Phonkrit Saenjai <br/> Birthday  : 6 January 1992 <br/> Age : 31  <br/> Health : Excellent <br/> weight : 80 K.G <br/> high : 176 CM <br/> Marital Status : <b class="text-danger" > marital status </b> ',
+                        'details_one': '<b> About </b><hr/><br/> Name : Phonkrit Saenjai <br/> Birthday  : 1992 <br/> Age : 32  <br/> Health : Excellent <br/> weight : 80 K.G <br/> high : 176 CM <br/> Marital Status : <b class="text-danger" > marital status </b> ',
                         'details_two': 'At present, develop website in general, and windows app , Android App Private . ',
                         'tab_one': 'About',
                         'tab_two': 'Education',
@@ -561,7 +561,7 @@
 
                     'contract_data': {
                         'title': 'Contact',
-                        'des': 'Tel : 085-459-3048 (Arkar) <br/> Email : gotzillaphonkrit@gmail.com',
+                        'des': 'Tel : Callmail (Arkar) <br/> Email : gotzillaphonkrit@gmail.com',
                         'name': 'Name',
                         'email': 'Email',
                         'subject': 'Subject',
